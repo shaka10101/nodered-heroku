@@ -11,7 +11,7 @@
         "id": "ae96b34feadbd617",
         "type": "ui_base",
         "theme": {
-            "name": "theme-light",
+            "name": "theme-custom",
             "lightTheme": {
                 "default": "#0094CE",
                 "baseColor": "#0094CE",
@@ -28,53 +28,54 @@
             "customTheme": {
                 "name": "Untitled Theme 1",
                 "default": "#4B7930",
-                "baseColor": "#4B7930",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                "baseColor": "#0000ff",
+                "baseFont": "Century Gothic,CenturyGothic,AppleGothic,sans-serif",
+                "reset": false
             },
             "themeState": {
                 "base-color": {
-                    "default": "#0094CE",
-                    "value": "#0094CE",
-                    "edited": false
+                    "default": "#4B7930",
+                    "value": "#0000ff",
+                    "edited": true
                 },
                 "page-titlebar-backgroundColor": {
-                    "value": "#0094CE",
+                    "value": "#0000ff",
                     "edited": false
                 },
                 "page-backgroundColor": {
-                    "value": "#fafafa",
-                    "edited": false
+                    "value": "#00ffff",
+                    "edited": true
                 },
                 "page-sidebar-backgroundColor": {
-                    "value": "#ffffff",
-                    "edited": false
+                    "value": "#0000ff",
+                    "edited": true
                 },
                 "group-textColor": {
-                    "value": "#1bbfff",
-                    "edited": false
+                    "value": "#000000",
+                    "edited": true
                 },
                 "group-borderColor": {
-                    "value": "#ffffff",
-                    "edited": false
+                    "value": "#00ffff",
+                    "edited": true
                 },
                 "group-backgroundColor": {
-                    "value": "#ffffff",
-                    "edited": false
+                    "value": "#00ffff",
+                    "edited": true
                 },
                 "widget-textColor": {
-                    "value": "#111111",
-                    "edited": false
+                    "value": "#000000",
+                    "edited": true
                 },
                 "widget-backgroundColor": {
-                    "value": "#0094ce",
+                    "value": "#0000ff",
                     "edited": false
                 },
                 "widget-borderColor": {
-                    "value": "#ffffff",
-                    "edited": false
+                    "value": "#00ffff",
+                    "edited": true
                 },
                 "base-font": {
-                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                    "value": "Century Gothic,CenturyGothic,AppleGothic,sans-serif"
                 }
             },
             "angularTheme": {
@@ -120,7 +121,7 @@
         "tab": "068563760fb4877f",
         "order": 1,
         "disp": false,
-        "width": "6",
+        "width": 7,
         "collapse": false,
         "className": ""
     },
@@ -178,15 +179,317 @@
         "tab": "068563760fb4877f",
         "order": 3,
         "disp": false,
-        "width": "6",
+        "width": 5,
         "collapse": false,
         "className": ""
     },
     {
         "id": "6ccfda18ea82bcc1",
         "type": "ui_group",
-        "name": "Group 1",
+        "name": "Espacio1",
         "tab": "d805be7e493c5739",
+        "order": 1,
+        "disp": false,
+        "width": "5",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2ceea039f8189a76",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "2b43a0f36795af86",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9b64f93ce042e792",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "2b43a0f36795af86",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d10e832787ed5cf7",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "2b43a0f36795af86",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3ccd81b3e0046260",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "2b43a0f36795af86",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9f3c14ec6aaf8896",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "2b43a0f36795af86",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "82e7484e51d426c3",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "70be81ff1b7dbf69",
+        "order": 1,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "0f2510665feefacf",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "70be81ff1b7dbf69",
+        "order": 2,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "7c69408240427114",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "66a1a0c9343d251d",
+        "order": 1,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "5a94e817ee8468b0",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "66a1a0c9343d251d",
+        "order": 2,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "b28fef1daf8bf7c6",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "66a1a0c9343d251d",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "80fa830d2be52e36",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "66a1a0c9343d251d",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "559e2758970718e1",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "66a1a0c9343d251d",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "cb0fe8766a9a4629",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "66a1a0c9343d251d",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "12790a1bf20b56bd",
+        "type": "ui_group",
+        "name": "Selecciona el motor a probar",
+        "tab": "d805be7e493c5739",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4366aa6f7e692345",
+        "type": "ui_group",
+        "name": "Espacio 3",
+        "tab": "d805be7e493c5739",
+        "order": 3,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "09a52e9f4f906a43",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "6ccfda18ea82bcc1",
+        "order": 1,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "5379b1e690e8c4c0",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "6ccfda18ea82bcc1",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6f124dbb02030e9a",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "6ccfda18ea82bcc1",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a65509d0c76e4099",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "6ccfda18ea82bcc1",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3a288fd30db6d002",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "6ccfda18ea82bcc1",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4dcc7a3f953828f8",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "6ccfda18ea82bcc1",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "fe5320651078c928",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "6ccfda18ea82bcc1",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "24bf782aed86ea87",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "6ccfda18ea82bcc1",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a449e7b7e9da3fb8",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "6ccfda18ea82bcc1",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c74172849d54ef36",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "6ccfda18ea82bcc1",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "675c081543dd03fc",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "6ccfda18ea82bcc1",
+        "order": 16,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "099ce1e7a40bf81c",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "4366aa6f7e692345",
+        "order": 4,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "8c1ae37cdd950cce",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "4366aa6f7e692345",
+        "order": 5,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "26efa20936ba1f8a",
+        "type": "ui_tab",
+        "name": "PRACTICA2",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "b984c5d5a788d16a",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "26efa20936ba1f8a",
         "order": 1,
         "disp": true,
         "width": 6
@@ -196,7 +499,7 @@
         "type": "ui_led",
         "z": "3e1fc2edd0bcc68a",
         "order": 1,
-        "group": "6ccfda18ea82bcc1",
+        "group": "b984c5d5a788d16a",
         "width": 0,
         "height": 0,
         "label": "",
@@ -218,8 +521,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "",
-        "x": 670,
-        "y": 140,
+        "x": 550,
+        "y": 500,
         "wires": []
     },
     {
@@ -229,8 +532,8 @@
         "name": "",
         "label": "switch",
         "tooltip": "",
-        "group": "6ccfda18ea82bcc1",
-        "order": 1,
+        "group": "b984c5d5a788d16a",
+        "order": 2,
         "width": 0,
         "height": 0,
         "passthru": true,
@@ -248,11 +551,11 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 150,
-        "y": 140,
+        "x": 430,
+        "y": 500,
         "wires": [
             [
-                "ebd192a7a0497660"
+                "21f3db60213d6458"
             ]
         ]
     },
@@ -270,8 +573,8 @@
         "correl": "",
         "expiry": "",
         "broker": "da8eb53ef332f813",
-        "x": 330,
-        "y": 140,
+        "x": 530,
+        "y": 220,
         "wires": []
     },
     {
@@ -287,11 +590,11 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 540,
-        "y": 140,
+        "x": 340,
+        "y": 300,
         "wires": [
             [
-                "21f3db60213d6458"
+                "68acae23b5ce3b9e"
             ]
         ]
     },
@@ -300,16 +603,16 @@
         "type": "ui_text",
         "z": "3e1fc2edd0bcc68a",
         "group": "2b43a0f36795af86",
-        "order": 0,
-        "width": "6",
-        "height": "2",
+        "order": 2,
+        "width": 6,
+        "height": 2,
         "name": "",
         "label": "Para comenzar, Despliega el menú y selecciona tu opción de preferencia.",
-        "format": "{{msg.payload}}",
+        "format": "{{msg.payload}} ",
         "layout": "row-center",
         "className": "",
-        "x": 155,
-        "y": 240,
+        "x": 145,
+        "y": 120,
         "wires": [],
         "l": false
     },
@@ -318,16 +621,16 @@
         "type": "ui_text",
         "z": "3e1fc2edd0bcc68a",
         "group": "70be81ff1b7dbf69",
-        "order": 1,
-        "width": "6",
-        "height": "2",
+        "order": 3,
+        "width": 6,
+        "height": 3,
         "name": "",
-        "label": "¡Bienvenidos! A esta Plataforma virtual para la realización de prácticas de laboratorio y manipulación de procesos robotizados usando el brazo robótico MITSUBISHI MOVEMASTER RV-M1",
+        "label": "<font size = 5> ¡Bienvenidos! A esta Plataforma virtual para la realización de prácticas de laboratorio y manipulación de procesos robotizados usando el brazo robótico MITSUBISHI MOVEMASTER RV-M1",
         "format": "{{msg.payload}}",
         "layout": "row-center",
         "className": "",
-        "x": 155,
-        "y": 280,
+        "x": 105,
+        "y": 120,
         "wires": [],
         "l": false
     },
@@ -335,10 +638,237 @@
         "id": "464190e4af2ca61e",
         "type": "ui_media",
         "z": "3e1fc2edd0bcc68a",
-        "group": "70be81ff1b7dbf69",
+        "group": "2b43a0f36795af86",
         "name": "",
-        "width": "6",
-        "height": "6",
+        "width": 6,
+        "height": 6,
+        "order": 4,
+        "category": "brazo",
+        "file": "Robot-Mitsubishi-Movemaster-RV-M1.png",
+        "layout": "adjust",
+        "showcontrols": true,
+        "loop": true,
+        "onstart": false,
+        "muted": true,
+        "scope": "local",
+        "tooltip": "",
+        "x": 185,
+        "y": 120,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "27c7edc51ba4311e",
+        "type": "ui_media",
+        "z": "3e1fc2edd0bcc68a",
+        "group": "66a1a0c9343d251d",
+        "name": "",
+        "width": 4,
+        "height": 4,
+        "order": 4,
+        "category": "logo ud",
+        "file": "Escudo_UD.svg.png",
+        "layout": "adjust",
+        "showcontrols": true,
+        "loop": true,
+        "onstart": false,
+        "muted": true,
+        "scope": "local",
+        "tooltip": "",
+        "x": 225,
+        "y": 120,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "139e08b762f1316d",
+        "type": "ui_button",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "arrow",
+        "group": "2b43a0f36795af86",
+        "order": 1,
+        "width": 1,
+        "height": 1,
+        "passthru": false,
+        "label": "",
+        "tooltip": "Dirígete al menu ubicado en la parte superior izquierda y selecciona tu opción de preferencia",
+        "color": "white",
+        "bgcolor": "blue",
+        "className": "",
+        "icon": "reply",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 75,
+        "y": 120,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "6c277e9e7bdc8c78",
+        "type": "comment",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "INICIO",
+        "info": "",
+        "x": 110,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "8ccacc8a3126c344",
+        "type": "comment",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "PRACTICA 2",
+        "info": "",
+        "x": 130,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "872f53cbc2bbd5e6",
+        "type": "ui_button",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "MOTOR5",
+        "group": "6ccfda18ea82bcc1",
+        "order": 3,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "MOTOR5",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 140,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d903852fc1e534ea",
+        "type": "ui_button",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "MOTOR4",
+        "group": "6ccfda18ea82bcc1",
+        "order": 6,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "MOTOR4",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 140,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "56136077df1b77e2",
+        "type": "ui_button",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "MOTOR3",
+        "group": "6ccfda18ea82bcc1",
+        "order": 9,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "MOTOR3",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 140,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2e95f12b9ab678a8",
+        "type": "ui_button",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "MOTOR2",
+        "group": "6ccfda18ea82bcc1",
+        "order": 12,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "MOTOR2",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 140,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "60dd3043cc825455",
+        "type": "ui_button",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "MOTOR1",
+        "group": "6ccfda18ea82bcc1",
+        "order": 15,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "MOTOR1",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 140,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "da3076062a3bddcc",
+        "type": "ui_media",
+        "z": "3e1fc2edd0bcc68a",
+        "group": "12790a1bf20b56bd",
+        "name": "",
+        "width": 0,
+        "height": 0,
         "order": 1,
         "category": "brazo",
         "file": "Robot-Mitsubishi-Movemaster-RV-M1.png",
@@ -349,57 +879,63 @@
         "muted": true,
         "scope": "local",
         "tooltip": "",
-        "x": 210,
-        "y": 360,
+        "x": 235,
+        "y": 300,
         "wires": [
             []
+        ],
+        "l": false
+    },
+    {
+        "id": "82eb7809cd081363",
+        "type": "ui_button",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "Emergencia",
+        "group": "4366aa6f7e692345",
+        "order": 3,
+        "width": 2,
+        "height": 2,
+        "passthru": false,
+        "label": "Emergencia",
+        "tooltip": "Presiona este botón para detener el proceso del brazo robótico",
+        "color": "white",
+        "bgcolor": "red",
+        "className": "",
+        "icon": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 350,
+        "y": 220,
+        "wires": [
+            [
+                "ebd192a7a0497660"
+            ]
         ]
     },
     {
-        "id": "27c7edc51ba4311e",
-        "type": "ui_media",
+        "id": "68acae23b5ce3b9e",
+        "type": "switch",
         "z": "3e1fc2edd0bcc68a",
-        "group": "66a1a0c9343d251d",
-        "name": "",
-        "width": "4",
-        "height": "4",
-        "order": 0,
-        "category": "logo ud",
-        "file": "Escudo_UD.svg.png",
-        "layout": "adjust",
-        "showcontrols": true,
-        "loop": true,
-        "onstart": false,
-        "muted": true,
-        "scope": "local",
-        "tooltip": "",
-        "x": 210,
-        "y": 400,
+        "name": "if",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 490,
+        "y": 300,
         "wires": [
-            []
-        ]
-    },
-    {
-        "id": "21bb46c1d655e96c",
-        "type": "ui_media",
-        "z": "3e1fc2edd0bcc68a",
-        "group": "2b43a0f36795af86",
-        "name": "",
-        "width": "1",
-        "height": "1",
-        "order": 1,
-        "category": "Flecha",
-        "file": "32163.png",
-        "layout": "adjust",
-        "showcontrols": true,
-        "loop": true,
-        "onstart": false,
-        "muted": true,
-        "scope": "local",
-        "tooltip": "",
-        "x": 210,
-        "y": 320,
-        "wires": [
+            [],
             []
         ]
     }
