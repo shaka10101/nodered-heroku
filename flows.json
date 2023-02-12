@@ -540,17 +540,6 @@
         "l": false
     },
     {
-        "id": "9a68dfc34f6f6de8",
-        "type": "serial out",
-        "z": "12292f738b654970",
-        "d": true,
-        "name": "Serial salida",
-        "serial": "c430ebe8c6058e03",
-        "x": 530,
-        "y": 320,
-        "wires": []
-    },
-    {
         "id": "9279d16cbbe00ada",
         "type": "debug",
         "z": "12292f738b654970",
@@ -589,7 +578,6 @@
         "y": 280,
         "wires": [
             [
-                "9a68dfc34f6f6de8",
                 "9279d16cbbe00ada",
                 "f523b51be86d69b2"
             ]
@@ -616,7 +604,6 @@
         "id": "6a0d02e1fefe5302",
         "type": "mqtt in",
         "z": "12292f738b654970",
-        "d": true,
         "name": "",
         "topic": "teste/mqtt",
         "qos": "0",
@@ -638,7 +625,6 @@
         "id": "ac43e48f99d0e49b",
         "type": "mqtt out",
         "z": "12292f738b654970",
-        "d": true,
         "name": "brokermqtt-heroku",
         "topic": "teste/mqtt",
         "qos": "0",
