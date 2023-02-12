@@ -1,6 +1,6 @@
 [
     {
-        "id": "d39d0cb5c93e8cf8",
+        "id": "3e1fc2edd0bcc68a",
         "type": "tab",
         "label": "Flow 1",
         "disabled": false,
@@ -8,91 +8,73 @@
         "env": []
     },
     {
-        "id": "e68f751c1ed3b4ec",
-        "type": "tab",
-        "label": "Flow 2",
-        "disabled": true,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "12292f738b654970",
-        "type": "tab",
-        "label": "Flow 2",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "ecc69e024277456b",
+        "id": "ae96b34feadbd617",
         "type": "ui_base",
         "theme": {
-            "name": "theme-custom",
+            "name": "theme-light",
             "lightTheme": {
                 "default": "#0094CE",
-                "baseColor": "#00b4cc",
-                "baseFont": "Century Gothic,CenturyGothic,AppleGothic,sans-serif",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
                 "edited": true,
                 "reset": false
             },
             "darkTheme": {
                 "default": "#097479",
                 "baseColor": "#097479",
-                "baseFont": "Century Gothic,CenturyGothic,AppleGothic,sans-serif",
-                "edited": true,
-                "reset": false
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
             },
             "customTheme": {
                 "name": "Untitled Theme 1",
                 "default": "#4B7930",
-                "baseColor": "#ffffff",
-                "baseFont": "Tahoma,Geneva,sans-serif",
-                "reset": false
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
             },
             "themeState": {
                 "base-color": {
-                    "default": "#4B7930",
-                    "value": "#ffffff",
-                    "edited": true
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
                 },
                 "page-titlebar-backgroundColor": {
-                    "value": "#2eb9ff",
-                    "edited": true
+                    "value": "#0094CE",
+                    "edited": false
                 },
                 "page-backgroundColor": {
-                    "value": "#00ffff",
-                    "edited": true
+                    "value": "#fafafa",
+                    "edited": false
                 },
                 "page-sidebar-backgroundColor": {
                     "value": "#ffffff",
-                    "edited": true
+                    "edited": false
                 },
                 "group-textColor": {
-                    "value": "#00ffff",
-                    "edited": true
+                    "value": "#1bbfff",
+                    "edited": false
                 },
                 "group-borderColor": {
-                    "value": "#00ffff",
-                    "edited": true
+                    "value": "#ffffff",
+                    "edited": false
                 },
                 "group-backgroundColor": {
-                    "value": "#00ffff",
-                    "edited": true
+                    "value": "#ffffff",
+                    "edited": false
                 },
                 "widget-textColor": {
                     "value": "#111111",
                     "edited": false
                 },
                 "widget-backgroundColor": {
-                    "value": "#000000",
-                    "edited": true
+                    "value": "#0094ce",
+                    "edited": false
                 },
                 "widget-borderColor": {
-                    "value": "#00ffff",
-                    "edited": true
+                    "value": "#ffffff",
+                    "edited": false
                 },
                 "base-font": {
-                    "value": "Tahoma,Geneva,sans-serif"
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
                 }
             },
             "angularTheme": {
@@ -123,339 +105,63 @@
         }
     },
     {
-        "id": "ec74f2845f7f8daa",
-        "type": "mqtt-broker",
-        "name": "brokermqtt",
-        "broker": "ws://brokermqtt-nodered.herokuapp.com",
-        "port": "1883",
-        "clientid": "",
-        "autoConnect": true,
-        "usetls": false,
-        "protocolVersion": "4",
-        "keepalive": "60",
-        "cleansession": true,
-        "birthTopic": "",
-        "birthQos": "0",
-        "birthPayload": "",
-        "birthMsg": {},
-        "closeTopic": "",
-        "closeQos": "0",
-        "closePayload": "",
-        "closeMsg": {},
-        "willTopic": "",
-        "willQos": "0",
-        "willPayload": "",
-        "willMsg": {},
-        "userProps": "",
-        "sessionExpiry": ""
+        "id": "068563760fb4877f",
+        "type": "ui_tab",
+        "name": "Tab 1",
+        "icon": "dashboard",
+        "order": 1
     },
     {
-        "id": "44ed6ca056a9ee5e",
+        "id": "2b43a0f36795af86",
         "type": "ui_group",
         "name": "Group 1",
-        "tab": "6e05df2e67465357",
+        "tab": "068563760fb4877f",
         "order": 1,
         "disp": true,
         "width": 6
     },
     {
-        "id": "99d27cdd5dfa66d1",
-        "type": "ui_group",
-        "name": "Group 1",
-        "tab": "910ec7e1442ae2da",
-        "order": 1,
-        "disp": true,
-        "width": 6
-    },
-    {
-        "id": "c430ebe8c6058e03",
-        "type": "serial-port",
-        "serialport": "/dev/ttyUSB0",
-        "serialbaud": "115200",
-        "databits": "8",
-        "parity": "none",
-        "stopbits": "1",
-        "waitfor": "",
-        "dtr": "none",
-        "rts": "none",
-        "cts": "none",
-        "dsr": "none",
-        "newline": "\\n",
-        "bin": "false",
-        "out": "char",
-        "addchar": "",
-        "responsetimeout": "10000"
-    },
-    {
-        "id": "23d860e88f7fdef4",
-        "type": "mqtt-broker",
-        "name": "brokermqtt",
-        "broker": "ws://brokermqtt-nodered.herokuapp.com",
-        "port": "1883",
-        "clientid": "",
-        "autoConnect": true,
-        "usetls": false,
-        "protocolVersion": "4",
-        "keepalive": "60",
-        "cleansession": true,
-        "birthTopic": "",
-        "birthQos": "0",
-        "birthPayload": "",
-        "birthMsg": {},
-        "closeTopic": "",
-        "closeQos": "0",
-        "closePayload": "",
-        "closeMsg": {},
-        "willTopic": "",
-        "willQos": "0",
-        "willPayload": "",
-        "willMsg": {},
-        "userProps": "",
-        "sessionExpiry": ""
-    },
-    {
-        "id": "3649439c5f640484",
+        "id": "70be81ff1b7dbf69",
         "type": "ui_group",
         "name": "Group 2",
-        "tab": "6e05df2e67465357",
+        "tab": "068563760fb4877f",
         "order": 2,
         "disp": true,
         "width": 6
     },
     {
-        "id": "6e05df2e67465357",
-        "type": "ui_tab",
-        "name": "Brazo robotico",
-        "icon": "dashboard",
-        "order": 2,
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "910ec7e1442ae2da",
-        "type": "ui_tab",
-        "name": "Rutina 1",
-        "icon": "dashboard",
-        "order": 3,
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "36d971ae7d5cba3f",
-        "type": "ui_group",
-        "name": "espacio 2",
-        "tab": "4828f219d5ff3cc8",
-        "order": 1,
-        "disp": false,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "f50b7a232344cd34",
-        "type": "ui_group",
-        "name": "Espacio 3",
-        "tab": "4828f219d5ff3cc8",
-        "order": 3,
-        "disp": false,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "4828f219d5ff3cc8",
-        "type": "ui_tab",
-        "name": "Inicio",
-        "icon": "dashboard",
-        "order": 1,
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "ec7cce41a531e450",
-        "type": "ui_group",
-        "name": "espacio 1",
-        "tab": "4828f219d5ff3cc8",
-        "order": 5,
-        "disp": false,
-        "width": "4",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "e219f38cbddaf5a4",
-        "type": "ui_group",
-        "name": "EV1",
-        "tab": "4828f219d5ff3cc8",
-        "order": 2,
-        "disp": false,
-        "width": 1,
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "5028d517d2412311",
-        "type": "ui_group",
-        "name": "EV2",
-        "tab": "4828f219d5ff3cc8",
-        "order": 4,
-        "disp": true,
-        "width": 2,
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "2ffa6eb193922425",
-        "type": "ui_spacer",
-        "z": "12292f738b654970",
-        "name": "spacer",
-        "group": "36d971ae7d5cba3f",
-        "order": 3,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "0f8e4c9fbc90acb1",
-        "type": "ui_spacer",
-        "z": "12292f738b654970",
-        "name": "spacer",
-        "group": "f50b7a232344cd34",
-        "order": 1,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "6c36041889e5f2fa",
-        "type": "ui_spacer",
-        "z": "12292f738b654970",
-        "name": "spacer",
-        "group": "5028d517d2412311",
-        "order": 2,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "448c79530272507c",
-        "type": "ui_spacer",
-        "z": "12292f738b654970",
-        "name": "spacer",
-        "group": "5028d517d2412311",
-        "order": 3,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "8d616578bd2ca3c6",
-        "type": "ui_spacer",
-        "z": "12292f738b654970",
-        "name": "spacer",
-        "group": "ec7cce41a531e450",
-        "order": 1,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "62c74d61a442647b",
-        "type": "ui_spacer",
-        "z": "12292f738b654970",
-        "name": "spacer",
-        "group": "ec7cce41a531e450",
-        "order": 2,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "91f3ee2af595d2d6",
-        "type": "mqtt in",
-        "z": "d39d0cb5c93e8cf8",
-        "d": true,
-        "name": "",
-        "topic": "teste/mqtt",
-        "qos": "0",
-        "datatype": "auto-detect",
-        "broker": "ec74f2845f7f8daa",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 120,
-        "y": 340,
-        "wires": [
-            [
-                "4b405c233d2c53a5"
-            ]
-        ]
-    },
-    {
-        "id": "8270c9231c93f8a2",
-        "type": "mqtt out",
-        "z": "d39d0cb5c93e8cf8",
-        "d": true,
-        "name": "",
-        "topic": "teste/mqtt",
-        "qos": "0",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
+        "id": "da8eb53ef332f813",
+        "type": "mqtt-broker",
+        "name": "brokermqtt",
+        "broker": "ws://brokermqtt-nodered.herokuapp.com",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
         "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "ec74f2845f7f8daa",
-        "x": 320,
-        "y": 240,
-        "wires": []
+        "sessionExpiry": ""
     },
     {
-        "id": "4b405c233d2c53a5",
-        "type": "debug",
-        "z": "d39d0cb5c93e8cf8",
-        "name": "debug 1",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 280,
-        "y": 340,
-        "wires": []
-    },
-    {
-        "id": "4db70963e851ec7b",
-        "type": "inject",
-        "z": "d39d0cb5c93e8cf8",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "45",
-        "payloadType": "num",
-        "x": 110,
-        "y": 240,
-        "wires": [
-            [
-                "8270c9231c93f8a2"
-            ]
-        ]
-    },
-    {
-        "id": "404cf90119bab10f",
+        "id": "21f3db60213d6458",
         "type": "ui_led",
-        "z": "12292f738b654970",
-        "order": 0,
-        "group": "3649439c5f640484",
+        "z": "3e1fc2edd0bcc68a",
+        "order": 1,
+        "group": "70be81ff1b7dbf69",
         "width": 0,
         "height": 0,
         "label": "",
@@ -477,19 +183,19 @@
         "shape": "circle",
         "showGlow": true,
         "name": "",
-        "x": 550,
-        "y": 100,
+        "x": 670,
+        "y": 140,
         "wires": []
     },
     {
-        "id": "8ee30ab0b2f48d73",
+        "id": "11ba0d5ed30065f3",
         "type": "ui_switch",
-        "z": "12292f738b654970",
+        "z": "3e1fc2edd0bcc68a",
         "name": "",
         "label": "switch",
-        "tooltip": "Boton que apaga o prende el led",
-        "group": "44ed6ca056a9ee5e",
-        "order": 0,
+        "tooltip": "",
+        "group": "2b43a0f36795af86",
+        "order": 1,
         "width": 0,
         "height": 0,
         "passthru": true,
@@ -505,126 +211,20 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "animate": true,
+        "animate": false,
         "className": "",
-        "x": 70,
-        "y": 100,
+        "x": 150,
+        "y": 140,
         "wires": [
             [
-                "ac43e48f99d0e49b"
+                "ebd192a7a0497660"
             ]
         ]
     },
     {
-        "id": "22c553aa442b7083",
-        "type": "ui_media",
-        "z": "12292f738b654970",
-        "group": "ec7cce41a531e450",
-        "name": "Imagen Pantalla inicio",
-        "width": 4,
-        "height": 4,
-        "order": 3,
-        "category": "logo universidad",
-        "file": "Escudo_UD.svg.png",
-        "layout": "adjust",
-        "showcontrols": true,
-        "loop": true,
-        "onstart": false,
-        "scope": "local",
-        "tooltip": "",
-        "x": 55,
-        "y": 360,
-        "wires": [
-            []
-        ],
-        "l": false
-    },
-    {
-        "id": "9279d16cbbe00ada",
-        "type": "debug",
-        "z": "12292f738b654970",
-        "name": "debug 1",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 520,
-        "y": 380,
-        "wires": []
-    },
-    {
-        "id": "7788cc571aab3553",
-        "type": "ui_slider",
-        "z": "12292f738b654970",
-        "name": "",
-        "label": "slider",
-        "tooltip": "",
-        "group": "44ed6ca056a9ee5e",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "outs": "all",
-        "topic": "topic",
-        "topicType": "msg",
-        "min": 0,
-        "max": 10,
-        "step": 1,
-        "className": "",
-        "x": 390,
-        "y": 280,
-        "wires": [
-            [
-                "9279d16cbbe00ada",
-                "f523b51be86d69b2"
-            ]
-        ]
-    },
-    {
-        "id": "f523b51be86d69b2",
-        "type": "ui_text",
-        "z": "12292f738b654970",
-        "group": "44ed6ca056a9ee5e",
-        "order": 3,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "text",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "className": "",
-        "x": 530,
-        "y": 260,
-        "wires": []
-    },
-    {
-        "id": "6a0d02e1fefe5302",
-        "type": "mqtt in",
-        "z": "12292f738b654970",
-        "name": "",
-        "topic": "teste/mqtt",
-        "qos": "0",
-        "datatype": "auto-detect",
-        "broker": "23d860e88f7fdef4",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 420,
-        "y": 100,
-        "wires": [
-            [
-                "404cf90119bab10f"
-            ]
-        ]
-    },
-    {
-        "id": "ac43e48f99d0e49b",
+        "id": "ebd192a7a0497660",
         "type": "mqtt out",
-        "z": "12292f738b654970",
+        "z": "3e1fc2edd0bcc68a",
         "name": "brokermqtt-heroku",
         "topic": "teste/mqtt",
         "qos": "0",
@@ -634,227 +234,30 @@
         "userProps": "",
         "correl": "",
         "expiry": "",
-        "broker": "23d860e88f7fdef4",
-        "x": 230,
-        "y": 100,
+        "broker": "da8eb53ef332f813",
+        "x": 330,
+        "y": 140,
         "wires": []
     },
     {
-        "id": "ba42c2a1cf92e1ef",
-        "type": "comment",
-        "z": "12292f738b654970",
-        "name": "Conexion Mqtt",
-        "info": "En esta parte se establece la comunicación con heroku.",
-        "x": 90,
-        "y": 40,
-        "wires": []
-    },
-    {
-        "id": "b2116fd666aaf012",
-        "type": "ui_button",
-        "z": "12292f738b654970",
+        "id": "c9e1cc2119bbe57e",
+        "type": "mqtt in",
+        "z": "3e1fc2edd0bcc68a",
         "name": "",
-        "group": "3649439c5f640484",
-        "order": 0,
-        "width": "2",
-        "height": "2",
-        "passthru": false,
-        "label": "Emergencia",
-        "tooltip": "Con este botón para el proceso del robot",
-        "color": "white",
-        "bgcolor": "red",
-        "className": "",
-        "icon": "",
-        "payload": "false",
-        "payloadType": "bool",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 70,
-        "y": 180,
+        "topic": "teste/mqtt",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "da8eb53ef332f813",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 540,
+        "y": 140,
         "wires": [
             [
-                "c1e5ab52093953e8"
+                "21f3db60213d6458"
             ]
         ]
-    },
-    {
-        "id": "c1e5ab52093953e8",
-        "type": "switch",
-        "z": "12292f738b654970",
-        "name": "if",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "true"
-            },
-            {
-                "t": "false"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 290,
-        "y": 180,
-        "wires": [
-            [
-                "47e83d9154214625"
-            ],
-            [
-                "7788cc571aab3553"
-            ]
-        ]
-    },
-    {
-        "id": "47e83d9154214625",
-        "type": "change",
-        "z": "12292f738b654970",
-        "name": "cambio",
-        "rules": [
-            {
-                "t": "change",
-                "p": "payload",
-                "pt": "msg",
-                "from": "true",
-                "fromt": "bool",
-                "to": "0",
-                "tot": "num"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 440,
-        "y": 180,
-        "wires": [
-            [
-                "9279d16cbbe00ada"
-            ]
-        ]
-    },
-    {
-        "id": "8456875641e614cc",
-        "type": "ui_text",
-        "z": "12292f738b654970",
-        "group": "36d971ae7d5cba3f",
-        "order": 2,
-        "width": 5,
-        "height": 2,
-        "name": "",
-        "label": "Para comenzar, Despliega el menú y selecciona tu opción de preferencia.",
-        "format": "{{msg.payload}}",
-        "layout": "col-center",
-        "className": "",
-        "x": 55,
-        "y": 320,
-        "wires": [],
-        "icon": "font-awesome/fa-warning",
-        "l": false
-    },
-    {
-        "id": "4096de4331182d4b",
-        "type": "ui_text",
-        "z": "12292f738b654970",
-        "group": "f50b7a232344cd34",
-        "order": 2,
-        "width": 6,
-        "height": 2,
-        "name": "",
-        "label": "¡Bienvenidos! A esta Plataforma virtual para la realización de prácticas de laboratorio y manipulación de procesos robotizados usando el brazo robótico MITSUBISHI MOVEMASTER RV-M1",
-        "format": "{{msg.payload}}",
-        "layout": "col-center",
-        "className": "",
-        "x": 55,
-        "y": 280,
-        "wires": [],
-        "icon": "font-awesome/fa-warning",
-        "l": false
-    },
-    {
-        "id": "31c70dfb81331f90",
-        "type": "ui_media",
-        "z": "12292f738b654970",
-        "group": "36d971ae7d5cba3f",
-        "name": "Imagen Pantalla inicio",
-        "width": 1,
-        "height": 1,
-        "order": 1,
-        "category": "arrow",
-        "file": "32163.png",
-        "layout": "adjust",
-        "showcontrols": true,
-        "loop": true,
-        "onstart": false,
-        "scope": "local",
-        "tooltip": "",
-        "x": 55,
-        "y": 400,
-        "wires": [
-            []
-        ],
-        "l": false
-    },
-    {
-        "id": "1b68948fc996f479",
-        "type": "ui_text",
-        "z": "12292f738b654970",
-        "group": "e219f38cbddaf5a4",
-        "order": 1,
-        "width": 1,
-        "height": 2,
-        "name": "",
-        "label": "",
-        "format": "{{msg.payload}}",
-        "layout": "row-center",
-        "className": "",
-        "x": 90,
-        "y": 240,
-        "wires": [],
-        "icon": "font-awesome/fa-warning"
-    },
-    {
-        "id": "f1eaec8374d64234",
-        "type": "ui_text",
-        "z": "12292f738b654970",
-        "group": "5028d517d2412311",
-        "order": 1,
-        "width": 1,
-        "height": 2,
-        "name": "",
-        "label": "",
-        "format": "{{msg.payload}}",
-        "layout": "row-center",
-        "className": "",
-        "x": 210,
-        "y": 240,
-        "wires": [],
-        "icon": "font-awesome/fa-warning"
-    },
-    {
-        "id": "9e252b063d9561d9",
-        "type": "ui_media",
-        "z": "12292f738b654970",
-        "group": "f50b7a232344cd34",
-        "name": "Imagen Pantalla inicio",
-        "width": 6,
-        "height": 6,
-        "order": 3,
-        "category": "brazo inc",
-        "file": "Robot-Mitsubishi-Movemaster-RV-M1.png",
-        "layout": "adjust",
-        "showcontrols": true,
-        "loop": true,
-        "onstart": false,
-        "scope": "local",
-        "tooltip": "",
-        "x": 55,
-        "y": 440,
-        "wires": [
-            []
-        ],
-        "l": false
     }
 ]
