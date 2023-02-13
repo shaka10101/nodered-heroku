@@ -190,7 +190,7 @@
         "tab": "d805be7e493c5739",
         "order": 1,
         "disp": false,
-        "width": "5",
+        "width": 4,
         "collapse": false,
         "className": ""
     },
@@ -327,7 +327,7 @@
     {
         "id": "12790a1bf20b56bd",
         "type": "ui_group",
-        "name": "Selecciona el motor a probar",
+        "name": "IDENTIFICA LOS MOTORES DEL BRAZO ROBOTICO",
         "tab": "d805be7e493c5739",
         "order": 2,
         "disp": true,
@@ -336,48 +336,58 @@
         "className": ""
     },
     {
-        "id": "4366aa6f7e692345",
-        "type": "ui_group",
-        "name": "Espacio 3",
-        "tab": "d805be7e493c5739",
+        "id": "26efa20936ba1f8a",
+        "type": "ui_tab",
+        "name": "PRACTICA2",
+        "icon": "vidiogame_asset",
         "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "b984c5d5a788d16a",
+        "type": "ui_group",
+        "name": "Espacio1",
+        "tab": "26efa20936ba1f8a",
+        "order": 1,
         "disp": false,
         "width": "6",
         "collapse": false,
         "className": ""
     },
     {
-        "id": "09a52e9f4f906a43",
+        "id": "4089962b83247be9",
+        "type": "ui_group",
+        "name": "Espacio 3",
+        "tab": "d805be7e493c5739",
+        "order": 3,
+        "disp": false,
+        "width": 11,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "92e021cfbe925856",
         "type": "ui_spacer",
         "z": "3e1fc2edd0bcc68a",
         "name": "spacer",
         "group": "6ccfda18ea82bcc1",
         "order": 1,
-        "width": 5,
+        "width": 4,
         "height": 1
     },
     {
-        "id": "5379b1e690e8c4c0",
+        "id": "ab74d7e8d504579c",
         "type": "ui_spacer",
         "z": "3e1fc2edd0bcc68a",
         "name": "spacer",
         "group": "6ccfda18ea82bcc1",
-        "order": 2,
+        "order": 3,
         "width": 1,
         "height": 1
     },
     {
-        "id": "6f124dbb02030e9a",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "6ccfda18ea82bcc1",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "a65509d0c76e4099",
+        "id": "cc59feba768999ad",
         "type": "ui_spacer",
         "z": "3e1fc2edd0bcc68a",
         "name": "spacer",
@@ -387,7 +397,7 @@
         "height": 1
     },
     {
-        "id": "3a288fd30db6d002",
+        "id": "bb61c55f10901b09",
         "type": "ui_spacer",
         "z": "3e1fc2edd0bcc68a",
         "name": "spacer",
@@ -397,27 +407,17 @@
         "height": 1
     },
     {
-        "id": "4dcc7a3f953828f8",
+        "id": "fe9f504dd6a3d54b",
         "type": "ui_spacer",
         "z": "3e1fc2edd0bcc68a",
         "name": "spacer",
         "group": "6ccfda18ea82bcc1",
-        "order": 8,
+        "order": 9,
         "width": 1,
         "height": 1
     },
     {
-        "id": "fe5320651078c928",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "6ccfda18ea82bcc1",
-        "order": 10,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "24bf782aed86ea87",
+        "id": "2490771cd4dd8025",
         "type": "ui_spacer",
         "z": "3e1fc2edd0bcc68a",
         "name": "spacer",
@@ -427,17 +427,17 @@
         "height": 1
     },
     {
-        "id": "a449e7b7e9da3fb8",
+        "id": "be6dea36d6048f38",
         "type": "ui_spacer",
         "z": "3e1fc2edd0bcc68a",
         "name": "spacer",
         "group": "6ccfda18ea82bcc1",
-        "order": 13,
+        "order": 12,
         "width": 1,
         "height": 1
     },
     {
-        "id": "c74172849d54ef36",
+        "id": "a7cd07773307dedd",
         "type": "ui_spacer",
         "z": "3e1fc2edd0bcc68a",
         "name": "spacer",
@@ -447,7 +447,17 @@
         "height": 1
     },
     {
-        "id": "675c081543dd03fc",
+        "id": "da158e7793ce2170",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "6ccfda18ea82bcc1",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "bd4c31211fbbeb6f",
         "type": "ui_spacer",
         "z": "3e1fc2edd0bcc68a",
         "name": "spacer",
@@ -457,107 +467,114 @@
         "height": 1
     },
     {
-        "id": "099ce1e7a40bf81c",
+        "id": "266686e863643183",
         "type": "ui_spacer",
         "z": "3e1fc2edd0bcc68a",
         "name": "spacer",
-        "group": "4366aa6f7e692345",
-        "order": 4,
-        "width": 4,
+        "group": "4089962b83247be9",
+        "order": 1,
+        "width": 11,
         "height": 1
     },
     {
-        "id": "8c1ae37cdd950cce",
+        "id": "91b5cad1bf8f9287",
         "type": "ui_spacer",
         "z": "3e1fc2edd0bcc68a",
         "name": "spacer",
-        "group": "4366aa6f7e692345",
-        "order": 5,
-        "width": 4,
+        "group": "4089962b83247be9",
+        "order": 2,
+        "width": 11,
         "height": 1
     },
     {
-        "id": "26efa20936ba1f8a",
-        "type": "ui_tab",
-        "name": "PRACTICA2",
-        "icon": "dashboard",
+        "id": "9dae2996cd232f5d",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "4089962b83247be9",
         "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "49c55add9095cc94",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "4089962b83247be9",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "319746a58350f484",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "4089962b83247be9",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "0d2f4f003b867ae2",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "4089962b83247be9",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "27c97d5860c2afa5",
+        "type": "ui_group",
+        "name": "PRACTICA LIBRE",
+        "tab": "26efa20936ba1f8a",
+        "order": 2,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "49f7744c4bc11d41",
+        "type": "ui_group",
+        "name": "Espacio3",
+        "tab": "26efa20936ba1f8a",
+        "order": 3,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c0ebefbeee6821c0",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "27c97d5860c2afa5",
+        "order": 1,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "99ca3f72cfed3b97",
+        "type": "ui_tab",
+        "name": "PRACTICA 3",
+        "icon": "dashboard",
+        "order": 4,
         "disabled": false,
         "hidden": false
     },
     {
-        "id": "b984c5d5a788d16a",
-        "type": "ui_group",
-        "name": "Group 1",
-        "tab": "26efa20936ba1f8a",
-        "order": 1,
-        "disp": true,
-        "width": 6
-    },
-    {
-        "id": "21f3db60213d6458",
-        "type": "ui_led",
-        "z": "3e1fc2edd0bcc68a",
-        "order": 1,
-        "group": "b984c5d5a788d16a",
-        "width": 0,
-        "height": 0,
-        "label": "",
-        "labelPlacement": "left",
-        "labelAlignment": "left",
-        "colorForValue": [
-            {
-                "color": "#ff0000",
-                "value": "false",
-                "valueType": "bool"
-            },
-            {
-                "color": "#008000",
-                "value": "true",
-                "valueType": "bool"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "shape": "circle",
-        "showGlow": true,
-        "name": "",
-        "x": 550,
-        "y": 500,
-        "wires": []
-    },
-    {
-        "id": "11ba0d5ed30065f3",
-        "type": "ui_switch",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "",
-        "label": "switch",
-        "tooltip": "",
-        "group": "b984c5d5a788d16a",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "topicType": "msg",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "animate": false,
-        "className": "",
-        "x": 430,
-        "y": 500,
-        "wires": [
-            [
-                "21f3db60213d6458"
-            ]
-        ]
+        "id": "f21a360d89eddd84",
+        "type": "ui_tab",
+        "name": "Acerca de",
+        "icon": "dashboard",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
     },
     {
         "id": "ebd192a7a0497660",
@@ -573,8 +590,8 @@
         "correl": "",
         "expiry": "",
         "broker": "da8eb53ef332f813",
-        "x": 530,
-        "y": 220,
+        "x": 390,
+        "y": 240,
         "wires": []
     },
     {
@@ -590,7 +607,7 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 340,
+        "x": 180,
         "y": 300,
         "wires": [
             [
@@ -611,7 +628,7 @@
         "format": "{{msg.payload}} ",
         "layout": "row-center",
         "className": "",
-        "x": 145,
+        "x": 175,
         "y": 120,
         "wires": [],
         "l": false
@@ -629,7 +646,7 @@
         "format": "{{msg.payload}}",
         "layout": "row-center",
         "className": "",
-        "x": 105,
+        "x": 125,
         "y": 120,
         "wires": [],
         "l": false
@@ -643,7 +660,7 @@
         "width": 6,
         "height": 6,
         "order": 4,
-        "category": "brazo",
+        "category": "ej",
         "file": "Robot-Mitsubishi-Movemaster-RV-M1.png",
         "layout": "adjust",
         "showcontrols": true,
@@ -652,7 +669,7 @@
         "muted": true,
         "scope": "local",
         "tooltip": "",
-        "x": 185,
+        "x": 235,
         "y": 120,
         "wires": [
             []
@@ -668,7 +685,7 @@
         "width": 4,
         "height": 4,
         "order": 4,
-        "category": "logo ud",
+        "category": "logo",
         "file": "Escudo_UD.svg.png",
         "layout": "adjust",
         "showcontrols": true,
@@ -677,7 +694,7 @@
         "muted": true,
         "scope": "local",
         "tooltip": "",
-        "x": 225,
+        "x": 285,
         "y": 120,
         "wires": [
             []
@@ -737,24 +754,29 @@
         "z": "3e1fc2edd0bcc68a",
         "name": "MOTOR5",
         "group": "6ccfda18ea82bcc1",
-        "order": 3,
+        "order": 2,
         "width": 3,
         "height": 1,
         "passthru": false,
-        "label": "MOTOR5",
+        "label": "MOTOR 5",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
         "className": "",
         "icon": "",
-        "payload": "",
+        "payload": "Selecciono motor 5",
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 140,
-        "y": 220,
+        "x": 500,
+        "y": 340,
         "wires": [
-            []
+            [
+                "9a219e5ef66d3246",
+                "0b575a48c3e6dfea",
+                "461ed52a869ee75a",
+                "6b536e08bb82268d"
+            ]
         ]
     },
     {
@@ -763,24 +785,29 @@
         "z": "3e1fc2edd0bcc68a",
         "name": "MOTOR4",
         "group": "6ccfda18ea82bcc1",
-        "order": 6,
+        "order": 4,
         "width": 3,
         "height": 1,
         "passthru": false,
-        "label": "MOTOR4",
+        "label": "MOTOR 4",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
         "className": "",
         "icon": "",
-        "payload": "",
+        "payload": "Selecciono motor 4",
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 140,
-        "y": 260,
+        "x": 500,
+        "y": 380,
         "wires": [
-            []
+            [
+                "9a219e5ef66d3246",
+                "0b575a48c3e6dfea",
+                "f7b2fcab9adf1954",
+                "9c1bc6149766f0a4"
+            ]
         ]
     },
     {
@@ -789,24 +816,29 @@
         "z": "3e1fc2edd0bcc68a",
         "name": "MOTOR3",
         "group": "6ccfda18ea82bcc1",
-        "order": 9,
+        "order": 6,
         "width": 3,
         "height": 1,
         "passthru": false,
-        "label": "MOTOR3",
+        "label": "MOTOR 3",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
         "className": "",
         "icon": "",
-        "payload": "",
+        "payload": "Selecciono motor 3",
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 140,
-        "y": 300,
+        "x": 500,
+        "y": 420,
         "wires": [
-            []
+            [
+                "9a219e5ef66d3246",
+                "0b575a48c3e6dfea",
+                "409aeb1f6c73557e",
+                "83ef59c016059d87"
+            ]
         ]
     },
     {
@@ -815,24 +847,29 @@
         "z": "3e1fc2edd0bcc68a",
         "name": "MOTOR2",
         "group": "6ccfda18ea82bcc1",
-        "order": 12,
+        "order": 8,
         "width": 3,
         "height": 1,
         "passthru": false,
-        "label": "MOTOR2",
+        "label": "MOTOR 2",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
         "className": "",
         "icon": "",
-        "payload": "",
+        "payload": "Selecciono motor 2",
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 140,
-        "y": 340,
+        "x": 500,
+        "y": 460,
         "wires": [
-            []
+            [
+                "9a219e5ef66d3246",
+                "0b575a48c3e6dfea",
+                "92c0a206a764449a",
+                "cfccd8bc56cf22ff"
+            ]
         ]
     },
     {
@@ -841,24 +878,29 @@
         "z": "3e1fc2edd0bcc68a",
         "name": "MOTOR1",
         "group": "6ccfda18ea82bcc1",
-        "order": 15,
+        "order": 10,
         "width": 3,
         "height": 1,
         "passthru": false,
-        "label": "MOTOR1",
+        "label": "MOTOR 1",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
         "className": "",
         "icon": "",
-        "payload": "",
+        "payload": "Selecciono motor 1",
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 140,
-        "y": 380,
+        "x": 500,
+        "y": 500,
         "wires": [
-            []
+            [
+                "9a219e5ef66d3246",
+                "0b575a48c3e6dfea",
+                "8af9186bd4452fd4",
+                "ef04a965bdd4918c"
+            ]
         ]
     },
     {
@@ -870,7 +912,7 @@
         "width": 0,
         "height": 0,
         "order": 1,
-        "category": "brazo",
+        "category": "ej",
         "file": "Robot-Mitsubishi-Movemaster-RV-M1.png",
         "layout": "adjust",
         "showcontrols": true,
@@ -879,8 +921,8 @@
         "muted": true,
         "scope": "local",
         "tooltip": "",
-        "x": 235,
-        "y": 300,
+        "x": 85,
+        "y": 240,
         "wires": [
             []
         ],
@@ -891,8 +933,8 @@
         "type": "ui_button",
         "z": "3e1fc2edd0bcc68a",
         "name": "Emergencia",
-        "group": "4366aa6f7e692345",
-        "order": 3,
+        "group": "6ccfda18ea82bcc1",
+        "order": 13,
         "width": 2,
         "height": 2,
         "passthru": false,
@@ -906,8 +948,8 @@
         "payloadType": "bool",
         "topic": "topic",
         "topicType": "msg",
-        "x": 350,
-        "y": 220,
+        "x": 210,
+        "y": 240,
         "wires": [
             [
                 "ebd192a7a0497660"
@@ -923,19 +965,1115 @@
         "propertyType": "msg",
         "rules": [
             {
-                "t": "true"
+                "t": "false"
             },
             {
-                "t": "false"
+                "t": "true"
             }
         ],
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 490,
+        "x": 310,
         "y": 300,
         "wires": [
-            [],
+            [
+                "71926b6bf590ca12"
+            ],
+            [
+                "872f53cbc2bbd5e6",
+                "d903852fc1e534ea",
+                "56136077df1b77e2",
+                "2e95f12b9ab678a8",
+                "60dd3043cc825455"
+            ]
+        ]
+    },
+    {
+        "id": "71926b6bf590ca12",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "EMERGENCIA",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "false",
+                "fromt": "bool",
+                "to": "Detener",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 480,
+        "y": 280,
+        "wires": [
+            [
+                "9a219e5ef66d3246",
+                "0b575a48c3e6dfea",
+                "09c1ad1ee94feb7c"
+            ]
+        ]
+    },
+    {
+        "id": "9a219e5ef66d3246",
+        "type": "ui_text",
+        "z": "3e1fc2edd0bcc68a",
+        "group": "12790a1bf20b56bd",
+        "order": 2,
+        "width": 6,
+        "height": 2,
+        "name": "Eliminar mensajes",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 765,
+        "y": 220,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "5ba3ed42991bbca4",
+        "type": "debug",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1240,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "34500c3a0e2f36bd",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "INACTIVIDAD",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "...",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 715,
+        "y": 220,
+        "wires": [
+            [
+                "9a219e5ef66d3246"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "0b575a48c3e6dfea",
+        "type": "delay",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "10",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 665,
+        "y": 220,
+        "wires": [
+            [
+                "34500c3a0e2f36bd"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "461ed52a869ee75a",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "S motor 5",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "Selecciono motor 5",
+                "fromt": "str",
+                "to": "PD[5,0,0,0,0,0]",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 780,
+        "y": 340,
+        "wires": [
+            [
+                "5ba3ed42991bbca4",
+                "61d217492bf2e6c0"
+            ]
+        ]
+    },
+    {
+        "id": "09c1ad1ee94feb7c",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "DETENER",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "Detener",
+                "fromt": "str",
+                "to": "PD[0,0,0,0,0,0]",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 790,
+        "y": 280,
+        "wires": [
+            [
+                "5ba3ed42991bbca4"
+            ]
+        ]
+    },
+    {
+        "id": "f7b2fcab9adf1954",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "S motor 4",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "Selecciono motor 4",
+                "fromt": "str",
+                "to": "PD[4,0,0,0,0,0]",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 780,
+        "y": 380,
+        "wires": [
+            [
+                "5ba3ed42991bbca4",
+                "11c3b9312b18676e"
+            ]
+        ]
+    },
+    {
+        "id": "409aeb1f6c73557e",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "S motor 3",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "Selecciono motor 3",
+                "fromt": "str",
+                "to": "PD[3,0,0,0,0,0]",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 780,
+        "y": 420,
+        "wires": [
+            [
+                "5ba3ed42991bbca4",
+                "8343fb3daeba9789"
+            ]
+        ]
+    },
+    {
+        "id": "92c0a206a764449a",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "S motor 2",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "Selecciono motor 2",
+                "fromt": "str",
+                "to": "PD[2,0,0,0,0,0]",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 780,
+        "y": 460,
+        "wires": [
+            [
+                "5ba3ed42991bbca4",
+                "fdb925bf2776227d"
+            ]
+        ]
+    },
+    {
+        "id": "8af9186bd4452fd4",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "S motor 1",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "Selecciono motor 1",
+                "fromt": "str",
+                "to": "PD[1,0,0,0,0,0]",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 780,
+        "y": 500,
+        "wires": [
+            [
+                "5ba3ed42991bbca4",
+                "a0b7d583cdeb3b59"
+            ]
+        ]
+    },
+    {
+        "id": "61d217492bf2e6c0",
+        "type": "delay",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "T motor5",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1040,
+        "y": 220,
+        "wires": [
+            [
+                "9f631f5846998e8e"
+            ]
+        ]
+    },
+    {
+        "id": "9f631f5846998e8e",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "S motor 5",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "PD[0,0,0,0,0,5]",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1200,
+        "y": 220,
+        "wires": [
+            [
+                "5ba3ed42991bbca4"
+            ]
+        ]
+    },
+    {
+        "id": "11c3b9312b18676e",
+        "type": "delay",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "T motor4",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1040,
+        "y": 280,
+        "wires": [
+            [
+                "9ff16e5c5b554b43"
+            ]
+        ]
+    },
+    {
+        "id": "9ff16e5c5b554b43",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "S motor 4",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "PD[0,0,0,0,0,4]",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1200,
+        "y": 280,
+        "wires": [
+            [
+                "5ba3ed42991bbca4"
+            ]
+        ]
+    },
+    {
+        "id": "8343fb3daeba9789",
+        "type": "delay",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "T motor3",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1040,
+        "y": 340,
+        "wires": [
+            [
+                "80bdaefe3dd0e3bb"
+            ]
+        ]
+    },
+    {
+        "id": "80bdaefe3dd0e3bb",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "S motor 3",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "PD[0,0,0,0,0,3]",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1200,
+        "y": 340,
+        "wires": [
+            [
+                "5ba3ed42991bbca4"
+            ]
+        ]
+    },
+    {
+        "id": "fdb925bf2776227d",
+        "type": "delay",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "T motor2",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1040,
+        "y": 400,
+        "wires": [
+            [
+                "78a1633259b8593d"
+            ]
+        ]
+    },
+    {
+        "id": "78a1633259b8593d",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "S motor 2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "PD[0,0,0,0,0,2]",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1200,
+        "y": 400,
+        "wires": [
+            [
+                "5ba3ed42991bbca4"
+            ]
+        ]
+    },
+    {
+        "id": "a0b7d583cdeb3b59",
+        "type": "delay",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "T motor1",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1040,
+        "y": 460,
+        "wires": [
+            [
+                "c8f2f4cc76118dd9"
+            ]
+        ]
+    },
+    {
+        "id": "c8f2f4cc76118dd9",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "S motor 1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "PD[0,0,0,0,0,1]",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1200,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9f63cf1aa5b2b2e3",
+        "type": "ui_text",
+        "z": "3e1fc2edd0bcc68a",
+        "group": "4089962b83247be9",
+        "order": 4,
+        "width": 9,
+        "height": 2,
+        "name": "Mensaje educativo",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 775,
+        "y": 560,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "6b536e08bb82268d",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "INACTIVIDAD",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "El motor 5 se encuentra en la parte superior del brazo....",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 665,
+        "y": 560,
+        "wires": [
+            [
+                "9f63cf1aa5b2b2e3",
+                "4aa848386633efe4"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "4aa848386633efe4",
+        "type": "delay",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "10",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 755,
+        "y": 660,
+        "wires": [
+            [
+                "1327567916fceb1e"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "1327567916fceb1e",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "INACTIVIDAD",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": ".",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 755,
+        "y": 600,
+        "wires": [
+            [
+                "9f63cf1aa5b2b2e3"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "9c1bc6149766f0a4",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "INACTIVIDAD",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "El motor 4 se encuentra en la parte superior del brazo....",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 665,
+        "y": 600,
+        "wires": [
+            [
+                "9f63cf1aa5b2b2e3",
+                "4aa848386633efe4"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "83ef59c016059d87",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "INACTIVIDAD",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "El motor 3 se encuentra en la parte superior del brazo....",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 665,
+        "y": 640,
+        "wires": [
+            [
+                "9f63cf1aa5b2b2e3",
+                "4aa848386633efe4"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "cfccd8bc56cf22ff",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "INACTIVIDAD",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "El motor 2 se encuentra en la parte superior del brazo....",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 665,
+        "y": 680,
+        "wires": [
+            [
+                "9f63cf1aa5b2b2e3",
+                "4aa848386633efe4"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "ef04a965bdd4918c",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "INACTIVIDAD",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "El motor 1 se encuentra en la parte superior del brazo....",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 665,
+        "y": 720,
+        "wires": [
+            [
+                "9f63cf1aa5b2b2e3",
+                "4aa848386633efe4"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "17d6a08655b2b1d5",
+        "type": "comment",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "PRACTICA 3",
+        "info": "",
+        "x": 110,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "64d7715d8fb20827",
+        "type": "ui_slider",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "label": "slider",
+        "tooltip": "",
+        "group": "27c97d5860c2afa5",
+        "order": 2,
+        "width": 7,
+        "height": 1,
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "-70",
+        "max": "70",
+        "step": "10",
+        "className": "",
+        "x": 170,
+        "y": 940,
+        "wires": [
+            [
+                "f6933168e3979682"
+            ]
+        ]
+    },
+    {
+        "id": "e565bd43662400b6",
+        "type": "ui_slider",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "label": "Pinza",
+        "tooltip": "",
+        "group": "27c97d5860c2afa5",
+        "order": 6,
+        "width": 7,
+        "height": 1,
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "-70",
+        "max": "70",
+        "step": "10",
+        "className": "",
+        "x": 170,
+        "y": 980,
+        "wires": [
+            [
+                "5142aa31398c3eb3"
+            ]
+        ]
+    },
+    {
+        "id": "588086ddc1442a49",
+        "type": "ui_slider",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "label": "Muñeca",
+        "tooltip": "",
+        "group": "27c97d5860c2afa5",
+        "order": 8,
+        "width": 7,
+        "height": 1,
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "-70",
+        "max": "70",
+        "step": "10",
+        "className": "",
+        "x": 180,
+        "y": 1020,
+        "wires": [
+            [
+                "58326e08fda39ef9"
+            ]
+        ]
+    },
+    {
+        "id": "935c77f314969628",
+        "type": "ui_slider",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "label": "Codo",
+        "tooltip": "",
+        "group": "27c97d5860c2afa5",
+        "order": 4,
+        "width": 7,
+        "height": 1,
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "-70",
+        "max": "70",
+        "step": "10",
+        "className": "",
+        "x": 170,
+        "y": 1060,
+        "wires": [
+            [
+                "e4dfe5115679f744"
+            ]
+        ]
+    },
+    {
+        "id": "5ba13622f7708176",
+        "type": "ui_slider",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "label": "BRAZO",
+        "tooltip": "",
+        "group": "27c97d5860c2afa5",
+        "order": 12,
+        "width": 7,
+        "height": 1,
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "-70",
+        "max": "70",
+        "step": "10",
+        "className": "",
+        "x": 180,
+        "y": 1100,
+        "wires": [
+            [
+                "3ff930b0554d3b53"
+            ]
+        ]
+    },
+    {
+        "id": "557747c1bff34376",
+        "type": "ui_slider",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "label": "BASE",
+        "tooltip": "",
+        "group": "27c97d5860c2afa5",
+        "order": 10,
+        "width": 7,
+        "height": 1,
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "-70",
+        "max": "70",
+        "step": 1,
+        "className": "",
+        "x": 170,
+        "y": 1140,
+        "wires": [
+            [
+                "9c8310d0f3a78b2c"
+            ]
+        ]
+    },
+    {
+        "id": "f6933168e3979682",
+        "type": "ui_text",
+        "z": "3e1fc2edd0bcc68a",
+        "group": "27c97d5860c2afa5",
+        "order": 3,
+        "width": 1,
+        "height": 1,
+        "name": "s",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 310,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "5142aa31398c3eb3",
+        "type": "ui_text",
+        "z": "3e1fc2edd0bcc68a",
+        "group": "27c97d5860c2afa5",
+        "order": 7,
+        "width": 1,
+        "height": 1,
+        "name": "p",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 310,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "58326e08fda39ef9",
+        "type": "ui_text",
+        "z": "3e1fc2edd0bcc68a",
+        "group": "27c97d5860c2afa5",
+        "order": 9,
+        "width": 1,
+        "height": 1,
+        "name": "m",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 310,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "e4dfe5115679f744",
+        "type": "ui_text",
+        "z": "3e1fc2edd0bcc68a",
+        "group": "27c97d5860c2afa5",
+        "order": 5,
+        "width": 1,
+        "height": 1,
+        "name": "c",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 310,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "3ff930b0554d3b53",
+        "type": "ui_text",
+        "z": "3e1fc2edd0bcc68a",
+        "group": "27c97d5860c2afa5",
+        "order": 13,
+        "width": 1,
+        "height": 1,
+        "name": "br",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 310,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "9c8310d0f3a78b2c",
+        "type": "ui_text",
+        "z": "3e1fc2edd0bcc68a",
+        "group": "27c97d5860c2afa5",
+        "order": 11,
+        "width": 1,
+        "height": 1,
+        "name": "ba",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 310,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "8dc43c368b1b49ab",
+        "type": "ui_text",
+        "z": "3e1fc2edd0bcc68a",
+        "group": "49f7744c4bc11d41",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Ejercicio con el brazo. crea una piramide con 3 vasos",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 720,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "ca2d779838e933fd",
+        "type": "ui_media",
+        "z": "3e1fc2edd0bcc68a",
+        "group": "b984c5d5a788d16a",
+        "name": "",
+        "width": "6",
+        "height": "6",
+        "order": 0,
+        "category": "ej",
+        "file": "Robot-Mitsubishi-Movemaster-RV-M1.png",
+        "layout": "adjust",
+        "showcontrols": true,
+        "loop": true,
+        "onstart": false,
+        "muted": true,
+        "scope": "local",
+        "tooltip": "",
+        "x": 570,
+        "y": 1020,
+        "wires": [
             []
         ]
     }
