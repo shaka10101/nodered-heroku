@@ -1768,8 +1768,8 @@
         "z": "3e1fc2edd0bcc68a",
         "name": "PRACTICA 3",
         "info": "",
-        "x": 110,
-        "y": 860,
+        "x": 90,
+        "y": 820,
         "wires": []
     },
     {
@@ -1791,11 +1791,12 @@
         "max": "70",
         "step": "10",
         "className": "",
-        "x": 170,
-        "y": 940,
+        "x": 270,
+        "y": 920,
         "wires": [
             [
-                "f6933168e3979682"
+                "78067c49275237b7",
+                "0ce8ec72f878e9d8"
             ]
         ]
     },
@@ -1807,7 +1808,7 @@
         "label": "Pinza",
         "tooltip": "",
         "group": "27c97d5860c2afa5",
-        "order": 6,
+        "order": 3,
         "width": 7,
         "height": 1,
         "passthru": true,
@@ -1818,11 +1819,12 @@
         "max": "70",
         "step": "10",
         "className": "",
-        "x": 170,
+        "x": 270,
         "y": 980,
         "wires": [
             [
-                "5142aa31398c3eb3"
+                "514dfdf3f6fd4fac",
+                "0ce8ec72f878e9d8"
             ]
         ]
     },
@@ -1832,33 +1834,6 @@
         "z": "3e1fc2edd0bcc68a",
         "name": "",
         "label": "Muñeca",
-        "tooltip": "",
-        "group": "27c97d5860c2afa5",
-        "order": 8,
-        "width": 7,
-        "height": 1,
-        "passthru": true,
-        "outs": "all",
-        "topic": "topic",
-        "topicType": "msg",
-        "min": "-70",
-        "max": "70",
-        "step": "10",
-        "className": "",
-        "x": 180,
-        "y": 1020,
-        "wires": [
-            [
-                "58326e08fda39ef9"
-            ]
-        ]
-    },
-    {
-        "id": "935c77f314969628",
-        "type": "ui_slider",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "",
-        "label": "Codo",
         "tooltip": "",
         "group": "27c97d5860c2afa5",
         "order": 4,
@@ -1872,11 +1847,40 @@
         "max": "70",
         "step": "10",
         "className": "",
-        "x": 170,
+        "x": 260,
         "y": 1060,
         "wires": [
             [
-                "e4dfe5115679f744"
+                "264da78cd310f7b0",
+                "0ce8ec72f878e9d8"
+            ]
+        ]
+    },
+    {
+        "id": "935c77f314969628",
+        "type": "ui_slider",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "label": "Codo",
+        "tooltip": "",
+        "group": "27c97d5860c2afa5",
+        "order": 6,
+        "width": 7,
+        "height": 1,
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "-70",
+        "max": "70",
+        "step": "10",
+        "className": "",
+        "x": 250,
+        "y": 1220,
+        "wires": [
+            [
+                "5af12e60b632ace7",
+                "0ce8ec72f878e9d8"
             ]
         ]
     },
@@ -1888,7 +1892,7 @@
         "label": "BRAZO",
         "tooltip": "",
         "group": "27c97d5860c2afa5",
-        "order": 12,
+        "order": 5,
         "width": 7,
         "height": 1,
         "passthru": true,
@@ -1899,11 +1903,12 @@
         "max": "70",
         "step": "10",
         "className": "",
-        "x": 180,
-        "y": 1100,
+        "x": 260,
+        "y": 1140,
         "wires": [
             [
-                "3ff930b0554d3b53"
+                "bf73c0511ea6e375",
+                "0ce8ec72f878e9d8"
             ]
         ]
     },
@@ -1915,7 +1920,7 @@
         "label": "BASE",
         "tooltip": "",
         "group": "27c97d5860c2afa5",
-        "order": 10,
+        "order": 7,
         "width": 7,
         "height": 1,
         "passthru": true,
@@ -1926,11 +1931,12 @@
         "max": "70",
         "step": 1,
         "className": "",
-        "x": 170,
-        "y": 1140,
+        "x": 250,
+        "y": 1280,
         "wires": [
             [
-                "9c8310d0f3a78b2c"
+                "5a69dc1e96eb826a",
+                "0ce8ec72f878e9d8"
             ]
         ]
     },
@@ -1939,7 +1945,7 @@
         "type": "ui_text",
         "z": "3e1fc2edd0bcc68a",
         "group": "27c97d5860c2afa5",
-        "order": 3,
+        "order": 8,
         "width": 1,
         "height": 1,
         "name": "s",
@@ -1947,8 +1953,8 @@
         "format": "{{msg.payload}}",
         "layout": "col-center",
         "className": "",
-        "x": 310,
-        "y": 940,
+        "x": 670,
+        "y": 920,
         "wires": []
     },
     {
@@ -1956,7 +1962,7 @@
         "type": "ui_text",
         "z": "3e1fc2edd0bcc68a",
         "group": "27c97d5860c2afa5",
-        "order": 7,
+        "order": 9,
         "width": 1,
         "height": 1,
         "name": "p",
@@ -1964,7 +1970,7 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 310,
+        "x": 710,
         "y": 980,
         "wires": []
     },
@@ -1973,7 +1979,7 @@
         "type": "ui_text",
         "z": "3e1fc2edd0bcc68a",
         "group": "27c97d5860c2afa5",
-        "order": 9,
+        "order": 10,
         "width": 1,
         "height": 1,
         "name": "m",
@@ -1981,8 +1987,8 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 310,
-        "y": 1020,
+        "x": 710,
+        "y": 1060,
         "wires": []
     },
     {
@@ -1990,7 +1996,7 @@
         "type": "ui_text",
         "z": "3e1fc2edd0bcc68a",
         "group": "27c97d5860c2afa5",
-        "order": 5,
+        "order": 12,
         "width": 1,
         "height": 1,
         "name": "c",
@@ -1998,8 +2004,8 @@
         "format": "{{msg.payload}}",
         "layout": "col-center",
         "className": "",
-        "x": 310,
-        "y": 1060,
+        "x": 750,
+        "y": 1220,
         "wires": []
     },
     {
@@ -2010,13 +2016,13 @@
         "order": 13,
         "width": 1,
         "height": 1,
-        "name": "br",
+        "name": "BA",
         "label": "",
         "format": "{{msg.payload}}",
         "layout": "col-center",
         "className": "",
-        "x": 310,
-        "y": 1100,
+        "x": 750,
+        "y": 1280,
         "wires": []
     },
     {
@@ -2027,12 +2033,12 @@
         "order": 11,
         "width": 1,
         "height": 1,
-        "name": "ba",
+        "name": "br",
         "label": "",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 310,
+        "x": 750,
         "y": 1140,
         "wires": []
     },
@@ -2049,7 +2055,7 @@
         "format": "{{msg.payload}}",
         "layout": "col-center",
         "className": "",
-        "x": 720,
+        "x": 940,
         "y": 960,
         "wires": []
     },
@@ -2071,10 +2077,307 @@
         "muted": true,
         "scope": "local",
         "tooltip": "",
-        "x": 570,
+        "x": 850,
         "y": 1020,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "78067c49275237b7",
+        "type": "mqtt out",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "brokermqtt-heroku",
+        "topic": "teste/mqtt/slider",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "da8eb53ef332f813",
+        "x": 365,
+        "y": 920,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "0a451559b0fc882a",
+        "type": "mqtt in",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "topic": "teste/mqtt/slider",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "da8eb53ef332f813",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 520,
+        "y": 920,
+        "wires": [
+            [
+                "f6933168e3979682"
+            ]
+        ]
+    },
+    {
+        "id": "514dfdf3f6fd4fac",
+        "type": "mqtt out",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "brokermqtt-heroku",
+        "topic": "teste/mqtt/pinza",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "da8eb53ef332f813",
+        "x": 365,
+        "y": 980,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "eba0972c148447bd",
+        "type": "mqtt in",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "topic": "teste/mqtt/pinza",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "da8eb53ef332f813",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 520,
+        "y": 980,
+        "wires": [
+            [
+                "5142aa31398c3eb3"
+            ]
+        ]
+    },
+    {
+        "id": "264da78cd310f7b0",
+        "type": "mqtt out",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "brokermqtt-heroku",
+        "topic": "teste/mqtt/Muñeca",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "da8eb53ef332f813",
+        "x": 365,
+        "y": 1060,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "1bb54cb22c1929ba",
+        "type": "mqtt in",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "topic": "teste/mqtt/Muñeca",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "da8eb53ef332f813",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 530,
+        "y": 1060,
+        "wires": [
+            [
+                "58326e08fda39ef9"
+            ]
+        ]
+    },
+    {
+        "id": "5af12e60b632ace7",
+        "type": "mqtt out",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "brokermqtt-heroku",
+        "topic": "teste/mqtt/Codo",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "da8eb53ef332f813",
+        "x": 365,
+        "y": 1220,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "fdf1bed24c28fa86",
+        "type": "mqtt in",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "topic": "teste/mqtt/Codo",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "da8eb53ef332f813",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 520,
+        "y": 1220,
+        "wires": [
+            [
+                "e4dfe5115679f744"
+            ]
+        ]
+    },
+    {
+        "id": "bf73c0511ea6e375",
+        "type": "mqtt out",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "brokermqtt-heroku",
+        "topic": "teste/mqtt/br",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "da8eb53ef332f813",
+        "x": 365,
+        "y": 1140,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "8bd316c1e76f4c92",
+        "type": "mqtt in",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "topic": "teste/mqtt/br",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "da8eb53ef332f813",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 510,
+        "y": 1140,
+        "wires": [
+            [
+                "9c8310d0f3a78b2c"
+            ]
+        ]
+    },
+    {
+        "id": "5a69dc1e96eb826a",
+        "type": "mqtt out",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "brokermqtt-heroku",
+        "topic": "teste/mqtt/base",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "da8eb53ef332f813",
+        "x": 385,
+        "y": 1280,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "6638b24e2d04253a",
+        "type": "mqtt in",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "topic": "teste/mqtt/base",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "da8eb53ef332f813",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 520,
+        "y": 1280,
+        "wires": [
+            [
+                "3ff930b0554d3b53"
+            ]
+        ]
+    },
+    {
+        "id": "3ace27bbdb13142e",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "INC0",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 90,
+        "y": 940,
+        "wires": [
+            [
+                "64d7715d8fb20827",
+                "e565bd43662400b6",
+                "588086ddc1442a49",
+                "5ba13622f7708176",
+                "935c77f314969628",
+                "557747c1bff34376"
+            ]
+        ]
+    },
+    {
+        "id": "0ce8ec72f878e9d8",
+        "type": "delay",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "20",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 220,
+        "y": 860,
+        "wires": [
+            [
+                "3ace27bbdb13142e"
+            ]
         ]
     }
 ]
