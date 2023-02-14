@@ -8,6 +8,204 @@
         "env": []
     },
     {
+        "id": "a5b0f7186203a209",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#cc5200",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#db9600",
+                "baseFont": "Arial Narrow,Nimbus Sans L,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#cc5200",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#cc5200",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#ff761a",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#cc5200",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Plataforma Virtual para parcticas de laboratorio con el brazo robotico MITSUBISHI MOVEMASTER RV-M1",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "6e05df2e67465357",
+        "type": "ui_tab",
+        "name": "Brazo robotico",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "44ed6ca056a9ee5e",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "6e05df2e67465357",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "3649439c5f640484",
+        "type": "ui_group",
+        "name": "Group 2",
+        "tab": "6e05df2e67465357",
+        "order": 2,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "910ec7e1442ae2da",
+        "type": "ui_tab",
+        "name": "Rutina 1",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "99d27cdd5dfa66d1",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "910ec7e1442ae2da",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "06b5254802e24f5d",
+        "type": "ui_group",
+        "name": "Group 2",
+        "tab": "910ec7e1442ae2da",
+        "order": 2,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "c430ebe8c6058e03",
+        "type": "serial-port",
+        "serialport": "/dev/ttyACM0",
+        "serialbaud": "9600",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": "10000"
+    },
+    {
+        "id": "23d860e88f7fdef4",
+        "type": "mqtt-broker",
+        "name": "brokermqtt",
+        "broker": "ws://brokermqtt-nodered.herokuapp.com",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
         "id": "ae96b34feadbd617",
         "type": "ui_base",
         "theme": {
@@ -666,7 +864,6 @@
         "showcontrols": true,
         "loop": true,
         "onstart": false,
-        "muted": true,
         "scope": "local",
         "tooltip": "",
         "x": 235,
@@ -691,7 +888,6 @@
         "showcontrols": true,
         "loop": true,
         "onstart": false,
-        "muted": true,
         "scope": "local",
         "tooltip": "",
         "x": 285,
@@ -918,7 +1114,6 @@
         "showcontrols": true,
         "loop": true,
         "onstart": false,
-        "muted": true,
         "scope": "local",
         "tooltip": "",
         "x": 85,
@@ -2074,7 +2269,6 @@
         "showcontrols": true,
         "loop": true,
         "onstart": false,
-        "muted": true,
         "scope": "local",
         "tooltip": "",
         "x": 850,
@@ -2379,5 +2573,41 @@
                 "3ace27bbdb13142e"
             ]
         ]
+    },
+    {
+        "id": "68667514e9d6656f",
+        "type": "ui_text_input",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "label": "",
+        "tooltip": "",
+        "group": "44ed6ca056a9ee5e",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 240,
+        "y": 60,
+        "wires": [
+            [
+                "e4924570fabd4279"
+            ]
+        ]
+    },
+    {
+        "id": "e4924570fabd4279",
+        "type": "serial out",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "serial": "c430ebe8c6058e03",
+        "x": 440,
+        "y": 60,
+        "wires": []
     }
 ]
