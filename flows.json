@@ -11,7 +11,7 @@
         "id": "a5b0f7186203a209",
         "type": "ui_base",
         "theme": {
-            "name": "theme-light",
+            "name": "theme-custom",
             "lightTheme": {
                 "default": "#0094CE",
                 "baseColor": "#cc5200",
@@ -29,17 +29,18 @@
             "customTheme": {
                 "name": "Untitled Theme 1",
                 "default": "#4B7930",
-                "baseColor": "#4B7930",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                "baseColor": "#a3a3a3",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
             },
             "themeState": {
                 "base-color": {
-                    "default": "#0094CE",
-                    "value": "#cc5200",
+                    "default": "#4B7930",
+                    "value": "#a3a3a3",
                     "edited": true
                 },
                 "page-titlebar-backgroundColor": {
-                    "value": "#cc5200",
+                    "value": "#a3a3a3",
                     "edited": false
                 },
                 "page-backgroundColor": {
@@ -51,8 +52,8 @@
                     "edited": false
                 },
                 "group-textColor": {
-                    "value": "#ff761a",
-                    "edited": false
+                    "value": "#000000",
+                    "edited": true
                 },
                 "group-borderColor": {
                     "value": "#ffffff",
@@ -67,7 +68,7 @@
                     "edited": false
                 },
                 "widget-backgroundColor": {
-                    "value": "#cc5200",
+                    "value": "#a3a3a3",
                     "edited": false
                 },
                 "widget-borderColor": {
@@ -104,60 +105,6 @@
                 "py": 0
             }
         }
-    },
-    {
-        "id": "6e05df2e67465357",
-        "type": "ui_tab",
-        "name": "Brazo robotico",
-        "icon": "dashboard",
-        "order": 1,
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "44ed6ca056a9ee5e",
-        "type": "ui_group",
-        "name": "Group 1",
-        "tab": "6e05df2e67465357",
-        "order": 1,
-        "disp": true,
-        "width": 6
-    },
-    {
-        "id": "3649439c5f640484",
-        "type": "ui_group",
-        "name": "Group 2",
-        "tab": "6e05df2e67465357",
-        "order": 2,
-        "disp": true,
-        "width": 6
-    },
-    {
-        "id": "910ec7e1442ae2da",
-        "type": "ui_tab",
-        "name": "Rutina 1",
-        "icon": "dashboard",
-        "order": 2,
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "99d27cdd5dfa66d1",
-        "type": "ui_group",
-        "name": "Group 1",
-        "tab": "910ec7e1442ae2da",
-        "order": 1,
-        "disp": true,
-        "width": 6
-    },
-    {
-        "id": "06b5254802e24f5d",
-        "type": "ui_group",
-        "name": "Group 2",
-        "tab": "910ec7e1442ae2da",
-        "order": 2,
-        "disp": true,
-        "width": 6
     },
     {
         "id": "23d860e88f7fdef4",
@@ -202,7 +149,7 @@
         "tab": "068563760fb4877f",
         "order": 1,
         "disp": false,
-        "width": 7,
+        "width": 8,
         "collapse": false,
         "className": ""
     },
@@ -213,7 +160,7 @@
         "tab": "068563760fb4877f",
         "order": 2,
         "disp": false,
-        "width": "6",
+        "width": 10,
         "collapse": false,
         "className": ""
     },
@@ -247,7 +194,7 @@
     {
         "id": "d805be7e493c5739",
         "type": "ui_tab",
-        "name": "PRACTICA1",
+        "name": "PRACTICA1 PRUEBA DE MOTORES",
         "icon": "extension",
         "order": 2,
         "disabled": false,
@@ -276,136 +223,6 @@
         "className": ""
     },
     {
-        "id": "2ceea039f8189a76",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "2b43a0f36795af86",
-        "order": 3,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "9b64f93ce042e792",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "2b43a0f36795af86",
-        "order": 7,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "d10e832787ed5cf7",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "2b43a0f36795af86",
-        "order": 8,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "3ccd81b3e0046260",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "2b43a0f36795af86",
-        "order": 9,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "9f3c14ec6aaf8896",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "2b43a0f36795af86",
-        "order": 10,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "82e7484e51d426c3",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "70be81ff1b7dbf69",
-        "order": 1,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "0f2510665feefacf",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "70be81ff1b7dbf69",
-        "order": 2,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "7c69408240427114",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "66a1a0c9343d251d",
-        "order": 1,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "5a94e817ee8468b0",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "66a1a0c9343d251d",
-        "order": 2,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "b28fef1daf8bf7c6",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "66a1a0c9343d251d",
-        "order": 3,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "80fa830d2be52e36",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "66a1a0c9343d251d",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "559e2758970718e1",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "66a1a0c9343d251d",
-        "order": 6,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "cb0fe8766a9a4629",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "66a1a0c9343d251d",
-        "order": 7,
-        "width": 1,
-        "height": 1
-    },
-    {
         "id": "12790a1bf20b56bd",
         "type": "ui_group",
         "name": "IDENTIFICA LOS MOTORES DEL BRAZO ROBOTICO",
@@ -419,9 +236,9 @@
     {
         "id": "26efa20936ba1f8a",
         "type": "ui_tab",
-        "name": "PRACTICA2",
-        "icon": "vidiogame_asset",
-        "order": 3,
+        "name": "PRACTICA3-PRACTICA LIBRE",
+        "icon": "gamepad",
+        "order": 4,
         "disabled": false,
         "hidden": false
     },
@@ -640,41 +457,608 @@
         "height": 1
     },
     {
-        "id": "99ca3f72cfed3b97",
+        "id": "92f503ca7a98e14e",
         "type": "ui_tab",
-        "name": "PRACTICA 3",
-        "icon": "dashboard",
-        "order": 4,
+        "name": "PRACTICA 2 - RUTINAS PROCESOS INDUSTRIALIZADOS",
+        "icon": "gavel",
+        "order": 3,
         "disabled": false,
         "hidden": false
     },
     {
-        "id": "f21a360d89eddd84",
+        "id": "6080f8c035f96ee5",
+        "type": "ui_group",
+        "name": "Espacio 1",
+        "tab": "92f503ca7a98e14e",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "14ef62444ff5e395",
+        "type": "ui_group",
+        "name": "Espacio 2",
+        "tab": "92f503ca7a98e14e",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f6fc1243836cbf90",
+        "type": "ui_group",
+        "name": "Espacio 3",
+        "tab": "92f503ca7a98e14e",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "85bc8fa46d720e4a",
         "type": "ui_tab",
-        "name": "Acerca de",
-        "icon": "dashboard",
+        "name": "ACERCA DE",
+        "icon": "error",
         "order": 5,
         "disabled": false,
         "hidden": false
     },
     {
-        "id": "c430ebe8c6058e03",
-        "type": "serial-port",
-        "serialport": "/dev/ttyACM0",
-        "serialbaud": "9600",
-        "databits": "8",
-        "parity": "none",
-        "stopbits": "1",
-        "waitfor": "",
-        "dtr": "none",
-        "rts": "none",
-        "cts": "none",
-        "dsr": "none",
-        "newline": "\\n",
-        "bin": "false",
-        "out": "char",
-        "addchar": "",
-        "responsetimeout": "10000"
+        "id": "25b3154a8a4c7e50",
+        "type": "ui_group",
+        "name": "Espacio1",
+        "tab": "85bc8fa46d720e4a",
+        "order": 1,
+        "disp": false,
+        "width": "9",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1c6965d12deca91e",
+        "type": "ui_group",
+        "name": "Espacio2",
+        "tab": "85bc8fa46d720e4a",
+        "order": 3,
+        "disp": false,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1a8b2475250fdca4",
+        "type": "ui_group",
+        "name": "Espacio3",
+        "tab": "85bc8fa46d720e4a",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b502db0530559624",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "2b43a0f36795af86",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8c703956e36d0e14",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "2b43a0f36795af86",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b037b9654d4d14e5",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "2b43a0f36795af86",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "100e3966c1560073",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "2b43a0f36795af86",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "474da34c526f251a",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "2b43a0f36795af86",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4f431c570a748e79",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "2b43a0f36795af86",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "16efaf433fe3be92",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "2b43a0f36795af86",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "77e3c75e97faa9a6",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "2b43a0f36795af86",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "1057c35d26705007",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "2b43a0f36795af86",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5e28666b407dc4b1",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "2b43a0f36795af86",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "34fcf699c975dbda",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "2b43a0f36795af86",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e5bb3a844af2c720",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "2b43a0f36795af86",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8bd53ae1f107208d",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "2b43a0f36795af86",
+        "order": 16,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "36184cbc5e5e058d",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "2b43a0f36795af86",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "fdda971484d5a304",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "2b43a0f36795af86",
+        "order": 18,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5c92bd303f315f1c",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "70be81ff1b7dbf69",
+        "order": 1,
+        "width": 10,
+        "height": 1
+    },
+    {
+        "id": "ca3f71c21ada7811",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "70be81ff1b7dbf69",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a832eb4297038a8c",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "70be81ff1b7dbf69",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "944d61551dc05c7b",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "70be81ff1b7dbf69",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "314e670095f880bf",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "70be81ff1b7dbf69",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "461ea687a7cd84c9",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "70be81ff1b7dbf69",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "af86cdcfa9f91140",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "70be81ff1b7dbf69",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3781757c7c03b332",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "70be81ff1b7dbf69",
+        "order": 9,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "bdb29c70eb8e4d86",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "70be81ff1b7dbf69",
+        "order": 11,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "9b04e6ae2b368b70",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "70be81ff1b7dbf69",
+        "order": 12,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "9213bfe050c3de43",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "70be81ff1b7dbf69",
+        "order": 13,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "83fa6f23acaf13e3",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "25b3154a8a4c7e50",
+        "order": 1,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "4a14ebc7c7a24199",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "25b3154a8a4c7e50",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ec1c4f6f2491451c",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "25b3154a8a4c7e50",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "fcb6f8fc4eba864b",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "25b3154a8a4c7e50",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "362b263e03db4802",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "25b3154a8a4c7e50",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "862dc42182fe0790",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "25b3154a8a4c7e50",
+        "order": 7,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "9456c04d4e843551",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "25b3154a8a4c7e50",
+        "order": 9,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "9e28b65c0b70083f",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "25b3154a8a4c7e50",
+        "order": 10,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "dd66e9cfb6c00d01",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "25b3154a8a4c7e50",
+        "order": 11,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "3122b8e056b41830",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "25b3154a8a4c7e50",
+        "order": 12,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "08bcc7849e4a3ad4",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "25b3154a8a4c7e50",
+        "order": 13,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "fba7fcb430c54b3e",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "1c6965d12deca91e",
+        "order": 1,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "9a247d670f9df2df",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "1c6965d12deca91e",
+        "order": 2,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "984e768bdee6b659",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "1c6965d12deca91e",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "fde3f231dd55e1f2",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "1c6965d12deca91e",
+        "order": 5,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "dc0c2f8b8e130600",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "1c6965d12deca91e",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b032fa68bbb37e28",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "1c6965d12deca91e",
+        "order": 7,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "13f14db57f4ac94c",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "1c6965d12deca91e",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b897a9a9eff2c450",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "1c6965d12deca91e",
+        "order": 10,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "e9a9d99247565c59",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "1c6965d12deca91e",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "56d3fc91ea4dd48e",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "1c6965d12deca91e",
+        "order": 12,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "abf6ccdfe7e74dd1",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "1c6965d12deca91e",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c7d7581b1f8f5a01",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "1c6965d12deca91e",
+        "order": 14,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "a7e35a1af426716a",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "1c6965d12deca91e",
+        "order": 16,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "36fe14fba8b8a1ba",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "1c6965d12deca91e",
+        "order": 17,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "b98463663d261191",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "1c6965d12deca91e",
+        "order": 18,
+        "width": 1,
+        "height": 1
     },
     {
         "id": "ebd192a7a0497660",
@@ -716,42 +1100,6 @@
         ]
     },
     {
-        "id": "afeef53081c6f82d",
-        "type": "ui_text",
-        "z": "3e1fc2edd0bcc68a",
-        "group": "2b43a0f36795af86",
-        "order": 2,
-        "width": 6,
-        "height": 2,
-        "name": "",
-        "label": "Para comenzar, Despliega el menú y selecciona tu opción de preferencia.",
-        "format": "{{msg.payload}} ",
-        "layout": "row-center",
-        "className": "",
-        "x": 175,
-        "y": 120,
-        "wires": [],
-        "l": false
-    },
-    {
-        "id": "0e377f9a62ec49e9",
-        "type": "ui_text",
-        "z": "3e1fc2edd0bcc68a",
-        "group": "70be81ff1b7dbf69",
-        "order": 3,
-        "width": 6,
-        "height": 3,
-        "name": "",
-        "label": "<font size = 5> ¡Bienvenidos! A esta Plataforma virtual para la realización de prácticas de laboratorio y manipulación de procesos robotizados usando el brazo robótico MITSUBISHI MOVEMASTER RV-M1",
-        "format": "{{msg.payload}}",
-        "layout": "row-center",
-        "className": "",
-        "x": 125,
-        "y": 120,
-        "wires": [],
-        "l": false
-    },
-    {
         "id": "464190e4af2ca61e",
         "type": "ui_media",
         "z": "3e1fc2edd0bcc68a",
@@ -759,13 +1107,14 @@
         "name": "",
         "width": 6,
         "height": 6,
-        "order": 4,
-        "category": "ej",
-        "file": "Robot-Mitsubishi-Movemaster-RV-M1.png",
+        "order": 7,
+        "category": "BR",
+        "file": "WhatsApp-Image-2023-02-13-at-6.48.49-PM.png",
         "layout": "adjust",
         "showcontrols": true,
         "loop": true,
         "onstart": false,
+        "muted": false,
         "scope": "local",
         "tooltip": "",
         "x": 235,
@@ -779,17 +1128,18 @@
         "id": "27c7edc51ba4311e",
         "type": "ui_media",
         "z": "3e1fc2edd0bcc68a",
-        "group": "66a1a0c9343d251d",
+        "group": "70be81ff1b7dbf69",
         "name": "",
-        "width": 4,
-        "height": 4,
-        "order": 4,
-        "category": "logo",
+        "width": 3,
+        "height": 2,
+        "order": 10,
+        "category": "logo UD",
         "file": "Escudo_UD.svg.png",
         "layout": "adjust",
         "showcontrols": true,
         "loop": true,
         "onstart": false,
+        "muted": false,
         "scope": "local",
         "tooltip": "",
         "x": 285,
@@ -811,8 +1161,8 @@
         "passthru": false,
         "label": "",
         "tooltip": "Dirígete al menu ubicado en la parte superior izquierda y selecciona tu opción de preferencia",
-        "color": "white",
-        "bgcolor": "blue",
+        "color": "black",
+        "bgcolor": "white",
         "className": "",
         "icon": "reply",
         "payload": "",
@@ -840,9 +1190,9 @@
         "id": "8ccacc8a3126c344",
         "type": "comment",
         "z": "3e1fc2edd0bcc68a",
-        "name": "PRACTICA 2",
+        "name": "PRACTICA 1 \"PRUEBA DE MOTORES\"",
         "info": "",
-        "x": 130,
+        "x": 210,
         "y": 180,
         "wires": []
     },
@@ -1231,8 +1581,7 @@
         "wires": [
             [
                 "5ba3ed42991bbca4",
-                "61d217492bf2e6c0",
-                "79bdc2f4d41ddcba"
+                "61d217492bf2e6c0"
             ]
         ]
     },
@@ -1261,8 +1610,7 @@
         "y": 280,
         "wires": [
             [
-                "5ba3ed42991bbca4",
-                "79bdc2f4d41ddcba"
+                "5ba3ed42991bbca4"
             ]
         ]
     },
@@ -1292,8 +1640,7 @@
         "wires": [
             [
                 "5ba3ed42991bbca4",
-                "11c3b9312b18676e",
-                "79bdc2f4d41ddcba"
+                "11c3b9312b18676e"
             ]
         ]
     },
@@ -1323,8 +1670,7 @@
         "wires": [
             [
                 "5ba3ed42991bbca4",
-                "8343fb3daeba9789",
-                "79bdc2f4d41ddcba"
+                "8343fb3daeba9789"
             ]
         ]
     },
@@ -1354,8 +1700,7 @@
         "wires": [
             [
                 "5ba3ed42991bbca4",
-                "fdb925bf2776227d",
-                "79bdc2f4d41ddcba"
+                "fdb925bf2776227d"
             ]
         ]
     },
@@ -1385,8 +1730,7 @@
         "wires": [
             [
                 "5ba3ed42991bbca4",
-                "a0b7d583cdeb3b59",
-                "79bdc2f4d41ddcba"
+                "a0b7d583cdeb3b59"
             ]
         ]
     },
@@ -1438,8 +1782,7 @@
         "y": 220,
         "wires": [
             [
-                "5ba3ed42991bbca4",
-                "79bdc2f4d41ddcba"
+                "5ba3ed42991bbca4"
             ]
         ]
     },
@@ -1491,8 +1834,7 @@
         "y": 280,
         "wires": [
             [
-                "5ba3ed42991bbca4",
-                "79bdc2f4d41ddcba"
+                "5ba3ed42991bbca4"
             ]
         ]
     },
@@ -1544,8 +1886,7 @@
         "y": 340,
         "wires": [
             [
-                "5ba3ed42991bbca4",
-                "79bdc2f4d41ddcba"
+                "5ba3ed42991bbca4"
             ]
         ]
     },
@@ -1597,8 +1938,7 @@
         "y": 400,
         "wires": [
             [
-                "5ba3ed42991bbca4",
-                "79bdc2f4d41ddcba"
+                "5ba3ed42991bbca4"
             ]
         ]
     },
@@ -1649,9 +1989,7 @@
         "x": 1200,
         "y": 460,
         "wires": [
-            [
-                "79bdc2f4d41ddcba"
-            ]
+            []
         ]
     },
     {
@@ -1875,10 +2213,10 @@
         "id": "17d6a08655b2b1d5",
         "type": "comment",
         "z": "3e1fc2edd0bcc68a",
-        "name": "PRACTICA 3",
+        "name": "PRACTICA 3 \"PRACTICA LIBRE\"",
         "info": "",
-        "x": 90,
-        "y": 820,
+        "x": 150,
+        "y": 1240,
         "wires": []
     },
     {
@@ -1901,7 +2239,7 @@
         "step": "10",
         "className": "",
         "x": 270,
-        "y": 920,
+        "y": 1340,
         "wires": [
             [
                 "78067c49275237b7",
@@ -1929,7 +2267,7 @@
         "step": "10",
         "className": "",
         "x": 270,
-        "y": 980,
+        "y": 1400,
         "wires": [
             [
                 "514dfdf3f6fd4fac",
@@ -1957,7 +2295,7 @@
         "step": "10",
         "className": "",
         "x": 260,
-        "y": 1060,
+        "y": 1480,
         "wires": [
             [
                 "264da78cd310f7b0",
@@ -1985,7 +2323,7 @@
         "step": "10",
         "className": "",
         "x": 250,
-        "y": 1220,
+        "y": 1640,
         "wires": [
             [
                 "5af12e60b632ace7",
@@ -2013,7 +2351,7 @@
         "step": "10",
         "className": "",
         "x": 260,
-        "y": 1140,
+        "y": 1560,
         "wires": [
             [
                 "bf73c0511ea6e375",
@@ -2041,7 +2379,7 @@
         "step": 1,
         "className": "",
         "x": 250,
-        "y": 1280,
+        "y": 1700,
         "wires": [
             [
                 "5a69dc1e96eb826a",
@@ -2063,7 +2401,7 @@
         "layout": "col-center",
         "className": "",
         "x": 670,
-        "y": 920,
+        "y": 1340,
         "wires": []
     },
     {
@@ -2079,8 +2417,8 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 710,
-        "y": 980,
+        "x": 770,
+        "y": 1480,
         "wires": []
     },
     {
@@ -2096,8 +2434,8 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 710,
-        "y": 1060,
+        "x": 770,
+        "y": 1560,
         "wires": []
     },
     {
@@ -2113,8 +2451,8 @@
         "format": "{{msg.payload}}",
         "layout": "col-center",
         "className": "",
-        "x": 750,
-        "y": 1220,
+        "x": 810,
+        "y": 1720,
         "wires": []
     },
     {
@@ -2130,8 +2468,8 @@
         "format": "{{msg.payload}}",
         "layout": "col-center",
         "className": "",
-        "x": 750,
-        "y": 1280,
+        "x": 810,
+        "y": 1780,
         "wires": []
     },
     {
@@ -2147,8 +2485,8 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 750,
-        "y": 1140,
+        "x": 810,
+        "y": 1640,
         "wires": []
     },
     {
@@ -2164,8 +2502,8 @@
         "format": "{{msg.payload}}",
         "layout": "col-center",
         "className": "",
-        "x": 940,
-        "y": 960,
+        "x": 1080,
+        "y": 1540,
         "wires": []
     },
     {
@@ -2185,8 +2523,8 @@
         "onstart": false,
         "scope": "local",
         "tooltip": "",
-        "x": 850,
-        "y": 1020,
+        "x": 1050,
+        "y": 1580,
         "wires": [
             []
         ]
@@ -2206,7 +2544,7 @@
         "expiry": "",
         "broker": "da8eb53ef332f813",
         "x": 365,
-        "y": 920,
+        "y": 1340,
         "wires": [],
         "l": false
     },
@@ -2224,7 +2562,7 @@
         "rh": 0,
         "inputs": 0,
         "x": 520,
-        "y": 920,
+        "y": 1340,
         "wires": [
             [
                 "f6933168e3979682"
@@ -2246,7 +2584,7 @@
         "expiry": "",
         "broker": "da8eb53ef332f813",
         "x": 365,
-        "y": 980,
+        "y": 1400,
         "wires": [],
         "l": false
     },
@@ -2264,7 +2602,7 @@
         "rh": 0,
         "inputs": 0,
         "x": 520,
-        "y": 980,
+        "y": 1400,
         "wires": [
             [
                 "5142aa31398c3eb3"
@@ -2286,7 +2624,7 @@
         "expiry": "",
         "broker": "da8eb53ef332f813",
         "x": 365,
-        "y": 1060,
+        "y": 1480,
         "wires": [],
         "l": false
     },
@@ -2304,7 +2642,7 @@
         "rh": 0,
         "inputs": 0,
         "x": 530,
-        "y": 1060,
+        "y": 1480,
         "wires": [
             [
                 "58326e08fda39ef9"
@@ -2326,7 +2664,7 @@
         "expiry": "",
         "broker": "da8eb53ef332f813",
         "x": 365,
-        "y": 1220,
+        "y": 1640,
         "wires": [],
         "l": false
     },
@@ -2344,7 +2682,7 @@
         "rh": 0,
         "inputs": 0,
         "x": 520,
-        "y": 1220,
+        "y": 1640,
         "wires": [
             [
                 "e4dfe5115679f744"
@@ -2366,7 +2704,7 @@
         "expiry": "",
         "broker": "da8eb53ef332f813",
         "x": 365,
-        "y": 1140,
+        "y": 1560,
         "wires": [],
         "l": false
     },
@@ -2384,7 +2722,7 @@
         "rh": 0,
         "inputs": 0,
         "x": 510,
-        "y": 1140,
+        "y": 1560,
         "wires": [
             [
                 "9c8310d0f3a78b2c"
@@ -2406,7 +2744,7 @@
         "expiry": "",
         "broker": "da8eb53ef332f813",
         "x": 385,
-        "y": 1280,
+        "y": 1700,
         "wires": [],
         "l": false
     },
@@ -2424,7 +2762,7 @@
         "rh": 0,
         "inputs": 0,
         "x": 520,
-        "y": 1280,
+        "y": 1700,
         "wires": [
             [
                 "3ff930b0554d3b53"
@@ -2451,7 +2789,7 @@
         "to": "",
         "reg": false,
         "x": 90,
-        "y": 940,
+        "y": 1360,
         "wires": [
             [
                 "64d7715d8fb20827",
@@ -2481,7 +2819,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 220,
-        "y": 860,
+        "y": 1280,
         "wires": [
             [
                 "3ace27bbdb13142e"
@@ -2489,21 +2827,207 @@
         ]
     },
     {
-        "id": "79bdc2f4d41ddcba",
-        "type": "mqtt out",
+        "id": "c199d292d6788d05",
+        "type": "comment",
         "z": "3e1fc2edd0bcc68a",
-        "name": "brokermqtt-heroku",
-        "topic": "teste/mqtt/serial",
-        "qos": "0",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "da8eb53ef332f813",
-        "x": 1370,
-        "y": 560,
+        "name": "PRACTICA 2  \"RUTINA PROCESO INDUSTRIALIZADOS\"",
+        "info": "",
+        "x": 270,
+        "y": 860,
         "wires": []
+    },
+    {
+        "id": "63346a9df9910d78",
+        "type": "ui_text",
+        "z": "3e1fc2edd0bcc68a",
+        "group": "14ef62444ff5e395",
+        "order": 8,
+        "width": "6",
+        "height": "2",
+        "name": "",
+        "label": "PRACTICA DE PROCESOS INDUSTRIALIZADOS",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 250,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "149c94dbc0bac476",
+        "type": "comment",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "ACERCA DE",
+        "info": "",
+        "x": 110,
+        "y": 2000,
+        "wires": []
+    },
+    {
+        "id": "db342bec2b33406b",
+        "type": "debug",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 600,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "78d82ca447c7487b",
+        "type": "ui_template",
+        "z": "3e1fc2edd0bcc68a",
+        "group": "70be81ff1b7dbf69",
+        "name": "Mensaje INICIO 1",
+        "order": 2,
+        "width": 9,
+        "height": 6,
+        "format": "<div style=\"display: flex; justify-content: center;\">\n    <p style=\"text-align: center; font-size: 30px;\">¡Bienvenidos! A esta Plataforma virtual para la realización de prácticas de laboratorio y manipulación de procesos\n    robotizados usando el brazo robótico MITSUBISHI MOVEMASTER RV-M1</p>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 270,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ee27b3e16407315e",
+        "type": "ui_template",
+        "z": "3e1fc2edd0bcc68a",
+        "group": "2b43a0f36795af86",
+        "name": "Mensaje INICIO 2",
+        "order": 2,
+        "width": 6,
+        "height": 2,
+        "format": "<div style=\"display: flex; justify-content: center;\">\n    <p style=\"text-align: center;\">Para comenzar, Despliega el menú y selecciona tu opción de preferencia.</p>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 270,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "196dd3204e46703b",
+        "type": "ui_template",
+        "z": "3e1fc2edd0bcc68a",
+        "group": "25b3154a8a4c7e50",
+        "name": "M1",
+        "order": 3,
+        "width": 8,
+        "height": 4,
+        "format": "<div style=\"display: flex; justify-content: center;\">\n    <p style=\"text-align: justify;\">La plataforma virtual para la realización de prácticas de laboratorio de automatización de procesos robotizados usando\n    el brazo robótico MITSUBISHI MOVEMASTER RV-M1 guiadas de forma remota. <br> Es un Trabajo de grado  presentado como requisito\n    parcial para optar al título de: Ingeniero en Control y Automatización e Ingeniero en Telecomunicaciones<br> Desarrollado por los estudiantes Rafael Martinez y Thomas Felipe Urueña</p>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 110,
+        "y": 2040,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1f00224b0e4bfc83",
+        "type": "ui_template",
+        "z": "3e1fc2edd0bcc68a",
+        "group": "1c6965d12deca91e",
+        "name": "M2",
+        "order": 3,
+        "width": 9,
+        "height": 2,
+        "format": "<div style=\"display: flex; justify-content: center;\">\n    <p style=\"text-align: justify;\">Estimada comunidad estudiantil. Importante utilicemos esta plataforma de manera responsable y segura Por favor, tengan\n    en cuenta lo siguiente al trabajar con el brazo robótico:</p>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 270,
+        "y": 2040,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "38c9105933bea29f",
+        "type": "ui_template",
+        "z": "3e1fc2edd0bcc68a",
+        "group": "1c6965d12deca91e",
+        "name": "M3",
+        "order": 8,
+        "width": 9,
+        "height": 3,
+        "format": "<div style=\"display: flex; justify-content: center;\">\n    <p style=\"text-align: justify;\">* Asegúrense de que el brazo robótico esté en buen estado antes de usarlo. <br>* Utilicen el brazo robótico sólo para fines\n    autorizados. <br>* No realicen ajustes o modificaciones sin autorización previa. <br>* Trabajen siempre con precaución y de\n    manera consciente de sus alrededores.</p>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 390,
+        "y": 2040,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7d7e3ff8d4392abc",
+        "type": "ui_template",
+        "z": "3e1fc2edd0bcc68a",
+        "group": "1c6965d12deca91e",
+        "name": "M4",
+        "order": 15,
+        "width": 9,
+        "height": 2,
+        "format": "<div style=\"display: flex; justify-content: center;\">\n    <p style=\"text-align: justify;\">Recuerden, el brazo robótico es una herramienta potente que puede ser peligrosa si no se utiliza de manera adecuada. Por\n    lo tanto, es importante que sigamos estas intrucciones para garantizar la seguridad de todos. Cuidemos entre todos los\n    equipos del laboratorio de electrónica de la Universidad.</p>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 510,
+        "y": 2040,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "942cc270c0266799",
+        "type": "ui_media",
+        "z": "3e1fc2edd0bcc68a",
+        "group": "25b3154a8a4c7e50",
+        "name": "",
+        "width": 3,
+        "height": 3,
+        "order": 8,
+        "category": "logo UD",
+        "file": "Escudo_UD.svg.png",
+        "layout": "adjust",
+        "showcontrols": true,
+        "loop": true,
+        "onstart": false,
+        "muted": false,
+        "scope": "local",
+        "tooltip": "",
+        "x": 105,
+        "y": 2080,
+        "wires": [
+            []
+        ],
+        "l": false
     }
 ]
