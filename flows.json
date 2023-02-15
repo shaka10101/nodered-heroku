@@ -160,25 +160,6 @@
         "width": 6
     },
     {
-        "id": "c430ebe8c6058e03",
-        "type": "serial-port",
-        "serialport": "/dev/ttyACM0",
-        "serialbaud": "9600",
-        "databits": "8",
-        "parity": "none",
-        "stopbits": "1",
-        "waitfor": "",
-        "dtr": "none",
-        "rts": "none",
-        "cts": "none",
-        "dsr": "none",
-        "newline": "\\n",
-        "bin": "false",
-        "out": "char",
-        "addchar": "",
-        "responsetimeout": "10000"
-    },
-    {
         "id": "23d860e88f7fdef4",
         "type": "mqtt-broker",
         "name": "brokermqtt",
@@ -204,104 +185,6 @@
         "willMsg": {},
         "userProps": "",
         "sessionExpiry": ""
-    },
-    {
-        "id": "ae96b34feadbd617",
-        "type": "ui_base",
-        "theme": {
-            "name": "theme-custom",
-            "lightTheme": {
-                "default": "#0094CE",
-                "baseColor": "#0094CE",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": true,
-                "reset": false
-            },
-            "darkTheme": {
-                "default": "#097479",
-                "baseColor": "#097479",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": false
-            },
-            "customTheme": {
-                "name": "Untitled Theme 1",
-                "default": "#4B7930",
-                "baseColor": "#0000ff",
-                "baseFont": "Century Gothic,CenturyGothic,AppleGothic,sans-serif",
-                "reset": false
-            },
-            "themeState": {
-                "base-color": {
-                    "default": "#4B7930",
-                    "value": "#0000ff",
-                    "edited": true
-                },
-                "page-titlebar-backgroundColor": {
-                    "value": "#0000ff",
-                    "edited": false
-                },
-                "page-backgroundColor": {
-                    "value": "#00ffff",
-                    "edited": true
-                },
-                "page-sidebar-backgroundColor": {
-                    "value": "#0000ff",
-                    "edited": true
-                },
-                "group-textColor": {
-                    "value": "#000000",
-                    "edited": true
-                },
-                "group-borderColor": {
-                    "value": "#00ffff",
-                    "edited": true
-                },
-                "group-backgroundColor": {
-                    "value": "#00ffff",
-                    "edited": true
-                },
-                "widget-textColor": {
-                    "value": "#000000",
-                    "edited": true
-                },
-                "widget-backgroundColor": {
-                    "value": "#0000ff",
-                    "edited": false
-                },
-                "widget-borderColor": {
-                    "value": "#00ffff",
-                    "edited": true
-                },
-                "base-font": {
-                    "value": "Century Gothic,CenturyGothic,AppleGothic,sans-serif"
-                }
-            },
-            "angularTheme": {
-                "primary": "indigo",
-                "accents": "blue",
-                "warn": "red",
-                "background": "grey",
-                "palette": "light"
-            }
-        },
-        "site": {
-            "name": "Node-RED Dashboard",
-            "hideToolbar": "false",
-            "allowSwipe": "false",
-            "lockMenu": "false",
-            "allowTempTheme": "true",
-            "dateFormat": "DD/MM/YYYY",
-            "sizes": {
-                "sx": 48,
-                "sy": 48,
-                "gx": 6,
-                "gy": 6,
-                "cx": 6,
-                "cy": 6,
-                "px": 0,
-                "py": 0
-            }
-        }
     },
     {
         "id": "068563760fb4877f",
@@ -773,6 +656,25 @@
         "order": 5,
         "disabled": false,
         "hidden": false
+    },
+    {
+        "id": "c430ebe8c6058e03",
+        "type": "serial-port",
+        "serialport": "/dev/ttyACM0",
+        "serialbaud": "9600",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": "10000"
     },
     {
         "id": "ebd192a7a0497660",
@@ -1329,7 +1231,8 @@
         "wires": [
             [
                 "5ba3ed42991bbca4",
-                "61d217492bf2e6c0"
+                "61d217492bf2e6c0",
+                "79bdc2f4d41ddcba"
             ]
         ]
     },
@@ -1358,7 +1261,8 @@
         "y": 280,
         "wires": [
             [
-                "5ba3ed42991bbca4"
+                "5ba3ed42991bbca4",
+                "79bdc2f4d41ddcba"
             ]
         ]
     },
@@ -1388,7 +1292,8 @@
         "wires": [
             [
                 "5ba3ed42991bbca4",
-                "11c3b9312b18676e"
+                "11c3b9312b18676e",
+                "79bdc2f4d41ddcba"
             ]
         ]
     },
@@ -1418,7 +1323,8 @@
         "wires": [
             [
                 "5ba3ed42991bbca4",
-                "8343fb3daeba9789"
+                "8343fb3daeba9789",
+                "79bdc2f4d41ddcba"
             ]
         ]
     },
@@ -1448,7 +1354,8 @@
         "wires": [
             [
                 "5ba3ed42991bbca4",
-                "fdb925bf2776227d"
+                "fdb925bf2776227d",
+                "79bdc2f4d41ddcba"
             ]
         ]
     },
@@ -1478,7 +1385,8 @@
         "wires": [
             [
                 "5ba3ed42991bbca4",
-                "a0b7d583cdeb3b59"
+                "a0b7d583cdeb3b59",
+                "79bdc2f4d41ddcba"
             ]
         ]
     },
@@ -1530,7 +1438,8 @@
         "y": 220,
         "wires": [
             [
-                "5ba3ed42991bbca4"
+                "5ba3ed42991bbca4",
+                "79bdc2f4d41ddcba"
             ]
         ]
     },
@@ -1582,7 +1491,8 @@
         "y": 280,
         "wires": [
             [
-                "5ba3ed42991bbca4"
+                "5ba3ed42991bbca4",
+                "79bdc2f4d41ddcba"
             ]
         ]
     },
@@ -1634,7 +1544,8 @@
         "y": 340,
         "wires": [
             [
-                "5ba3ed42991bbca4"
+                "5ba3ed42991bbca4",
+                "79bdc2f4d41ddcba"
             ]
         ]
     },
@@ -1686,7 +1597,8 @@
         "y": 400,
         "wires": [
             [
-                "5ba3ed42991bbca4"
+                "5ba3ed42991bbca4",
+                "79bdc2f4d41ddcba"
             ]
         ]
     },
@@ -1737,7 +1649,9 @@
         "x": 1200,
         "y": 460,
         "wires": [
-            []
+            [
+                "79bdc2f4d41ddcba"
+            ]
         ]
     },
     {
@@ -2575,39 +2489,21 @@
         ]
     },
     {
-        "id": "68667514e9d6656f",
-        "type": "ui_text_input",
+        "id": "79bdc2f4d41ddcba",
+        "type": "mqtt out",
         "z": "3e1fc2edd0bcc68a",
-        "name": "",
-        "label": "",
-        "tooltip": "",
-        "group": "44ed6ca056a9ee5e",
-        "order": 0,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "mode": "text",
-        "delay": 300,
-        "topic": "topic",
-        "sendOnBlur": true,
-        "className": "",
-        "topicType": "msg",
-        "x": 240,
-        "y": 60,
-        "wires": [
-            [
-                "e4924570fabd4279"
-            ]
-        ]
-    },
-    {
-        "id": "e4924570fabd4279",
-        "type": "serial out",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "",
-        "serial": "c430ebe8c6058e03",
-        "x": 440,
-        "y": 60,
+        "name": "brokermqtt-heroku",
+        "topic": "teste/mqtt/serial",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "da8eb53ef332f813",
+        "x": 1370,
+        "y": 560,
         "wires": []
     }
 ]
