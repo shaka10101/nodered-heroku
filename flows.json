@@ -149,7 +149,7 @@
         "tab": "068563760fb4877f",
         "order": 1,
         "disp": false,
-        "width": 8,
+        "width": 7,
         "collapse": false,
         "className": ""
     },
@@ -160,7 +160,7 @@
         "tab": "068563760fb4877f",
         "order": 2,
         "disp": false,
-        "width": 10,
+        "width": 8,
         "collapse": false,
         "className": ""
     },
@@ -201,39 +201,6 @@
         "hidden": false
     },
     {
-        "id": "66a1a0c9343d251d",
-        "type": "ui_group",
-        "name": "Espacio3",
-        "tab": "068563760fb4877f",
-        "order": 3,
-        "disp": false,
-        "width": 5,
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "6ccfda18ea82bcc1",
-        "type": "ui_group",
-        "name": "Espacio1",
-        "tab": "d805be7e493c5739",
-        "order": 1,
-        "disp": false,
-        "width": 4,
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "12790a1bf20b56bd",
-        "type": "ui_group",
-        "name": "IDENTIFICA LOS MOTORES DEL BRAZO ROBOTICO",
-        "tab": "d805be7e493c5739",
-        "order": 2,
-        "disp": true,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
         "id": "26efa20936ba1f8a",
         "type": "ui_tab",
         "name": "PRACTICA3-PRACTICA LIBRE",
@@ -252,177 +219,6 @@
         "width": "6",
         "collapse": false,
         "className": ""
-    },
-    {
-        "id": "4089962b83247be9",
-        "type": "ui_group",
-        "name": "Espacio 3",
-        "tab": "d805be7e493c5739",
-        "order": 3,
-        "disp": false,
-        "width": 11,
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "92e021cfbe925856",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "6ccfda18ea82bcc1",
-        "order": 1,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "ab74d7e8d504579c",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "6ccfda18ea82bcc1",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "cc59feba768999ad",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "6ccfda18ea82bcc1",
-        "order": 6,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "bb61c55f10901b09",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "6ccfda18ea82bcc1",
-        "order": 8,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "fe9f504dd6a3d54b",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "6ccfda18ea82bcc1",
-        "order": 10,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "2490771cd4dd8025",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "6ccfda18ea82bcc1",
-        "order": 12,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "be6dea36d6048f38",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "6ccfda18ea82bcc1",
-        "order": 13,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "a7cd07773307dedd",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "6ccfda18ea82bcc1",
-        "order": 15,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "da158e7793ce2170",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "6ccfda18ea82bcc1",
-        "order": 16,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "bd4c31211fbbeb6f",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "6ccfda18ea82bcc1",
-        "order": 17,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "266686e863643183",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "4089962b83247be9",
-        "order": 1,
-        "width": 11,
-        "height": 1
-    },
-    {
-        "id": "91b5cad1bf8f9287",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "4089962b83247be9",
-        "order": 2,
-        "width": 11,
-        "height": 1
-    },
-    {
-        "id": "9dae2996cd232f5d",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "4089962b83247be9",
-        "order": 3,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "49c55add9095cc94",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "4089962b83247be9",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "319746a58350f484",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "4089962b83247be9",
-        "order": 6,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "0d2f4f003b867ae2",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "4089962b83247be9",
-        "order": 7,
-        "width": 1,
-        "height": 1
     },
     {
         "id": "27c97d5860c2afa5",
@@ -447,16 +243,6 @@
         "className": ""
     },
     {
-        "id": "c0ebefbeee6821c0",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "27c97d5860c2afa5",
-        "order": 1,
-        "width": 8,
-        "height": 1
-    },
-    {
         "id": "92f503ca7a98e14e",
         "type": "ui_tab",
         "name": "PRACTICA 2 - RUTINAS PROCESOS INDUSTRIALIZADOS",
@@ -464,17 +250,6 @@
         "order": 3,
         "disabled": false,
         "hidden": false
-    },
-    {
-        "id": "6080f8c035f96ee5",
-        "type": "ui_group",
-        "name": "Espacio 1",
-        "tab": "92f503ca7a98e14e",
-        "order": 1,
-        "disp": true,
-        "width": "6",
-        "collapse": false,
-        "className": ""
     },
     {
         "id": "14ef62444ff5e395",
@@ -539,396 +314,6 @@
         "width": "6",
         "collapse": false,
         "className": ""
-    },
-    {
-        "id": "b502db0530559624",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "2b43a0f36795af86",
-        "order": 3,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "8c703956e36d0e14",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "2b43a0f36795af86",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "b037b9654d4d14e5",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "2b43a0f36795af86",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "100e3966c1560073",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "2b43a0f36795af86",
-        "order": 6,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "474da34c526f251a",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "2b43a0f36795af86",
-        "order": 8,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "4f431c570a748e79",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "2b43a0f36795af86",
-        "order": 9,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "16efaf433fe3be92",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "2b43a0f36795af86",
-        "order": 10,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "77e3c75e97faa9a6",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "2b43a0f36795af86",
-        "order": 11,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "1057c35d26705007",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "2b43a0f36795af86",
-        "order": 12,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "5e28666b407dc4b1",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "2b43a0f36795af86",
-        "order": 13,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "34fcf699c975dbda",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "2b43a0f36795af86",
-        "order": 14,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "e5bb3a844af2c720",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "2b43a0f36795af86",
-        "order": 15,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "8bd53ae1f107208d",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "2b43a0f36795af86",
-        "order": 16,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "36184cbc5e5e058d",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "2b43a0f36795af86",
-        "order": 17,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "fdda971484d5a304",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "2b43a0f36795af86",
-        "order": 18,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "5c92bd303f315f1c",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "70be81ff1b7dbf69",
-        "order": 1,
-        "width": 10,
-        "height": 1
-    },
-    {
-        "id": "ca3f71c21ada7811",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "70be81ff1b7dbf69",
-        "order": 3,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "a832eb4297038a8c",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "70be81ff1b7dbf69",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "944d61551dc05c7b",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "70be81ff1b7dbf69",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "314e670095f880bf",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "70be81ff1b7dbf69",
-        "order": 6,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "461ea687a7cd84c9",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "70be81ff1b7dbf69",
-        "order": 7,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "af86cdcfa9f91140",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "70be81ff1b7dbf69",
-        "order": 8,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "3781757c7c03b332",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "70be81ff1b7dbf69",
-        "order": 9,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "bdb29c70eb8e4d86",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "70be81ff1b7dbf69",
-        "order": 11,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "9b04e6ae2b368b70",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "70be81ff1b7dbf69",
-        "order": 12,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "9213bfe050c3de43",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "70be81ff1b7dbf69",
-        "order": 13,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "83fa6f23acaf13e3",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "25b3154a8a4c7e50",
-        "order": 1,
-        "width": 9,
-        "height": 1
-    },
-    {
-        "id": "4a14ebc7c7a24199",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "25b3154a8a4c7e50",
-        "order": 2,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "ec1c4f6f2491451c",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "25b3154a8a4c7e50",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "fcb6f8fc4eba864b",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "25b3154a8a4c7e50",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "362b263e03db4802",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "25b3154a8a4c7e50",
-        "order": 6,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "862dc42182fe0790",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "25b3154a8a4c7e50",
-        "order": 7,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "9456c04d4e843551",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "25b3154a8a4c7e50",
-        "order": 9,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "9e28b65c0b70083f",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "25b3154a8a4c7e50",
-        "order": 10,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "dd66e9cfb6c00d01",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "25b3154a8a4c7e50",
-        "order": 11,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "3122b8e056b41830",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "25b3154a8a4c7e50",
-        "order": 12,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "08bcc7849e4a3ad4",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "25b3154a8a4c7e50",
-        "order": 13,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "fba7fcb430c54b3e",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "1c6965d12deca91e",
-        "order": 1,
-        "width": 12,
-        "height": 1
-    },
-    {
-        "id": "9a247d670f9df2df",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "1c6965d12deca91e",
-        "order": 2,
-        "width": 2,
-        "height": 1
     },
     {
         "id": "984e768bdee6b659",
@@ -1061,25 +446,157 @@
         "height": 1
     },
     {
-        "id": "c9e1cc2119bbe57e",
-        "type": "mqtt in",
+        "id": "1b8d2e41673ca9dc",
+        "type": "ui_spacer",
         "z": "3e1fc2edd0bcc68a",
-        "name": "",
-        "topic": "teste/mqtt",
-        "qos": "0",
-        "datatype": "auto-detect",
-        "broker": "da8eb53ef332f813",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 80,
-        "y": 200,
-        "wires": [
-            [
-                "68acae23b5ce3b9e"
-            ]
-        ]
+        "name": "spacer",
+        "group": "2b43a0f36795af86",
+        "order": 2,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "4d35e17ce6597e04",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "2b43a0f36795af86",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "159d54beb63f172b",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "2b43a0f36795af86",
+        "order": 5,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "c8022295b79d3d3f",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "2b43a0f36795af86",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "97ceb599e7c30672",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "2b43a0f36795af86",
+        "order": 7,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "99593d7921b7f59b",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "2b43a0f36795af86",
+        "order": 9,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "51e3177a3d88ab07",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "2b43a0f36795af86",
+        "order": 10,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "347c39d599e22b15",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "2b43a0f36795af86",
+        "order": 11,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "2785022d93489dbb",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "70be81ff1b7dbf69",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "7bf6b592afb97261",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "70be81ff1b7dbf69",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d6afc2c6cbe65c9d",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "70be81ff1b7dbf69",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "14780ab6880cf708",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "70be81ff1b7dbf69",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6ed2a154410dd337",
+        "type": "ui_group",
+        "name": "Espacio 1",
+        "tab": "d805be7e493c5739",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d254284efb0df77a",
+        "type": "ui_group",
+        "name": "Espacio 2",
+        "tab": "d805be7e493c5739",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "535f5beff829a6bf",
+        "type": "ui_group",
+        "name": "Espacio 3",
+        "tab": "d805be7e493c5739",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
     },
     {
         "id": "464190e4af2ca61e",
@@ -1087,11 +604,11 @@
         "z": "3e1fc2edd0bcc68a",
         "group": "2b43a0f36795af86",
         "name": "",
-        "width": 6,
-        "height": 6,
-        "order": 7,
+        "width": 5,
+        "height": 4,
+        "order": 3,
         "category": "BR",
-        "file": "WhatsApp-Image-2023-02-13-at-6.48.49-PM.png",
+        "file": "BRAZO PERFIL.png",
         "layout": "adjust",
         "showcontrols": true,
         "loop": true,
@@ -1099,7 +616,7 @@
         "muted": false,
         "scope": "local",
         "tooltip": "",
-        "x": 85,
+        "x": 75,
         "y": 60,
         "wires": [
             []
@@ -1110,12 +627,12 @@
         "id": "27c7edc51ba4311e",
         "type": "ui_media",
         "z": "3e1fc2edd0bcc68a",
-        "group": "70be81ff1b7dbf69",
+        "group": "2b43a0f36795af86",
         "name": "",
-        "width": 3,
+        "width": 2,
         "height": 2,
-        "order": 10,
-        "category": "logo UD",
+        "order": 8,
+        "category": "logo",
         "file": "Escudo_UD.svg.png",
         "layout": "adjust",
         "showcontrols": true,
@@ -1124,35 +641,8 @@
         "muted": false,
         "scope": "local",
         "tooltip": "",
-        "x": 135,
-        "y": 60,
-        "wires": [
-            []
-        ],
-        "l": false
-    },
-    {
-        "id": "139e08b762f1316d",
-        "type": "ui_button",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "arrow",
-        "group": "2b43a0f36795af86",
-        "order": 1,
-        "width": 1,
-        "height": 1,
-        "passthru": false,
-        "label": "",
-        "tooltip": "Dirígete al menu ubicado en la parte superior izquierda y selecciona tu opción de preferencia",
-        "color": "black",
-        "bgcolor": "white",
-        "className": "",
-        "icon": "reply",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 35,
-        "y": 60,
+        "x": 75,
+        "y": 100,
         "wires": [
             []
         ],
@@ -1175,1034 +665,8 @@
         "name": "PRACTICA 1 \"PRUEBA DE MOTORES\"",
         "info": "",
         "x": 170,
-        "y": 100,
+        "y": 140,
         "wires": []
-    },
-    {
-        "id": "872f53cbc2bbd5e6",
-        "type": "ui_button",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "MOTOR5",
-        "group": "6ccfda18ea82bcc1",
-        "order": 3,
-        "width": 3,
-        "height": 1,
-        "passthru": false,
-        "label": "MOTOR 5",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "Selecciono motor 5",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 500,
-        "y": 340,
-        "wires": [
-            [
-                "9a219e5ef66d3246",
-                "0b575a48c3e6dfea",
-                "461ed52a869ee75a",
-                "6b536e08bb82268d"
-            ]
-        ]
-    },
-    {
-        "id": "d903852fc1e534ea",
-        "type": "ui_button",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "MOTOR4",
-        "group": "6ccfda18ea82bcc1",
-        "order": 5,
-        "width": 3,
-        "height": 1,
-        "passthru": false,
-        "label": "MOTOR 4",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "Selecciono motor 4",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 500,
-        "y": 380,
-        "wires": [
-            [
-                "9a219e5ef66d3246",
-                "0b575a48c3e6dfea",
-                "f7b2fcab9adf1954",
-                "9c1bc6149766f0a4"
-            ]
-        ]
-    },
-    {
-        "id": "56136077df1b77e2",
-        "type": "ui_button",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "MOTOR3",
-        "group": "6ccfda18ea82bcc1",
-        "order": 7,
-        "width": 3,
-        "height": 1,
-        "passthru": false,
-        "label": "MOTOR 3",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "Selecciono motor 3",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 500,
-        "y": 420,
-        "wires": [
-            [
-                "9a219e5ef66d3246",
-                "0b575a48c3e6dfea",
-                "409aeb1f6c73557e",
-                "83ef59c016059d87"
-            ]
-        ]
-    },
-    {
-        "id": "2e95f12b9ab678a8",
-        "type": "ui_button",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "MOTOR2",
-        "group": "6ccfda18ea82bcc1",
-        "order": 9,
-        "width": 3,
-        "height": 1,
-        "passthru": false,
-        "label": "MOTOR 2",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "Selecciono motor 2",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 500,
-        "y": 460,
-        "wires": [
-            [
-                "9a219e5ef66d3246",
-                "0b575a48c3e6dfea",
-                "92c0a206a764449a",
-                "cfccd8bc56cf22ff"
-            ]
-        ]
-    },
-    {
-        "id": "60dd3043cc825455",
-        "type": "ui_button",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "MOTOR1",
-        "group": "6ccfda18ea82bcc1",
-        "order": 11,
-        "width": 3,
-        "height": 1,
-        "passthru": false,
-        "label": "MOTOR 1",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "Selecciono motor 1",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 500,
-        "y": 500,
-        "wires": [
-            [
-                "9a219e5ef66d3246",
-                "0b575a48c3e6dfea",
-                "8af9186bd4452fd4",
-                "ef04a965bdd4918c"
-            ]
-        ]
-    },
-    {
-        "id": "da3076062a3bddcc",
-        "type": "ui_media",
-        "z": "3e1fc2edd0bcc68a",
-        "group": "12790a1bf20b56bd",
-        "name": "",
-        "width": 0,
-        "height": 0,
-        "order": 1,
-        "category": "ej",
-        "file": "Robot-Mitsubishi-Movemaster-RV-M1.png",
-        "layout": "adjust",
-        "showcontrols": true,
-        "loop": true,
-        "onstart": false,
-        "scope": "local",
-        "tooltip": "",
-        "x": 35,
-        "y": 140,
-        "wires": [
-            []
-        ],
-        "l": false
-    },
-    {
-        "id": "82eb7809cd081363",
-        "type": "ui_button",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "Emergencia",
-        "group": "6ccfda18ea82bcc1",
-        "order": 14,
-        "width": 2,
-        "height": 2,
-        "passthru": false,
-        "label": "Emergencia",
-        "tooltip": "Presiona este botón para detener el proceso del brazo robótico",
-        "color": "white",
-        "bgcolor": "red",
-        "className": "",
-        "icon": "",
-        "payload": "false",
-        "payloadType": "bool",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 150,
-        "y": 140,
-        "wires": [
-            [
-                "ebd192a7a0497660"
-            ]
-        ]
-    },
-    {
-        "id": "68acae23b5ce3b9e",
-        "type": "switch",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "if",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "false"
-            },
-            {
-                "t": "true"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 250,
-        "y": 200,
-        "wires": [
-            [
-                "71926b6bf590ca12"
-            ],
-            [
-                "872f53cbc2bbd5e6",
-                "d903852fc1e534ea",
-                "56136077df1b77e2",
-                "2e95f12b9ab678a8",
-                "60dd3043cc825455",
-                "a602a74e97f4dfd1"
-            ]
-        ]
-    },
-    {
-        "id": "71926b6bf590ca12",
-        "type": "change",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "EMERGENCIA",
-        "rules": [
-            {
-                "t": "change",
-                "p": "payload",
-                "pt": "msg",
-                "from": "false",
-                "fromt": "bool",
-                "to": "Detener",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 480,
-        "y": 180,
-        "wires": [
-            [
-                "9a219e5ef66d3246",
-                "0b575a48c3e6dfea",
-                "09c1ad1ee94feb7c"
-            ]
-        ]
-    },
-    {
-        "id": "9a219e5ef66d3246",
-        "type": "ui_text",
-        "z": "3e1fc2edd0bcc68a",
-        "group": "12790a1bf20b56bd",
-        "order": 2,
-        "width": 6,
-        "height": 2,
-        "name": "Eliminar mensajes",
-        "label": "",
-        "format": "{{msg.payload}}",
-        "layout": "col-center",
-        "className": "",
-        "x": 775,
-        "y": 140,
-        "wires": [],
-        "l": false
-    },
-    {
-        "id": "5ba3ed42991bbca4",
-        "type": "debug",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "debug 1",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1200,
-        "y": 660,
-        "wires": []
-    },
-    {
-        "id": "34500c3a0e2f36bd",
-        "type": "change",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "INACTIVIDAD",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "...",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 715,
-        "y": 140,
-        "wires": [
-            [
-                "9a219e5ef66d3246"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "0b575a48c3e6dfea",
-        "type": "delay",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "10",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 665,
-        "y": 140,
-        "wires": [
-            [
-                "34500c3a0e2f36bd"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "461ed52a869ee75a",
-        "type": "change",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "S motor 5",
-        "rules": [
-            {
-                "t": "change",
-                "p": "payload",
-                "pt": "msg",
-                "from": "Selecciono motor 5",
-                "fromt": "str",
-                "to": "PD 0, 0, 0, 0, 70, 0",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 780,
-        "y": 340,
-        "wires": [
-            [
-                "5ba3ed42991bbca4",
-                "61d217492bf2e6c0",
-                "0f55d97d5d84b229"
-            ]
-        ]
-    },
-    {
-        "id": "09c1ad1ee94feb7c",
-        "type": "change",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "DETENER",
-        "rules": [
-            {
-                "t": "change",
-                "p": "payload",
-                "pt": "msg",
-                "from": "Detener",
-                "fromt": "str",
-                "to": "PD[0,0,0,0,0,0]",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 750,
-        "y": 200,
-        "wires": [
-            [
-                "5ba3ed42991bbca4",
-                "0f55d97d5d84b229"
-            ]
-        ]
-    },
-    {
-        "id": "f7b2fcab9adf1954",
-        "type": "change",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "S motor 4",
-        "rules": [
-            {
-                "t": "change",
-                "p": "payload",
-                "pt": "msg",
-                "from": "Selecciono motor 4",
-                "fromt": "str",
-                "to": "PD 0, 0, 0, -20, 0, 0",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 780,
-        "y": 380,
-        "wires": [
-            [
-                "5ba3ed42991bbca4",
-                "11c3b9312b18676e",
-                "0f55d97d5d84b229"
-            ]
-        ]
-    },
-    {
-        "id": "409aeb1f6c73557e",
-        "type": "change",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "S motor 3",
-        "rules": [
-            {
-                "t": "change",
-                "p": "payload",
-                "pt": "msg",
-                "from": "Selecciono motor 3",
-                "fromt": "str",
-                "to": "PD 0, 0, 35, 0, 0, 0",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 780,
-        "y": 420,
-        "wires": [
-            [
-                "5ba3ed42991bbca4",
-                "8343fb3daeba9789",
-                "0f55d97d5d84b229"
-            ]
-        ]
-    },
-    {
-        "id": "92c0a206a764449a",
-        "type": "change",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "S motor 2",
-        "rules": [
-            {
-                "t": "change",
-                "p": "payload",
-                "pt": "msg",
-                "from": "Selecciono motor 2",
-                "fromt": "str",
-                "to": "PD 0, 45, 0, 0, 0, 0",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 780,
-        "y": 460,
-        "wires": [
-            [
-                "5ba3ed42991bbca4",
-                "fdb925bf2776227d",
-                "0f55d97d5d84b229"
-            ]
-        ]
-    },
-    {
-        "id": "8af9186bd4452fd4",
-        "type": "change",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "S motor 1",
-        "rules": [
-            {
-                "t": "change",
-                "p": "payload",
-                "pt": "msg",
-                "from": "Selecciono motor 1",
-                "fromt": "str",
-                "to": "PD 150, 0, 0, 0, 0, 0",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 780,
-        "y": 500,
-        "wires": [
-            [
-                "5ba3ed42991bbca4",
-                "a0b7d583cdeb3b59",
-                "0f55d97d5d84b229"
-            ]
-        ]
-    },
-    {
-        "id": "61d217492bf2e6c0",
-        "type": "delay",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "T motor5",
-        "pauseType": "delay",
-        "timeout": "5",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 1040,
-        "y": 220,
-        "wires": [
-            [
-                "9f631f5846998e8e"
-            ]
-        ]
-    },
-    {
-        "id": "9f631f5846998e8e",
-        "type": "change",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "S motor 5",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "PD 0, 0, 0, 0, 0, 0",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1200,
-        "y": 220,
-        "wires": [
-            [
-                "5ba3ed42991bbca4",
-                "0f55d97d5d84b229"
-            ]
-        ]
-    },
-    {
-        "id": "11c3b9312b18676e",
-        "type": "delay",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "T motor4",
-        "pauseType": "delay",
-        "timeout": "5",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 1040,
-        "y": 280,
-        "wires": [
-            [
-                "9ff16e5c5b554b43"
-            ]
-        ]
-    },
-    {
-        "id": "9ff16e5c5b554b43",
-        "type": "change",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "S motor 4",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "PD 0, 0, 0, 0, 0, 0",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1200,
-        "y": 280,
-        "wires": [
-            [
-                "5ba3ed42991bbca4",
-                "0f55d97d5d84b229"
-            ]
-        ]
-    },
-    {
-        "id": "8343fb3daeba9789",
-        "type": "delay",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "T motor3",
-        "pauseType": "delay",
-        "timeout": "5",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 1040,
-        "y": 340,
-        "wires": [
-            [
-                "80bdaefe3dd0e3bb"
-            ]
-        ]
-    },
-    {
-        "id": "80bdaefe3dd0e3bb",
-        "type": "change",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "S motor 3",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "PD 0, 0, 0, 0, 0, 0",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1200,
-        "y": 340,
-        "wires": [
-            [
-                "5ba3ed42991bbca4",
-                "0f55d97d5d84b229"
-            ]
-        ]
-    },
-    {
-        "id": "fdb925bf2776227d",
-        "type": "delay",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "T motor2",
-        "pauseType": "delay",
-        "timeout": "5",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 1040,
-        "y": 400,
-        "wires": [
-            [
-                "78a1633259b8593d"
-            ]
-        ]
-    },
-    {
-        "id": "78a1633259b8593d",
-        "type": "change",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "S motor 2",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "PD 0, 0, 0, 0, 0, 0",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1200,
-        "y": 400,
-        "wires": [
-            [
-                "5ba3ed42991bbca4",
-                "0f55d97d5d84b229"
-            ]
-        ]
-    },
-    {
-        "id": "a0b7d583cdeb3b59",
-        "type": "delay",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "T motor1",
-        "pauseType": "delay",
-        "timeout": "5",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 1040,
-        "y": 460,
-        "wires": [
-            [
-                "c8f2f4cc76118dd9"
-            ]
-        ]
-    },
-    {
-        "id": "c8f2f4cc76118dd9",
-        "type": "change",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "S motor 1",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "PD 0, 0, 0, 0, 0, 0",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1200,
-        "y": 460,
-        "wires": [
-            [
-                "0f55d97d5d84b229"
-            ]
-        ]
-    },
-    {
-        "id": "9f63cf1aa5b2b2e3",
-        "type": "ui_text",
-        "z": "3e1fc2edd0bcc68a",
-        "group": "4089962b83247be9",
-        "order": 4,
-        "width": 9,
-        "height": 2,
-        "name": "Mensaje educativo",
-        "label": "",
-        "format": "{{msg.payload}}",
-        "layout": "col-center",
-        "className": "",
-        "x": 775,
-        "y": 560,
-        "wires": [],
-        "l": false
-    },
-    {
-        "id": "6b536e08bb82268d",
-        "type": "change",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "INACTIVIDAD",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "El motor 5 se encuentra en la parte superior del brazo....",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 665,
-        "y": 560,
-        "wires": [
-            [
-                "9f63cf1aa5b2b2e3",
-                "4aa848386633efe4"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "4aa848386633efe4",
-        "type": "delay",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "10",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 755,
-        "y": 660,
-        "wires": [
-            [
-                "1327567916fceb1e"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "1327567916fceb1e",
-        "type": "change",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "INACTIVIDAD",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": ".",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 755,
-        "y": 600,
-        "wires": [
-            [
-                "9f63cf1aa5b2b2e3"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "9c1bc6149766f0a4",
-        "type": "change",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "INACTIVIDAD",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "El motor 4 se encuentra en la parte superior del brazo....",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 665,
-        "y": 600,
-        "wires": [
-            [
-                "9f63cf1aa5b2b2e3",
-                "4aa848386633efe4"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "83ef59c016059d87",
-        "type": "change",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "INACTIVIDAD",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "El motor 3 se encuentra en la parte superior del brazo....",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 665,
-        "y": 640,
-        "wires": [
-            [
-                "9f63cf1aa5b2b2e3",
-                "4aa848386633efe4"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "cfccd8bc56cf22ff",
-        "type": "change",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "INACTIVIDAD",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "El motor 2 se encuentra en la parte superior del brazo....",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 665,
-        "y": 680,
-        "wires": [
-            [
-                "9f63cf1aa5b2b2e3",
-                "4aa848386633efe4"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "ef04a965bdd4918c",
-        "type": "change",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "INACTIVIDAD",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "El motor 1 se encuentra en la parte superior del brazo....",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 665,
-        "y": 720,
-        "wires": [
-            [
-                "9f63cf1aa5b2b2e3",
-                "4aa848386633efe4"
-            ]
-        ],
-        "l": false
     },
     {
         "id": "17d6a08655b2b1d5",
@@ -2243,146 +707,6 @@
         ]
     },
     {
-        "id": "e565bd43662400b6",
-        "type": "ui_slider",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "",
-        "label": "Pinza",
-        "tooltip": "",
-        "group": "27c97d5860c2afa5",
-        "order": 3,
-        "width": 7,
-        "height": 1,
-        "passthru": true,
-        "outs": "all",
-        "topic": "topic",
-        "topicType": "msg",
-        "min": "-70",
-        "max": "70",
-        "step": "10",
-        "className": "",
-        "x": 270,
-        "y": 1400,
-        "wires": [
-            [
-                "514dfdf3f6fd4fac",
-                "0ce8ec72f878e9d8"
-            ]
-        ]
-    },
-    {
-        "id": "588086ddc1442a49",
-        "type": "ui_slider",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "",
-        "label": "Muñeca",
-        "tooltip": "",
-        "group": "27c97d5860c2afa5",
-        "order": 4,
-        "width": 7,
-        "height": 1,
-        "passthru": true,
-        "outs": "all",
-        "topic": "topic",
-        "topicType": "msg",
-        "min": "-70",
-        "max": "70",
-        "step": "10",
-        "className": "",
-        "x": 260,
-        "y": 1480,
-        "wires": [
-            [
-                "264da78cd310f7b0",
-                "0ce8ec72f878e9d8"
-            ]
-        ]
-    },
-    {
-        "id": "935c77f314969628",
-        "type": "ui_slider",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "",
-        "label": "Codo",
-        "tooltip": "",
-        "group": "27c97d5860c2afa5",
-        "order": 6,
-        "width": 7,
-        "height": 1,
-        "passthru": true,
-        "outs": "all",
-        "topic": "topic",
-        "topicType": "msg",
-        "min": "-70",
-        "max": "70",
-        "step": "10",
-        "className": "",
-        "x": 250,
-        "y": 1640,
-        "wires": [
-            [
-                "5af12e60b632ace7",
-                "0ce8ec72f878e9d8"
-            ]
-        ]
-    },
-    {
-        "id": "5ba13622f7708176",
-        "type": "ui_slider",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "",
-        "label": "BRAZO",
-        "tooltip": "",
-        "group": "27c97d5860c2afa5",
-        "order": 5,
-        "width": 7,
-        "height": 1,
-        "passthru": true,
-        "outs": "all",
-        "topic": "topic",
-        "topicType": "msg",
-        "min": "-70",
-        "max": "70",
-        "step": "10",
-        "className": "",
-        "x": 260,
-        "y": 1560,
-        "wires": [
-            [
-                "bf73c0511ea6e375",
-                "0ce8ec72f878e9d8"
-            ]
-        ]
-    },
-    {
-        "id": "557747c1bff34376",
-        "type": "ui_slider",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "",
-        "label": "BASE",
-        "tooltip": "",
-        "group": "27c97d5860c2afa5",
-        "order": 7,
-        "width": 7,
-        "height": 1,
-        "passthru": true,
-        "outs": "all",
-        "topic": "topic",
-        "topicType": "msg",
-        "min": "-70",
-        "max": "70",
-        "step": 1,
-        "className": "",
-        "x": 250,
-        "y": 1700,
-        "wires": [
-            [
-                "5a69dc1e96eb826a",
-                "0ce8ec72f878e9d8"
-            ]
-        ]
-    },
-    {
         "id": "f6933168e3979682",
         "type": "ui_text",
         "z": "3e1fc2edd0bcc68a",
@@ -2397,91 +721,6 @@
         "className": "",
         "x": 670,
         "y": 1340,
-        "wires": []
-    },
-    {
-        "id": "5142aa31398c3eb3",
-        "type": "ui_text",
-        "z": "3e1fc2edd0bcc68a",
-        "group": "27c97d5860c2afa5",
-        "order": 9,
-        "width": 1,
-        "height": 1,
-        "name": "p",
-        "label": "",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "className": "",
-        "x": 770,
-        "y": 1480,
-        "wires": []
-    },
-    {
-        "id": "58326e08fda39ef9",
-        "type": "ui_text",
-        "z": "3e1fc2edd0bcc68a",
-        "group": "27c97d5860c2afa5",
-        "order": 10,
-        "width": 1,
-        "height": 1,
-        "name": "m",
-        "label": "",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "className": "",
-        "x": 770,
-        "y": 1560,
-        "wires": []
-    },
-    {
-        "id": "e4dfe5115679f744",
-        "type": "ui_text",
-        "z": "3e1fc2edd0bcc68a",
-        "group": "27c97d5860c2afa5",
-        "order": 12,
-        "width": 1,
-        "height": 1,
-        "name": "c",
-        "label": "",
-        "format": "{{msg.payload}}",
-        "layout": "col-center",
-        "className": "",
-        "x": 810,
-        "y": 1720,
-        "wires": []
-    },
-    {
-        "id": "3ff930b0554d3b53",
-        "type": "ui_text",
-        "z": "3e1fc2edd0bcc68a",
-        "group": "27c97d5860c2afa5",
-        "order": 13,
-        "width": 1,
-        "height": 1,
-        "name": "BA",
-        "label": "",
-        "format": "{{msg.payload}}",
-        "layout": "col-center",
-        "className": "",
-        "x": 810,
-        "y": 1780,
-        "wires": []
-    },
-    {
-        "id": "9c8310d0f3a78b2c",
-        "type": "ui_text",
-        "z": "3e1fc2edd0bcc68a",
-        "group": "27c97d5860c2afa5",
-        "order": 11,
-        "width": 1,
-        "height": 1,
-        "name": "br",
-        "label": "",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "className": "",
-        "x": 810,
-        "y": 1640,
         "wires": []
     },
     {
@@ -2565,206 +804,6 @@
         ]
     },
     {
-        "id": "514dfdf3f6fd4fac",
-        "type": "mqtt out",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "brokermqtt-heroku",
-        "topic": "teste/mqtt/pinza",
-        "qos": "0",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "da8eb53ef332f813",
-        "x": 365,
-        "y": 1400,
-        "wires": [],
-        "l": false
-    },
-    {
-        "id": "eba0972c148447bd",
-        "type": "mqtt in",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "",
-        "topic": "teste/mqtt/pinza",
-        "qos": "0",
-        "datatype": "auto-detect",
-        "broker": "da8eb53ef332f813",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 520,
-        "y": 1400,
-        "wires": [
-            [
-                "5142aa31398c3eb3"
-            ]
-        ]
-    },
-    {
-        "id": "264da78cd310f7b0",
-        "type": "mqtt out",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "brokermqtt-heroku",
-        "topic": "teste/mqtt/Muñeca",
-        "qos": "0",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "da8eb53ef332f813",
-        "x": 365,
-        "y": 1480,
-        "wires": [],
-        "l": false
-    },
-    {
-        "id": "1bb54cb22c1929ba",
-        "type": "mqtt in",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "",
-        "topic": "teste/mqtt/Muñeca",
-        "qos": "0",
-        "datatype": "auto-detect",
-        "broker": "da8eb53ef332f813",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 530,
-        "y": 1480,
-        "wires": [
-            [
-                "58326e08fda39ef9"
-            ]
-        ]
-    },
-    {
-        "id": "5af12e60b632ace7",
-        "type": "mqtt out",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "brokermqtt-heroku",
-        "topic": "teste/mqtt/Codo",
-        "qos": "0",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "da8eb53ef332f813",
-        "x": 365,
-        "y": 1640,
-        "wires": [],
-        "l": false
-    },
-    {
-        "id": "fdf1bed24c28fa86",
-        "type": "mqtt in",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "",
-        "topic": "teste/mqtt/Codo",
-        "qos": "0",
-        "datatype": "auto-detect",
-        "broker": "da8eb53ef332f813",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 520,
-        "y": 1640,
-        "wires": [
-            [
-                "e4dfe5115679f744"
-            ]
-        ]
-    },
-    {
-        "id": "bf73c0511ea6e375",
-        "type": "mqtt out",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "brokermqtt-heroku",
-        "topic": "teste/mqtt/br",
-        "qos": "0",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "da8eb53ef332f813",
-        "x": 365,
-        "y": 1560,
-        "wires": [],
-        "l": false
-    },
-    {
-        "id": "8bd316c1e76f4c92",
-        "type": "mqtt in",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "",
-        "topic": "teste/mqtt/br",
-        "qos": "0",
-        "datatype": "auto-detect",
-        "broker": "da8eb53ef332f813",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 510,
-        "y": 1560,
-        "wires": [
-            [
-                "9c8310d0f3a78b2c"
-            ]
-        ]
-    },
-    {
-        "id": "5a69dc1e96eb826a",
-        "type": "mqtt out",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "brokermqtt-heroku",
-        "topic": "teste/mqtt/base",
-        "qos": "0",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "da8eb53ef332f813",
-        "x": 385,
-        "y": 1700,
-        "wires": [],
-        "l": false
-    },
-    {
-        "id": "6638b24e2d04253a",
-        "type": "mqtt in",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "",
-        "topic": "teste/mqtt/base",
-        "qos": "0",
-        "datatype": "auto-detect",
-        "broker": "da8eb53ef332f813",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 520,
-        "y": 1700,
-        "wires": [
-            [
-                "3ff930b0554d3b53"
-            ]
-        ]
-    },
-    {
         "id": "3ace27bbdb13142e",
         "type": "change",
         "z": "3e1fc2edd0bcc68a",
@@ -2787,12 +826,7 @@
         "y": 1360,
         "wires": [
             [
-                "64d7715d8fb20827",
-                "e565bd43662400b6",
-                "588086ddc1442a49",
-                "5ba13622f7708176",
-                "935c77f314969628",
-                "557747c1bff34376"
+                "64d7715d8fb20827"
             ]
         ]
     },
@@ -2862,39 +896,18 @@
         "id": "78d82ca447c7487b",
         "type": "ui_template",
         "z": "3e1fc2edd0bcc68a",
-        "group": "70be81ff1b7dbf69",
+        "group": "2b43a0f36795af86",
         "name": "Mensaje INICIO 1",
-        "order": 2,
-        "width": 9,
-        "height": 6,
-        "format": "<div style=\"display: flex; justify-content: center;\">\n    <p style=\"text-align: center; font-size: 30px;\">¡Bienvenidos! A esta Plataforma virtual para la realización de prácticas de laboratorio y manipulación de procesos\n    robotizados usando el brazo robótico MITSUBISHI MOVEMASTER RV-M1</p>\n</div>",
+        "order": 1,
+        "width": 7,
+        "height": 3,
+        "format": "<div style=\"display: flex; justify-content: center;\">\n    <p style=\"text-align: center; font-size: 20px;\">¡Bienvenidos! A esta Plataforma virtual para la realización de prácticas de laboratorio y manipulación de procesos\n    robotizados usando el brazo robótico MITSUBISHI MOVEMASTER RV-M1</p>\n</div>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
         "x": 230,
-        "y": 20,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "ee27b3e16407315e",
-        "type": "ui_template",
-        "z": "3e1fc2edd0bcc68a",
-        "group": "2b43a0f36795af86",
-        "name": "Mensaje INICIO 2",
-        "order": 2,
-        "width": 6,
-        "height": 2,
-        "format": "<div style=\"display: flex; justify-content: center;\">\n    <p style=\"text-align: center;\">Para comenzar, Despliega el menú y selecciona tu opción de preferencia.</p>\n</div>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 430,
         "y": 20,
         "wires": [
             []
@@ -2925,10 +938,10 @@
         "id": "1f00224b0e4bfc83",
         "type": "ui_template",
         "z": "3e1fc2edd0bcc68a",
-        "group": "1c6965d12deca91e",
+        "group": "70be81ff1b7dbf69",
         "name": "M2",
-        "order": 3,
-        "width": 9,
+        "order": 1,
+        "width": 8,
         "height": 2,
         "format": "<div style=\"display: flex; justify-content: center;\">\n    <p style=\"text-align: justify;\">Estimada comunidad estudiantil. Importante utilicemos esta plataforma de manera responsable y segura Por favor, tengan\n    en cuenta lo siguiente al trabajar con el brazo robótico:</p>\n</div>",
         "storeOutMessages": true,
@@ -2936,8 +949,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 270,
-        "y": 2040,
+        "x": 190,
+        "y": 80,
         "wires": [
             []
         ]
@@ -2946,19 +959,19 @@
         "id": "38c9105933bea29f",
         "type": "ui_template",
         "z": "3e1fc2edd0bcc68a",
-        "group": "1c6965d12deca91e",
+        "group": "70be81ff1b7dbf69",
         "name": "M3",
-        "order": 8,
-        "width": 9,
-        "height": 3,
+        "order": 3,
+        "width": 7,
+        "height": 4,
         "format": "<div style=\"display: flex; justify-content: center;\">\n    <p style=\"text-align: justify;\">* Asegúrense de que el brazo robótico esté en buen estado antes de usarlo. <br>* Utilicen el brazo robótico sólo para fines\n    autorizados. <br>* No realicen ajustes o modificaciones sin autorización previa. <br>* Trabajen siempre con precaución y de\n    manera consciente de sus alrededores.</p>\n</div>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 390,
-        "y": 2040,
+        "x": 310,
+        "y": 80,
         "wires": [
             []
         ]
@@ -2967,19 +980,19 @@
         "id": "7d7e3ff8d4392abc",
         "type": "ui_template",
         "z": "3e1fc2edd0bcc68a",
-        "group": "1c6965d12deca91e",
+        "group": "70be81ff1b7dbf69",
         "name": "M4",
-        "order": 15,
-        "width": 9,
-        "height": 2,
+        "order": 7,
+        "width": 8,
+        "height": 3,
         "format": "<div style=\"display: flex; justify-content: center;\">\n    <p style=\"text-align: justify;\">Recuerden, el brazo robótico es una herramienta potente que puede ser peligrosa si no se utiliza de manera adecuada. Por\n    lo tanto, es importante que sigamos estas intrucciones para garantizar la seguridad de todos. Cuidemos entre todos los\n    equipos del laboratorio de electrónica de la Universidad.</p>\n</div>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 510,
-        "y": 2040,
+        "x": 430,
+        "y": 80,
         "wires": [
             []
         ]
@@ -3010,183 +1023,20 @@
         "l": false
     },
     {
-        "id": "0f55d97d5d84b229",
-        "type": "mqtt out",
+        "id": "b0dd3b649dd3d009",
+        "type": "ui_text",
         "z": "3e1fc2edd0bcc68a",
-        "name": "brokermqtt-heroku",
-        "topic": "teste/mqtt/serial",
-        "qos": "0",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "da8eb53ef332f813",
-        "x": 1470,
-        "y": 520,
-        "wires": []
-    },
-    {
-        "id": "ebd192a7a0497660",
-        "type": "mqtt out",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "brokermqtt-heroku",
-        "topic": "teste/mqtt",
-        "qos": "0",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "da8eb53ef332f813",
-        "x": 330,
-        "y": 140,
-        "wires": []
-    },
-    {
-        "id": "a602a74e97f4dfd1",
-        "type": "ui_button",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "MOTOR6",
-        "group": "6ccfda18ea82bcc1",
-        "order": 2,
-        "width": 3,
-        "height": 1,
-        "passthru": false,
-        "label": "MOTOR 6",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
+        "group": "d254284efb0df77a",
+        "order": 8,
+        "width": "6",
+        "height": "2",
+        "name": "",
+        "label": "IDENTIFICACIÓN DE MOTORES",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
         "className": "",
-        "icon": "",
-        "payload": "Selecciono motor 6",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 500,
-        "y": 300,
-        "wires": [
-            [
-                "0b575a48c3e6dfea",
-                "9a219e5ef66d3246",
-                "134b116e66add47e",
-                "79015cc5f08b3f43"
-            ]
-        ]
-    },
-    {
-        "id": "134b116e66add47e",
-        "type": "change",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "INACTIVIDAD",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "El motor 6 se encuentra en la parte superior del brazo....",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 665,
-        "y": 520,
-        "wires": [
-            [
-                "4aa848386633efe4",
-                "9f63cf1aa5b2b2e3"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "79015cc5f08b3f43",
-        "type": "change",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "S motor 6",
-        "rules": [
-            {
-                "t": "change",
-                "p": "payload",
-                "pt": "msg",
-                "from": "Selecciono motor 6",
-                "fromt": "str",
-                "to": "PD 0, 0, 0, 0, 0, 50",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 780,
-        "y": 300,
-        "wires": [
-            [
-                "de5d93d5dd334623",
-                "5ba3ed42991bbca4",
-                "0f55d97d5d84b229"
-            ]
-        ]
-    },
-    {
-        "id": "de5d93d5dd334623",
-        "type": "delay",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "T motor6",
-        "pauseType": "delay",
-        "timeout": "5",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 1040,
-        "y": 160,
-        "wires": [
-            [
-                "764bb01e9ca388de"
-            ]
-        ]
-    },
-    {
-        "id": "764bb01e9ca388de",
-        "type": "change",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "S motor 6",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "PD 0, 0, 0, 0, 0, 0",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1200,
-        "y": 160,
-        "wires": [
-            [
-                "0f55d97d5d84b229",
-                "5ba3ed42991bbca4"
-            ]
-        ]
+        "x": 180,
+        "y": 200,
+        "wires": []
     }
 ]
