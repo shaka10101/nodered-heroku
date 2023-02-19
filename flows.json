@@ -579,7 +579,7 @@
     {
         "id": "d254284efb0df77a",
         "type": "ui_group",
-        "name": "Espacio 2",
+        "name": "IDENTIFICA LOS MOTORES DEL BRAZO ROBOTICO",
         "tab": "d805be7e493c5739",
         "order": 2,
         "disp": true,
@@ -599,17 +599,17 @@
         "className": ""
     },
     {
-        "id": "30e313d40c9fd2a2",
+        "id": "a2b9755c6d56ac66",
         "type": "ui_spacer",
         "z": "3e1fc2edd0bcc68a",
         "name": "spacer",
         "group": "d254284efb0df77a",
-        "order": 2,
+        "order": 1,
         "width": 6,
         "height": 1
     },
     {
-        "id": "782f45b48ba8bd63",
+        "id": "b2467fe8669fd531",
         "type": "ui_spacer",
         "z": "3e1fc2edd0bcc68a",
         "name": "spacer",
@@ -619,7 +619,7 @@
         "height": 1
     },
     {
-        "id": "23182bbda429a83a",
+        "id": "ad769bae48238d0e",
         "type": "ui_spacer",
         "z": "3e1fc2edd0bcc68a",
         "name": "spacer",
@@ -627,6 +627,20 @@
         "order": 5,
         "width": 2,
         "height": 1
+    },
+    {
+        "id": "e3b4dad18defdf91",
+        "type": "tls-config",
+        "name": "",
+        "cert": "",
+        "key": "",
+        "ca": "",
+        "certname": "",
+        "keyname": "",
+        "caname": "",
+        "servername": "",
+        "verifyservercert": true,
+        "alpnprotocol": ""
     },
     {
         "id": "464190e4af2ca61e",
@@ -646,8 +660,8 @@
         "muted": false,
         "scope": "local",
         "tooltip": "",
-        "x": 305,
-        "y": 60,
+        "x": 535,
+        "y": 80,
         "wires": [
             []
         ],
@@ -671,8 +685,8 @@
         "muted": false,
         "scope": "local",
         "tooltip": "",
-        "x": 305,
-        "y": 100,
+        "x": 805,
+        "y": 260,
         "wires": [
             []
         ],
@@ -1033,23 +1047,6 @@
         "l": false
     },
     {
-        "id": "b0dd3b649dd3d009",
-        "type": "ui_text",
-        "z": "3e1fc2edd0bcc68a",
-        "group": "d254284efb0df77a",
-        "order": 1,
-        "width": 6,
-        "height": 1,
-        "name": "",
-        "label": "IDENTIFICACIÓN DE MOTORES",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "className": "",
-        "x": 180,
-        "y": 200,
-        "wires": []
-    },
-    {
         "id": "1da2a69589fca069",
         "type": "ui_button",
         "z": "3e1fc2edd0bcc68a",
@@ -1069,12 +1066,13 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 140,
+        "x": 160,
         "y": 280,
         "wires": [
             [
                 "9e56f63bf97852e1",
-                "fa5cbfc9a3088da7"
+                "fa5cbfc9a3088da7",
+                "561e1ac87d640956"
             ]
         ]
     },
@@ -1105,7 +1103,8 @@
                 "6aaae5c92cbec525",
                 "9732c259ac807962",
                 "121fa34aa07696e4",
-                "fa5cbfc9a3088da7"
+                "fa5cbfc9a3088da7",
+                "561e1ac87d640956"
             ]
         ]
     },
@@ -1136,7 +1135,8 @@
                 "6aaae5c92cbec525",
                 "9732c259ac807962",
                 "121fa34aa07696e4",
-                "fa5cbfc9a3088da7"
+                "fa5cbfc9a3088da7",
+                "561e1ac87d640956"
             ]
         ]
     },
@@ -1167,7 +1167,8 @@
                 "6aaae5c92cbec525",
                 "9732c259ac807962",
                 "121fa34aa07696e4",
-                "fa5cbfc9a3088da7"
+                "fa5cbfc9a3088da7",
+                "561e1ac87d640956"
             ]
         ]
     },
@@ -1198,7 +1199,8 @@
                 "6aaae5c92cbec525",
                 "9732c259ac807962",
                 "121fa34aa07696e4",
-                "fa5cbfc9a3088da7"
+                "fa5cbfc9a3088da7",
+                "561e1ac87d640956"
             ]
         ]
     },
@@ -1229,7 +1231,8 @@
                 "6aaae5c92cbec525",
                 "9732c259ac807962",
                 "121fa34aa07696e4",
-                "fa5cbfc9a3088da7"
+                "fa5cbfc9a3088da7",
+                "561e1ac87d640956"
             ]
         ]
     },
@@ -1260,7 +1263,8 @@
                 "6aaae5c92cbec525",
                 "9732c259ac807962",
                 "121fa34aa07696e4",
-                "fa5cbfc9a3088da7"
+                "fa5cbfc9a3088da7",
+                "561e1ac87d640956"
             ]
         ]
     },
@@ -1570,7 +1574,7 @@
         "type": "ui_text",
         "z": "3e1fc2edd0bcc68a",
         "group": "535f5beff829a6bf",
-        "order": 0,
+        "order": 1,
         "width": 0,
         "height": 0,
         "name": "",
@@ -1721,5 +1725,294 @@
             ]
         ],
         "l": false
+    },
+    {
+        "id": "bfa0ca2975dd5a12",
+        "type": "ui_media",
+        "z": "3e1fc2edd0bcc68a",
+        "group": "d254284efb0df77a",
+        "name": "",
+        "width": 0,
+        "height": 0,
+        "order": 2,
+        "category": "",
+        "file": "",
+        "layout": "adjust",
+        "showcontrols": true,
+        "loop": true,
+        "onstart": false,
+        "muted": true,
+        "scope": "local",
+        "tooltip": "",
+        "x": 1030,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b2f522d79c4f6dcc",
+        "type": "mqtt in",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "topic": "teste/mqtt/foto1",
+        "qos": "0",
+        "datatype": "buffer",
+        "broker": "da8eb53ef332f813",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 720,
+        "y": 500,
+        "wires": [
+            [
+                "d75e5b140435c9de"
+            ]
+        ]
+    },
+    {
+        "id": "d75e5b140435c9de",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "mimetype",
+                "pt": "msg",
+                "to": "image/jpeg",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 855,
+        "y": 500,
+        "wires": [
+            [
+                "bfa0ca2975dd5a12",
+                "0ffae24592d60ec9"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "561e1ac87d640956",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 380,
+        "y": 600,
+        "wires": [
+            [
+                "d3a2a09d10c34ab7",
+                "e8281bcf756531ab"
+            ]
+        ]
+    },
+    {
+        "id": "e8281bcf756531ab",
+        "type": "mqtt out",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "COM PDM",
+        "topic": "teste/mqtt/fotoPDM",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "da8eb53ef332f813",
+        "x": 615,
+        "y": 600,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "12ce81acf16ca8e0",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 565,
+        "y": 660,
+        "wires": [
+            [
+                "e8281bcf756531ab"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d3a2a09d10c34ab7",
+        "type": "delay",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "10",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 495,
+        "y": 660,
+        "wires": [
+            [
+                "12ce81acf16ca8e0"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "0ffae24592d60ec9",
+        "type": "image",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "width": 160,
+        "data": "payload",
+        "dataType": "msg",
+        "thumbnail": true,
+        "active": true,
+        "pass": false,
+        "outputs": 0,
+        "x": 1020,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "3db3364d45b8ebd7",
+        "type": "http request",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "method": "GET",
+        "ret": "bin",
+        "paytoqs": "ignore",
+        "url": "https://sibcolombia.net/wp-content/uploads/2016/06/logo-udistrital.png",
+        "tls": "e3b4dad18defdf91",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 290,
+        "y": 80,
+        "wires": [
+            [
+                "dce39f8ef2bcc44b"
+            ]
+        ]
+    },
+    {
+        "id": "dce39f8ef2bcc44b",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "mimetype",
+                "pt": "msg",
+                "to": "image/jpeg",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 415,
+        "y": 80,
+        "wires": [
+            [
+                "8221dd1a7d0926af",
+                "464190e4af2ca61e"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "8221dd1a7d0926af",
+        "type": "image",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "width": 160,
+        "data": "payload",
+        "dataType": "msg",
+        "thumbnail": true,
+        "active": true,
+        "pass": false,
+        "outputs": 0,
+        "x": 660,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "a7da55fc80d6e488",
+        "type": "inject",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "str",
+        "x": 110,
+        "y": 80,
+        "wires": [
+            [
+                "3db3364d45b8ebd7"
+            ]
+        ]
     }
 ]
