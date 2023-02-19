@@ -572,7 +572,7 @@
         "tab": "d805be7e493c5739",
         "order": 1,
         "disp": false,
-        "width": "6",
+        "width": 2,
         "collapse": false,
         "className": ""
     },
@@ -599,6 +599,36 @@
         "className": ""
     },
     {
+        "id": "30e313d40c9fd2a2",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "d254284efb0df77a",
+        "order": 2,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "782f45b48ba8bd63",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "d254284efb0df77a",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "23182bbda429a83a",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "d254284efb0df77a",
+        "order": 5,
+        "width": 2,
+        "height": 1
+    },
+    {
         "id": "464190e4af2ca61e",
         "type": "ui_media",
         "z": "3e1fc2edd0bcc68a",
@@ -616,7 +646,7 @@
         "muted": false,
         "scope": "local",
         "tooltip": "",
-        "x": 75,
+        "x": 305,
         "y": 60,
         "wires": [
             []
@@ -641,7 +671,7 @@
         "muted": false,
         "scope": "local",
         "tooltip": "",
-        "x": 75,
+        "x": 305,
         "y": 100,
         "wires": [
             []
@@ -701,7 +731,6 @@
         "y": 1340,
         "wires": [
             [
-                "78067c49275237b7",
                 "0ce8ec72f878e9d8"
             ]
         ]
@@ -762,25 +791,6 @@
         "wires": [
             []
         ]
-    },
-    {
-        "id": "78067c49275237b7",
-        "type": "mqtt out",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "brokermqtt-heroku",
-        "topic": "teste/mqtt/slider",
-        "qos": "0",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "da8eb53ef332f813",
-        "x": 365,
-        "y": 1340,
-        "wires": [],
-        "l": false
     },
     {
         "id": "0a451559b0fc882a",
@@ -949,8 +959,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 190,
-        "y": 80,
+        "x": 490,
+        "y": 20,
         "wires": [
             []
         ]
@@ -970,8 +980,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 310,
-        "y": 80,
+        "x": 610,
+        "y": 20,
         "wires": [
             []
         ]
@@ -991,8 +1001,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 430,
-        "y": 80,
+        "x": 730,
+        "y": 20,
         "wires": [
             []
         ]
@@ -1027,9 +1037,9 @@
         "type": "ui_text",
         "z": "3e1fc2edd0bcc68a",
         "group": "d254284efb0df77a",
-        "order": 8,
-        "width": "6",
-        "height": "2",
+        "order": 1,
+        "width": 6,
+        "height": 1,
         "name": "",
         "label": "IDENTIFICACIÓN DE MOTORES",
         "format": "{{msg.payload}}",
@@ -1038,5 +1048,678 @@
         "x": 180,
         "y": 200,
         "wires": []
+    },
+    {
+        "id": "1da2a69589fca069",
+        "type": "ui_button",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "POS INI",
+        "group": "6ed2a154410dd337",
+        "order": 1,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "POS INI",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Selecciono POS INICIAL",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 140,
+        "y": 280,
+        "wires": [
+            [
+                "9e56f63bf97852e1",
+                "fa5cbfc9a3088da7"
+            ]
+        ]
+    },
+    {
+        "id": "723ff08be059dd86",
+        "type": "ui_button",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "MOTOR 6",
+        "group": "6ed2a154410dd337",
+        "order": 2,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "MOTOR 6",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Selecciono motor 6",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 150,
+        "y": 320,
+        "wires": [
+            [
+                "6aaae5c92cbec525",
+                "9732c259ac807962",
+                "121fa34aa07696e4",
+                "fa5cbfc9a3088da7"
+            ]
+        ]
+    },
+    {
+        "id": "246feab69f7a63df",
+        "type": "ui_button",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "MOTOR 5",
+        "group": "6ed2a154410dd337",
+        "order": 3,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "MOTOR 5",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Selecciono motor 5",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 150,
+        "y": 360,
+        "wires": [
+            [
+                "6aaae5c92cbec525",
+                "9732c259ac807962",
+                "121fa34aa07696e4",
+                "fa5cbfc9a3088da7"
+            ]
+        ]
+    },
+    {
+        "id": "0f5c862a9a013d25",
+        "type": "ui_button",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "MOTOR 4",
+        "group": "6ed2a154410dd337",
+        "order": 4,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "MOTOR 4",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Selecciono motor 4",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 150,
+        "y": 400,
+        "wires": [
+            [
+                "6aaae5c92cbec525",
+                "9732c259ac807962",
+                "121fa34aa07696e4",
+                "fa5cbfc9a3088da7"
+            ]
+        ]
+    },
+    {
+        "id": "871bfe3873a0b51c",
+        "type": "ui_button",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "MOTOR 3",
+        "group": "6ed2a154410dd337",
+        "order": 5,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "MOTOR 3",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Selecciono motor 3",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 150,
+        "y": 440,
+        "wires": [
+            [
+                "6aaae5c92cbec525",
+                "9732c259ac807962",
+                "121fa34aa07696e4",
+                "fa5cbfc9a3088da7"
+            ]
+        ]
+    },
+    {
+        "id": "2de1639857f05b26",
+        "type": "ui_button",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "MOTOR 2",
+        "group": "6ed2a154410dd337",
+        "order": 6,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "MOTOR 2",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Selecciono motor 2",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 150,
+        "y": 480,
+        "wires": [
+            [
+                "6aaae5c92cbec525",
+                "9732c259ac807962",
+                "121fa34aa07696e4",
+                "fa5cbfc9a3088da7"
+            ]
+        ]
+    },
+    {
+        "id": "ae1e6c111f94c8ea",
+        "type": "ui_button",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "MOTOR 1",
+        "group": "6ed2a154410dd337",
+        "order": 7,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "MOTOR 1",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Selecciono motor 1",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 150,
+        "y": 520,
+        "wires": [
+            [
+                "6aaae5c92cbec525",
+                "9732c259ac807962",
+                "121fa34aa07696e4",
+                "fa5cbfc9a3088da7"
+            ]
+        ]
+    },
+    {
+        "id": "6aaae5c92cbec525",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "Selecciono motor 6",
+                "fromt": "str",
+                "to": "GC",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "Selecciono motor 5",
+                "fromt": "str",
+                "to": "MJ 0, 0, 0, 0, 70",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "Selecciono motor 4",
+                "fromt": "str",
+                "to": "MJ 0, 0, 0, 90, 0",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "Selecciono motor 3",
+                "fromt": "str",
+                "to": "MJ 0, 0, -20, 0, 0",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "Selecciono motor 2",
+                "fromt": "str",
+                "to": "MJ 0, 50, 0, 0, 0",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "Selecciono motor 1",
+                "fromt": "str",
+                "to": "MJ 70, 0, 0, 0, 0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 380,
+        "wires": [
+            [
+                "2551948c08db2a1e",
+                "fa84519250563416",
+                "78067c49275237b7"
+            ]
+        ]
+    },
+    {
+        "id": "9e56f63bf97852e1",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "Selecciono POS INICIAL",
+                "fromt": "str",
+                "to": "NT",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 460,
+        "y": 320,
+        "wires": [
+            [
+                "b2d35b1bb31efd71",
+                "fa84519250563416",
+                "78067c49275237b7"
+            ]
+        ]
+    },
+    {
+        "id": "b2d35b1bb31efd71",
+        "type": "delay",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "minutes",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 640,
+        "y": 320,
+        "wires": [
+            [
+                "51219b1fbab750f6"
+            ]
+        ]
+    },
+    {
+        "id": "2551948c08db2a1e",
+        "type": "delay",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "15",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 620,
+        "y": 420,
+        "wires": [
+            [
+                "51219b1fbab750f6"
+            ]
+        ]
+    },
+    {
+        "id": "51219b1fbab750f6",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "OG",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "GC",
+                "fromt": "str",
+                "to": "GO",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 780,
+        "y": 380,
+        "wires": [
+            [
+                "fa84519250563416",
+                "78067c49275237b7"
+            ]
+        ]
+    },
+    {
+        "id": "fa84519250563416",
+        "type": "debug",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 960,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "78067c49275237b7",
+        "type": "mqtt out",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "COM PDM",
+        "topic": "teste/mqtt/serial",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "da8eb53ef332f813",
+        "x": 915,
+        "y": 420,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "9732c259ac807962",
+        "type": "ui_text",
+        "z": "3e1fc2edd0bcc68a",
+        "group": "d254284efb0df77a",
+        "order": 3,
+        "width": 4,
+        "height": 2,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 445,
+        "y": 260,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "121fa34aa07696e4",
+        "type": "delay",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "minutes",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 295,
+        "y": 260,
+        "wires": [
+            [
+                "4f1e7b399dc372ec"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "4f1e7b399dc372ec",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "...",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 365,
+        "y": 260,
+        "wires": [
+            [
+                "9732c259ac807962"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "423e7b4355076e4a",
+        "type": "ui_text",
+        "z": "3e1fc2edd0bcc68a",
+        "group": "535f5beff829a6bf",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 495,
+        "y": 480,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "fa5cbfc9a3088da7",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "Selecciono motor 6",
+                "fromt": "str",
+                "to": "descripcion motor 6",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "Selecciono motor 5",
+                "fromt": "str",
+                "to": "descripcion motor 5",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "Selecciono motor 4",
+                "fromt": "str",
+                "to": "descripcion motor 4",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "Selecciono motor 3",
+                "fromt": "str",
+                "to": "descripcion motor 3",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "Selecciono motor 2",
+                "fromt": "str",
+                "to": "descripcion motor 2",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "Selecciono motor 1",
+                "fromt": "str",
+                "to": "descripcion motor 1",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "Selecciono POS INICIAL",
+                "fromt": "str",
+                "to": "descripcion pos inicial",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 375,
+        "y": 480,
+        "wires": [
+            [
+                "423e7b4355076e4a",
+                "530c79bb01365d8c"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "530c79bb01365d8c",
+        "type": "delay",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "minutes",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 405,
+        "y": 540,
+        "wires": [
+            [
+                "62ab87677c74e092"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "62ab87677c74e092",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "...",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 455,
+        "y": 540,
+        "wires": [
+            [
+                "423e7b4355076e4a"
+            ]
+        ],
+        "l": false
     }
 ]
