@@ -254,9 +254,9 @@
     {
         "id": "14ef62444ff5e395",
         "type": "ui_group",
-        "name": "Espacio 2",
+        "name": "RUTINAS DE PROCESOS INDUSTRIALES ROBOTIZADOS",
         "tab": "92f503ca7a98e14e",
-        "order": 2,
+        "order": 1,
         "disp": true,
         "width": "6",
         "collapse": false,
@@ -268,7 +268,7 @@
         "name": "Espacio 3",
         "tab": "92f503ca7a98e14e",
         "order": 3,
-        "disp": true,
+        "disp": false,
         "width": "6",
         "collapse": false,
         "className": ""
@@ -643,6 +643,47 @@
         "alpnprotocol": ""
     },
     {
+        "id": "b7dab1aa5303d38f",
+        "type": "ui_group",
+        "name": "SELECCIONA LA RUTINA A REALIZAR",
+        "tab": "92f503ca7a98e14e",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "298fcd7089272c0f",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "14ef62444ff5e395",
+        "order": 1,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "ffed56abcb683ac9",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "b7dab1aa5303d38f",
+        "order": 1,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "026cbfa67abfd618",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "f6fc1243836cbf90",
+        "order": 1,
+        "width": 6,
+        "height": 1
+    },
+    {
         "id": "464190e4af2ca61e",
         "type": "ui_media",
         "z": "3e1fc2edd0bcc68a",
@@ -660,8 +701,8 @@
         "muted": false,
         "scope": "local",
         "tooltip": "",
-        "x": 535,
-        "y": 80,
+        "x": 585,
+        "y": 60,
         "wires": [
             []
         ],
@@ -685,8 +726,8 @@
         "muted": false,
         "scope": "local",
         "tooltip": "",
-        "x": 805,
-        "y": 260,
+        "x": 375,
+        "y": 20,
         "wires": [
             []
         ],
@@ -709,7 +750,7 @@
         "name": "PRACTICA 1 \"PRUEBA DE MOTORES\"",
         "info": "",
         "x": 170,
-        "y": 140,
+        "y": 220,
         "wires": []
     },
     {
@@ -718,8 +759,8 @@
         "z": "3e1fc2edd0bcc68a",
         "name": "PRACTICA 3 \"PRACTICA LIBRE\"",
         "info": "",
-        "x": 150,
-        "y": 1240,
+        "x": 210,
+        "y": 1640,
         "wires": []
     },
     {
@@ -741,8 +782,8 @@
         "max": "70",
         "step": "10",
         "className": "",
-        "x": 270,
-        "y": 1340,
+        "x": 330,
+        "y": 1740,
         "wires": [
             [
                 "0ce8ec72f878e9d8"
@@ -762,8 +803,8 @@
         "format": "{{msg.payload}}",
         "layout": "col-center",
         "className": "",
-        "x": 670,
-        "y": 1340,
+        "x": 730,
+        "y": 1740,
         "wires": []
     },
     {
@@ -819,8 +860,8 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 520,
-        "y": 1340,
+        "x": 580,
+        "y": 1740,
         "wires": [
             [
                 "f6933168e3979682"
@@ -846,8 +887,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 90,
-        "y": 1360,
+        "x": 150,
+        "y": 1760,
         "wires": [
             [
                 "64d7715d8fb20827"
@@ -871,8 +912,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 220,
-        "y": 1280,
+        "x": 280,
+        "y": 1680,
         "wires": [
             [
                 "3ace27bbdb13142e"
@@ -885,25 +926,8 @@
         "z": "3e1fc2edd0bcc68a",
         "name": "PRACTICA 2  \"RUTINA PROCESO INDUSTRIALIZADOS\"",
         "info": "",
-        "x": 270,
-        "y": 860,
-        "wires": []
-    },
-    {
-        "id": "63346a9df9910d78",
-        "type": "ui_text",
-        "z": "3e1fc2edd0bcc68a",
-        "group": "14ef62444ff5e395",
-        "order": 8,
-        "width": "6",
-        "height": "2",
-        "name": "",
-        "label": "PRACTICA DE PROCESOS INDUSTRIALIZADOS",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "className": "",
-        "x": 250,
-        "y": 920,
+        "x": 230,
+        "y": 820,
         "wires": []
     },
     {
@@ -1492,8 +1516,8 @@
         "correl": "",
         "expiry": "",
         "broker": "da8eb53ef332f813",
-        "x": 915,
-        "y": 420,
+        "x": 1175,
+        "y": 480,
         "wires": [],
         "l": false
     },
@@ -1744,8 +1768,8 @@
         "muted": true,
         "scope": "local",
         "tooltip": "",
-        "x": 1030,
-        "y": 500,
+        "x": 810,
+        "y": 480,
         "wires": [
             []
         ]
@@ -1763,7 +1787,7 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 720,
+        "x": 600,
         "y": 500,
         "wires": [
             [
@@ -1790,7 +1814,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 855,
+        "x": 715,
         "y": 500,
         "wires": [
             [
@@ -1866,7 +1890,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 565,
+        "x": 545,
         "y": 660,
         "wires": [
             [
@@ -1900,22 +1924,6 @@
             ]
         ],
         "l": false
-    },
-    {
-        "id": "0ffae24592d60ec9",
-        "type": "image",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "",
-        "width": 160,
-        "data": "payload",
-        "dataType": "msg",
-        "thumbnail": true,
-        "active": true,
-        "pass": false,
-        "outputs": 0,
-        "x": 1020,
-        "y": 560,
-        "wires": []
     },
     {
         "id": "3db3364d45b8ebd7",
@@ -1964,14 +1972,14 @@
         "y": 80,
         "wires": [
             [
-                "8221dd1a7d0926af",
-                "464190e4af2ca61e"
+                "464190e4af2ca61e",
+                "12e28e9c15fd0a2e"
             ]
         ],
         "l": false
     },
     {
-        "id": "8221dd1a7d0926af",
+        "id": "0ffae24592d60ec9",
         "type": "image",
         "z": "3e1fc2edd0bcc68a",
         "name": "",
@@ -1982,12 +1990,295 @@
         "active": true,
         "pass": false,
         "outputs": 0,
-        "x": 660,
-        "y": 100,
+        "x": 840,
+        "y": 540,
         "wires": []
     },
     {
-        "id": "a7da55fc80d6e488",
+        "id": "12e28e9c15fd0a2e",
+        "type": "image",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "width": 160,
+        "data": "payload",
+        "dataType": "msg",
+        "thumbnail": false,
+        "active": true,
+        "pass": false,
+        "outputs": 0,
+        "x": 720,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "819d4f7ea42b92f7",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "MOV1",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "REALIZANDO RUTINA 1",
+                "fromt": "str",
+                "to": "OG",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 170,
+        "y": 980,
+        "wires": [
+            [
+                "2fa4ced076a4ec0a"
+            ]
+        ]
+    },
+    {
+        "id": "11622f1927366f04",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "MOV2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "MJ 0, 50, -60, -50, 0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 980,
+        "wires": [
+            [
+                "4ad9d24b379f33b3"
+            ]
+        ]
+    },
+    {
+        "id": "3b05087886a9d33e",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "MOV4",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "GC",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 250,
+        "y": 1040,
+        "wires": [
+            [
+                "81da0173dd1dda9b"
+            ]
+        ]
+    },
+    {
+        "id": "7a25a2eb2163a397",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "MOV5",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "MJ 150, 60, -10, -6, 50",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 530,
+        "y": 1040,
+        "wires": [
+            [
+                "68fc903d79420eb4"
+            ]
+        ]
+    },
+    {
+        "id": "c119c09acf747a45",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "MOV3",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "MJ 0, -30, 0, 0, 0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 690,
+        "y": 980,
+        "wires": [
+            [
+                "c2ef7b993c7fe403"
+            ]
+        ]
+    },
+    {
+        "id": "2fa4ced076a4ec0a",
+        "type": "delay",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "15",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 300,
+        "y": 980,
+        "wires": [
+            [
+                "11622f1927366f04",
+                "5234ba35fd52f515"
+            ]
+        ]
+    },
+    {
+        "id": "4ad9d24b379f33b3",
+        "type": "delay",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "15",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 560,
+        "y": 980,
+        "wires": [
+            [
+                "c119c09acf747a45",
+                "5234ba35fd52f515"
+            ]
+        ]
+    },
+    {
+        "id": "81da0173dd1dda9b",
+        "type": "delay",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "15",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 380,
+        "y": 1040,
+        "wires": [
+            [
+                "7a25a2eb2163a397",
+                "5234ba35fd52f515"
+            ]
+        ]
+    },
+    {
+        "id": "68fc903d79420eb4",
+        "type": "delay",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "15",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 660,
+        "y": 1040,
+        "wires": [
+            [
+                "022998785afdaf20",
+                "5234ba35fd52f515"
+            ]
+        ]
+    },
+    {
+        "id": "c2ef7b993c7fe403",
+        "type": "delay",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "15",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 120,
+        "y": 1040,
+        "wires": [
+            [
+                "3b05087886a9d33e",
+                "5234ba35fd52f515"
+            ]
+        ]
+    },
+    {
+        "id": "00506c97749ad597",
         "type": "inject",
         "z": "3e1fc2edd0bcc68a",
         "name": "",
@@ -2005,7 +2296,529 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "1",
+        "payload": "Selecciono POS IN",
+        "payloadType": "str",
+        "x": 75,
+        "y": 980,
+        "wires": [
+            [
+                "819d4f7ea42b92f7"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "022998785afdaf20",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "MOV6",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "MJ 0, -60, 30, 15, 0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 110,
+        "y": 1100,
+        "wires": [
+            [
+                "fd891536ae16a702"
+            ]
+        ]
+    },
+    {
+        "id": "fd891536ae16a702",
+        "type": "delay",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "15",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 240,
+        "y": 1100,
+        "wires": [
+            [
+                "5ce425541a6fb4a2",
+                "5234ba35fd52f515"
+            ]
+        ]
+    },
+    {
+        "id": "5ce425541a6fb4a2",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "MOV7",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "GO",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 390,
+        "y": 1100,
+        "wires": [
+            [
+                "edf8788eb55b979c"
+            ]
+        ]
+    },
+    {
+        "id": "edf8788eb55b979c",
+        "type": "delay",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "15",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 540,
+        "y": 1100,
+        "wires": [
+            [
+                "1fcea31947e571ce",
+                "5234ba35fd52f515"
+            ]
+        ]
+    },
+    {
+        "id": "1fcea31947e571ce",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "MOV8",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "OG",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 690,
+        "y": 1100,
+        "wires": [
+            [
+                "dbc918165ee7f247",
+                "78067c49275237b7"
+            ]
+        ]
+    },
+    {
+        "id": "dbc918165ee7f247",
+        "type": "debug",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 840,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "8cb534034766eb8a",
+        "type": "ui_button",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "group": "b7dab1aa5303d38f",
+        "order": 2,
+        "width": 6,
+        "height": 1,
+        "passthru": false,
+        "label": "RUTINA 1",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Selecciono POS IN",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 80,
+        "y": 920,
+        "wires": [
+            [
+                "819d4f7ea42b92f7",
+                "75c81d73e01ad6ef",
+                "5234ba35fd52f515",
+                "728d474b42c51634",
+                "c685ebf4060b3958"
+            ]
+        ]
+    },
+    {
+        "id": "75c81d73e01ad6ef",
+        "type": "ui_template",
+        "z": "3e1fc2edd0bcc68a",
+        "group": "f6fc1243836cbf90",
+        "name": "MENSAJE RUTINA 1",
+        "order": 2,
+        "width": 6,
+        "height": 3,
+        "format": "<div style=\"display: flex; justify-content: center;\">\n    <p style=\"text-align: center; font-size: 20px;\"> Descipción RUTINA 1</p>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 340,
+        "y": 860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5234ba35fd52f515",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 340,
+        "y": 1180,
+        "wires": [
+            [
+                "619d999097b348d5"
+            ]
+        ]
+    },
+    {
+        "id": "619d999097b348d5",
+        "type": "mqtt out",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "COM PDM",
+        "topic": "teste/mqtt/fotoRPR",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "da8eb53ef332f813",
+        "x": 515,
+        "y": 1180,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "8fe0ac4e27e4ce0b",
+        "type": "ui_media",
+        "z": "3e1fc2edd0bcc68a",
+        "group": "14ef62444ff5e395",
+        "name": "",
+        "width": 0,
+        "height": 0,
+        "order": 2,
+        "category": "",
+        "file": "",
+        "layout": "adjust",
+        "showcontrols": true,
+        "loop": true,
+        "onstart": false,
+        "muted": true,
+        "scope": "local",
+        "tooltip": "",
+        "x": 890,
+        "y": 1160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6565c6c9b92fec2d",
+        "type": "mqtt in",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "topic": "teste/mqtt/foto2",
+        "qos": "0",
+        "datatype": "buffer",
+        "broker": "da8eb53ef332f813",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 680,
+        "y": 1180,
+        "wires": [
+            [
+                "056a5b3792ab06a8"
+            ]
+        ]
+    },
+    {
+        "id": "056a5b3792ab06a8",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "mimetype",
+                "pt": "msg",
+                "to": "image/jpeg",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 795,
+        "y": 1180,
+        "wires": [
+            [
+                "8fe0ac4e27e4ce0b",
+                "68f97ec923c04e0c"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "68f97ec923c04e0c",
+        "type": "image",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "width": 160,
+        "data": "payload",
+        "dataType": "msg",
+        "thumbnail": true,
+        "active": true,
+        "pass": false,
+        "outputs": 0,
+        "x": 920,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "3c66e3e98fffec02",
+        "type": "ui_button",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "group": "b7dab1aa5303d38f",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "RUTINA 2",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 100,
+        "y": 1440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cc2d0678e5170cf6",
+        "type": "ui_button",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "group": "b7dab1aa5303d38f",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "RUTINA 3",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 100,
+        "y": 1560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "728d474b42c51634",
+        "type": "delay",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "3",
+        "timeoutUnits": "minutes",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 365,
+        "y": 900,
+        "wires": [
+            [
+                "baba0d7ee923723c"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "baba0d7ee923723c",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "...",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 445,
+        "y": 900,
+        "wires": [
+            [
+                "01dfadc1e5b0b83b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "c685ebf4060b3958",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "Selecciono POS IN",
+                "fromt": "str",
+                "to": "REALIZANDO RUTINA 1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 445,
+        "y": 940,
+        "wires": [
+            [
+                "01dfadc1e5b0b83b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "01dfadc1e5b0b83b",
+        "type": "ui_text",
+        "z": "3e1fc2edd0bcc68a",
+        "group": "14ef62444ff5e395",
+        "order": 2,
+        "width": "5",
+        "height": "2",
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 590,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "4ece1f4c6a341964",
+        "type": "inject",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
         "payloadType": "str",
         "x": 110,
         "y": 80,
