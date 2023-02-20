@@ -316,136 +316,6 @@
         "className": ""
     },
     {
-        "id": "984e768bdee6b659",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "1c6965d12deca91e",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "fde3f231dd55e1f2",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "1c6965d12deca91e",
-        "order": 5,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "dc0c2f8b8e130600",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "1c6965d12deca91e",
-        "order": 6,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "b032fa68bbb37e28",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "1c6965d12deca91e",
-        "order": 7,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "13f14db57f4ac94c",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "1c6965d12deca91e",
-        "order": 9,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "b897a9a9eff2c450",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "1c6965d12deca91e",
-        "order": 10,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "e9a9d99247565c59",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "1c6965d12deca91e",
-        "order": 11,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "56d3fc91ea4dd48e",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "1c6965d12deca91e",
-        "order": 12,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "abf6ccdfe7e74dd1",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "1c6965d12deca91e",
-        "order": 13,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "c7d7581b1f8f5a01",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "1c6965d12deca91e",
-        "order": 14,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "a7e35a1af426716a",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "1c6965d12deca91e",
-        "order": 16,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "36fe14fba8b8a1ba",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "1c6965d12deca91e",
-        "order": 17,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "b98463663d261191",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "1c6965d12deca91e",
-        "order": 18,
-        "width": 1,
-        "height": 1
-    },
-    {
         "id": "1b8d2e41673ca9dc",
         "type": "ui_spacer",
         "z": "3e1fc2edd0bcc68a",
@@ -684,6 +554,106 @@
         "height": 1
     },
     {
+        "id": "f70db585f01ae8c6",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "25b3154a8a4c7e50",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a3173b72289f9e01",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "25b3154a8a4c7e50",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b4a01549be442b92",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "25b3154a8a4c7e50",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "fe78cecbcfa75a83",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "25b3154a8a4c7e50",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9799c8565867a5fa",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "25b3154a8a4c7e50",
+        "order": 6,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "9ebbda8ad5c4dd6f",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "25b3154a8a4c7e50",
+        "order": 8,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "7ca00ee51f064882",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "25b3154a8a4c7e50",
+        "order": 9,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "c94f8dec9e210235",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "25b3154a8a4c7e50",
+        "order": 10,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "6adb0dd10a40ec74",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "25b3154a8a4c7e50",
+        "order": 11,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "b8e43cb1017cac6c",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "25b3154a8a4c7e50",
+        "order": 12,
+        "width": 3,
+        "height": 1
+    },
+    {
         "id": "464190e4af2ca61e",
         "type": "ui_media",
         "z": "3e1fc2edd0bcc68a",
@@ -726,8 +696,8 @@
         "muted": false,
         "scope": "local",
         "tooltip": "",
-        "x": 375,
-        "y": 20,
+        "x": 595,
+        "y": 120,
         "wires": [
             []
         ],
@@ -931,16 +901,6 @@
         "wires": []
     },
     {
-        "id": "149c94dbc0bac476",
-        "type": "comment",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "ACERCA DE",
-        "info": "",
-        "x": 110,
-        "y": 2000,
-        "wires": []
-    },
-    {
         "id": "78d82ca447c7487b",
         "type": "ui_template",
         "z": "3e1fc2edd0bcc68a",
@@ -957,27 +917,6 @@
         "className": "",
         "x": 230,
         "y": 20,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "196dd3204e46703b",
-        "type": "ui_template",
-        "z": "3e1fc2edd0bcc68a",
-        "group": "25b3154a8a4c7e50",
-        "name": "M1",
-        "order": 3,
-        "width": 8,
-        "height": 4,
-        "format": "<div style=\"display: flex; justify-content: center;\">\n    <p style=\"text-align: justify;\">La plataforma virtual para la realización de prácticas de laboratorio de automatización de procesos robotizados usando\n    el brazo robótico MITSUBISHI MOVEMASTER RV-M1 guiadas de forma remota. <br> Es un Trabajo de grado  presentado como requisito\n    parcial para optar al título de: Ingeniero en Control y Automatización e Ingeniero en Telecomunicaciones<br> Desarrollado por los estudiantes Rafael Martinez y Thomas Felipe Urueña</p>\n</div>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 110,
-        "y": 2040,
         "wires": [
             []
         ]
@@ -1044,31 +983,6 @@
         "wires": [
             []
         ]
-    },
-    {
-        "id": "942cc270c0266799",
-        "type": "ui_media",
-        "z": "3e1fc2edd0bcc68a",
-        "group": "25b3154a8a4c7e50",
-        "name": "",
-        "width": 3,
-        "height": 3,
-        "order": 8,
-        "category": "logo UD",
-        "file": "Escudo_UD.svg.png",
-        "layout": "adjust",
-        "showcontrols": true,
-        "loop": true,
-        "onstart": false,
-        "muted": false,
-        "scope": "local",
-        "tooltip": "",
-        "x": 105,
-        "y": 2080,
-        "wires": [
-            []
-        ],
-        "l": false
     },
     {
         "id": "1da2a69589fca069",
@@ -1932,7 +1846,7 @@
         "method": "GET",
         "ret": "bin",
         "paytoqs": "ignore",
-        "url": "https://sibcolombia.net/wp-content/uploads/2016/06/logo-udistrital.png",
+        "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmc__A1djvpe8AmiRx4lRgHsjE429C5p74mMKYNXDtryx0_GsjzJf0DjcxR2Srl_sgdYc1gR8fHfLEZqnyXcpkm_ZU01Zzrv_lXrL0mZsQcwuznJsy5xk6Gq6Xn0_4yDEgmIy5k_V3yjPkc0688JuyZG5lpD9rsF1dPM3KM-6tPf9Zqf3VZOoI6s7N/s320/IMG20230218160744.jpg",
         "tls": "e3b4dad18defdf91",
         "persist": false,
         "proxy": "",
@@ -1971,8 +1885,7 @@
         "y": 80,
         "wires": [
             [
-                "464190e4af2ca61e",
-                "12e28e9c15fd0a2e"
+                "464190e4af2ca61e"
             ]
         ],
         "l": false
@@ -2591,8 +2504,7 @@
         "y": 1180,
         "wires": [
             [
-                "8fe0ac4e27e4ce0b",
-                "68f97ec923c04e0c"
+                "8fe0ac4e27e4ce0b"
             ]
         ],
         "l": false
@@ -2775,57 +2687,170 @@
         "y": 80,
         "wires": [
             [
-                "3db3364d45b8ebd7"
+                "3db3364d45b8ebd7",
+                "062703fe337d3b2b",
+                "b24a8ac0d7d251fa"
             ]
         ]
     },
     {
-        "id": "0ffae24592d60ec9",
-        "type": "image",
+        "id": "062703fe337d3b2b",
+        "type": "http request",
         "z": "3e1fc2edd0bcc68a",
-        "d": true,
         "name": "",
-        "width": 160,
-        "data": "payload",
-        "dataType": "msg",
-        "thumbnail": true,
-        "active": true,
-        "pass": false,
-        "outputs": 0,
-        "x": 840,
-        "y": 540,
+        "method": "GET",
+        "ret": "bin",
+        "paytoqs": "ignore",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Escudo_UD.svg/2118px-Escudo_UD.svg.png",
+        "tls": "e3b4dad18defdf91",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 290,
+        "y": 120,
+        "wires": [
+            [
+                "d78fd5d2cb5f9ba1"
+            ]
+        ]
+    },
+    {
+        "id": "d78fd5d2cb5f9ba1",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "mimetype",
+                "pt": "msg",
+                "to": "image/jpeg",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 415,
+        "y": 120,
+        "wires": [
+            [
+                "27c7edc51ba4311e"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "149c94dbc0bac476",
+        "type": "comment",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "ACERCA DE",
+        "info": "",
+        "x": 910,
+        "y": 20,
         "wires": []
     },
     {
-        "id": "12e28e9c15fd0a2e",
-        "type": "image",
+        "id": "196dd3204e46703b",
+        "type": "ui_template",
         "z": "3e1fc2edd0bcc68a",
-        "name": "",
-        "width": 160,
-        "data": "payload",
-        "dataType": "msg",
-        "thumbnail": false,
-        "active": true,
-        "pass": false,
-        "outputs": 0,
-        "x": 720,
-        "y": 80,
-        "wires": []
+        "group": "25b3154a8a4c7e50",
+        "name": "M1",
+        "order": 1,
+        "width": 8,
+        "height": 4,
+        "format": "<div style=\"display: flex; justify-content: center;\">\n    <p style=\"text-align: justify;\">La plataforma virtual para la realización de prácticas de laboratorio de automatización de procesos robotizados usando\n    el brazo robótico MITSUBISHI MOVEMASTER RV-M1 guiadas de forma remota. <br> Es un Trabajo de grado  presentado como requisito\n    parcial para optar al título de: Ingeniero en Control y Automatización e Ingeniero en Telecomunicaciones<br> Desarrollado por los estudiantes Rafael Martinez y Thomas Felipe Urueña</p>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 910,
+        "y": 60,
+        "wires": [
+            []
+        ]
     },
     {
-        "id": "68f97ec923c04e0c",
-        "type": "image",
+        "id": "942cc270c0266799",
+        "type": "ui_media",
+        "z": "3e1fc2edd0bcc68a",
+        "group": "25b3154a8a4c7e50",
+        "name": "",
+        "width": 3,
+        "height": 3,
+        "order": 7,
+        "category": "logo UD",
+        "file": "Escudo_UD.svg.png",
+        "layout": "adjust",
+        "showcontrols": true,
+        "loop": true,
+        "onstart": false,
+        "muted": false,
+        "scope": "local",
+        "tooltip": "",
+        "x": 1135,
+        "y": 100,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "b24a8ac0d7d251fa",
+        "type": "http request",
         "z": "3e1fc2edd0bcc68a",
         "name": "",
-        "width": 160,
-        "data": "payload",
-        "dataType": "msg",
-        "thumbnail": true,
-        "active": true,
-        "pass": false,
-        "outputs": 0,
-        "x": 920,
-        "y": 1220,
-        "wires": []
+        "method": "GET",
+        "ret": "bin",
+        "paytoqs": "ignore",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Escudo_UD.svg/2118px-Escudo_UD.svg.png",
+        "tls": "e3b4dad18defdf91",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 940,
+        "y": 100,
+        "wires": [
+            [
+                "348dfe9ca5d74781"
+            ]
+        ]
+    },
+    {
+        "id": "348dfe9ca5d74781",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "mimetype",
+                "pt": "msg",
+                "to": "image/jpeg",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1065,
+        "y": 100,
+        "wires": [
+            [
+                "942cc270c0266799"
+            ]
+        ],
+        "l": false
     }
 ]
