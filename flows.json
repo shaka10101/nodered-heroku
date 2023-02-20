@@ -1818,8 +1818,7 @@
         "y": 500,
         "wires": [
             [
-                "bfa0ca2975dd5a12",
-                "0ffae24592d60ec9"
+                "bfa0ca2975dd5a12"
             ]
         ],
         "l": false
@@ -1979,38 +1978,6 @@
         "l": false
     },
     {
-        "id": "0ffae24592d60ec9",
-        "type": "image",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "",
-        "width": 160,
-        "data": "payload",
-        "dataType": "msg",
-        "thumbnail": true,
-        "active": true,
-        "pass": false,
-        "outputs": 0,
-        "x": 840,
-        "y": 540,
-        "wires": []
-    },
-    {
-        "id": "12e28e9c15fd0a2e",
-        "type": "image",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "",
-        "width": 160,
-        "data": "payload",
-        "dataType": "msg",
-        "thumbnail": false,
-        "active": true,
-        "pass": false,
-        "outputs": 0,
-        "x": 720,
-        "y": 80,
-        "wires": []
-    },
-    {
         "id": "819d4f7ea42b92f7",
         "type": "change",
         "z": "3e1fc2edd0bcc68a",
@@ -2020,7 +1987,7 @@
                 "t": "change",
                 "p": "payload",
                 "pt": "msg",
-                "from": "REALIZANDO RUTINA 1",
+                "from": "Selecciono POS IN",
                 "fromt": "str",
                 "to": "OG",
                 "tot": "str"
@@ -2631,22 +2598,6 @@
         "l": false
     },
     {
-        "id": "68f97ec923c04e0c",
-        "type": "image",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "",
-        "width": 160,
-        "data": "payload",
-        "dataType": "msg",
-        "thumbnail": true,
-        "active": true,
-        "pass": false,
-        "outputs": 0,
-        "x": 920,
-        "y": 1220,
-        "wires": []
-    },
-    {
         "id": "3c66e3e98fffec02",
         "type": "ui_button",
         "z": "3e1fc2edd0bcc68a",
@@ -2666,8 +2617,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 100,
-        "y": 1440,
+        "x": 120,
+        "y": 1360,
         "wires": [
             []
         ]
@@ -2692,8 +2643,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 100,
-        "y": 1560,
+        "x": 120,
+        "y": 1400,
         "wires": [
             []
         ]
@@ -2827,5 +2778,54 @@
                 "3db3364d45b8ebd7"
             ]
         ]
+    },
+    {
+        "id": "0ffae24592d60ec9",
+        "type": "image",
+        "z": "3e1fc2edd0bcc68a",
+        "d": true,
+        "name": "",
+        "width": 160,
+        "data": "payload",
+        "dataType": "msg",
+        "thumbnail": true,
+        "active": true,
+        "pass": false,
+        "outputs": 0,
+        "x": 840,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "12e28e9c15fd0a2e",
+        "type": "image",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "width": 160,
+        "data": "payload",
+        "dataType": "msg",
+        "thumbnail": false,
+        "active": true,
+        "pass": false,
+        "outputs": 0,
+        "x": 720,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "68f97ec923c04e0c",
+        "type": "image",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "width": 160,
+        "data": "payload",
+        "dataType": "msg",
+        "thumbnail": true,
+        "active": true,
+        "pass": false,
+        "outputs": 0,
+        "x": 920,
+        "y": 1220,
+        "wires": []
     }
 ]
