@@ -269,7 +269,7 @@
         "tab": "92f503ca7a98e14e",
         "order": 3,
         "disp": false,
-        "width": "6",
+        "width": 8,
         "collapse": false,
         "className": ""
     },
@@ -464,39 +464,9 @@
         "tab": "d805be7e493c5739",
         "order": 3,
         "disp": false,
-        "width": "6",
+        "width": 8,
         "collapse": false,
         "className": ""
-    },
-    {
-        "id": "a2b9755c6d56ac66",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "d254284efb0df77a",
-        "order": 1,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "b2467fe8669fd531",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "d254284efb0df77a",
-        "order": 4,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "ad769bae48238d0e",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "d254284efb0df77a",
-        "order": 5,
-        "width": 2,
-        "height": 1
     },
     {
         "id": "e3b4dad18defdf91",
@@ -522,36 +492,6 @@
         "width": "6",
         "collapse": false,
         "className": ""
-    },
-    {
-        "id": "298fcd7089272c0f",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "14ef62444ff5e395",
-        "order": 1,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "ffed56abcb683ac9",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "b7dab1aa5303d38f",
-        "order": 1,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "026cbfa67abfd618",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "f6fc1243836cbf90",
-        "order": 1,
-        "width": 6,
-        "height": 1
     },
     {
         "id": "f70db585f01ae8c6",
@@ -654,37 +594,137 @@
         "height": 1
     },
     {
-        "id": "9fe7d280683f1c88",
+        "id": "4ada53fe216c0519",
         "type": "ui_spacer",
         "z": "3e1fc2edd0bcc68a",
         "name": "spacer",
-        "group": "b984c5d5a788d16a",
-        "order": 2,
+        "group": "d254284efb0df77a",
+        "order": 1,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "af99b310fa68de73",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "d254284efb0df77a",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "84bf6ec6df4878ad",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "d254284efb0df77a",
+        "order": 5,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "efa37ce75939ec81",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "535f5beff829a6bf",
+        "order": 1,
         "width": 1,
         "height": 1
     },
     {
-        "id": "afab5af7bb2dd65f",
+        "id": "8d0b1ff44eb3b5b6",
         "type": "ui_spacer",
         "z": "3e1fc2edd0bcc68a",
         "name": "spacer",
-        "group": "b984c5d5a788d16a",
+        "group": "535f5beff829a6bf",
         "order": 3,
         "width": 1,
         "height": 1
     },
     {
-        "id": "6ed2b0324eea33d7",
+        "id": "df4769e66ddb840b",
         "type": "ui_spacer",
         "z": "3e1fc2edd0bcc68a",
         "name": "spacer",
-        "group": "b984c5d5a788d16a",
+        "group": "535f5beff829a6bf",
         "order": 4,
         "width": 1,
         "height": 1
     },
     {
-        "id": "deb6f2302f05ace2",
+        "id": "884381d87988d632",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "535f5beff829a6bf",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2c2bf38d11e72cd8",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "14ef62444ff5e395",
+        "order": 1,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "357585e439fc5887",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "14ef62444ff5e395",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4d831b154435ca6b",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "14ef62444ff5e395",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4e1204b47a6bf1c8",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "b7dab1aa5303d38f",
+        "order": 1,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "e4c80f368bde81fe",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "f6fc1243836cbf90",
+        "order": 1,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "a295393689611fa3",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "b984c5d5a788d16a",
+        "order": 1,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "c4725fba68d76d2d",
         "type": "ui_spacer",
         "z": "3e1fc2edd0bcc68a",
         "name": "spacer",
@@ -694,7 +734,7 @@
         "height": 1
     },
     {
-        "id": "eea29ba0503525f6",
+        "id": "9fbe0a6e2f99cef9",
         "type": "ui_spacer",
         "z": "3e1fc2edd0bcc68a",
         "name": "spacer",
@@ -704,7 +744,7 @@
         "height": 1
     },
     {
-        "id": "10ae3227bd10a104",
+        "id": "79e9e4e9671c7b08",
         "type": "ui_spacer",
         "z": "3e1fc2edd0bcc68a",
         "name": "spacer",
@@ -714,7 +754,7 @@
         "height": 1
     },
     {
-        "id": "c57cbd27c677e827",
+        "id": "63048f4d4467c80e",
         "type": "ui_spacer",
         "z": "3e1fc2edd0bcc68a",
         "name": "spacer",
@@ -724,7 +764,7 @@
         "height": 1
     },
     {
-        "id": "3184de14dc97b95c",
+        "id": "f47d9e9ac1220311",
         "type": "ui_spacer",
         "z": "3e1fc2edd0bcc68a",
         "name": "spacer",
@@ -734,7 +774,7 @@
         "height": 1
     },
     {
-        "id": "50b39c3c8bc99987",
+        "id": "e08826645ca5b1cb",
         "type": "ui_spacer",
         "z": "3e1fc2edd0bcc68a",
         "name": "spacer",
@@ -810,7 +850,7 @@
         "name": "PRACTICA 1 \"PRUEBA DE MOTORES\"",
         "info": "",
         "x": 170,
-        "y": 220,
+        "y": 200,
         "wires": []
     },
     {
@@ -1445,9 +1485,9 @@
         "type": "ui_text",
         "z": "3e1fc2edd0bcc68a",
         "group": "535f5beff829a6bf",
-        "order": 1,
-        "width": 0,
-        "height": 0,
+        "order": 6,
+        "width": 8,
+        "height": 3,
         "name": "",
         "label": "",
         "format": "{{msg.payload}}",
@@ -1470,7 +1510,7 @@
                 "pt": "msg",
                 "from": "Selecciono motor 6",
                 "fromt": "str",
-                "to": "descripcion motor 6",
+                "to": "Pinza: La pinza es la herramienta final del brazo robótico, y se encarga de sostener y manipular los objetos. Esta herramienta permite que el robot realice diferentes tareas. En la cadena de caracteres se utiliza con el comando GO para dar instrucción de apertura y GC para dar la instrucción de cierre.",
                 "tot": "str"
             },
             {
@@ -1479,7 +1519,7 @@
                 "pt": "msg",
                 "from": "Selecciono motor 5",
                 "fromt": "str",
-                "to": "descripcion motor 5",
+                "to": "Enrollamiento de muñeca: el enrollamiento de la muñeca permite que el brazo robótico gire alrededor de su eje rotacional. Este movimiento permite que la herramienta del robot gire en su propio eje. En la cadena de caracteres se ubica en el quinto número después del comando MJ EJ. MJ 0, 0, 0, 0, 90; en los grados de libertad de este motor están en 180°",
                 "tot": "str"
             },
             {
@@ -1488,7 +1528,7 @@
                 "pt": "msg",
                 "from": "Selecciono motor 4",
                 "fromt": "str",
-                "to": "descripcion motor 4",
+                "to": "Inclinación de Muñeca:\ten esta articulación del brazo robótico es la que permite el movimiento de la muñeca hacia arriba y hacia abajo. En la cadena de caracteres se ubica en el cuarto número después del comando MJ EJ. MJ 0, 0, 0, 90, 0; en los grados de libertad de este motor están en 90°",
                 "tot": "str"
             },
             {
@@ -1497,7 +1537,7 @@
                 "pt": "msg",
                 "from": "Selecciono motor 3",
                 "fromt": "str",
-                "to": "descripcion motor 3",
+                "to": "Codo: La articulación del codo es la segunda articulación del brazo robótico. Esta articulación permite que el brazo se doble y se extienda, y se encuentra conectada al hombro. En la cadena de caracteres se ubica en el tercer número después del comando MJ EJ. MJ 0, 0, 90, 0, 0; en los grados de libertad de este motor están en 110°",
                 "tot": "str"
             },
             {
@@ -1506,7 +1546,7 @@
                 "pt": "msg",
                 "from": "Selecciono motor 2",
                 "fromt": "str",
-                "to": "descripcion motor 2",
+                "to": "Hombro: La articulación del hombro es la primera articulación que conecta la base con el brazo del robot. Es la que permite que el brazo se mueva hacia arriba y hacia abajo. En la cadena de caracteres se ubica en el segundo número después del comando MJ EJ. MJ 0, 90, 0, 0, 0; en los grados de libertad de este motor están en 130°",
                 "tot": "str"
             },
             {
@@ -1515,7 +1555,7 @@
                 "pt": "msg",
                 "from": "Selecciono motor 1",
                 "fromt": "str",
-                "to": "descripcion motor 1",
+                "to": "Base: La base del brazo robótico se encarga de sostener todo el mecanismo. Es la parte inferior del brazo y es la que se encarga de proporcionar la estabilidad necesaria para el resto del brazo. En la cadena de caracteres se ubica en el primer número después del comando MJ EJ. MJ 90, 0, 0, 0, 0; en los grados de libertad de este motor están en 300°",
                 "tot": "str"
             },
             {
@@ -1524,7 +1564,7 @@
                 "pt": "msg",
                 "from": "Selecciono POS INICIAL",
                 "fromt": "str",
-                "to": "descripcion pos inicial",
+                "to": "Posición inicial del brazo robotico",
                 "tot": "str"
             }
         ],
@@ -2527,9 +2567,9 @@
         "type": "ui_text",
         "z": "3e1fc2edd0bcc68a",
         "group": "14ef62444ff5e395",
-        "order": 2,
-        "width": "5",
-        "height": "2",
+        "order": 3,
+        "width": 5,
+        "height": 2,
         "name": "",
         "label": "",
         "format": "{{msg.payload}}",
@@ -3267,7 +3307,7 @@
         "z": "3e1fc2edd0bcc68a",
         "name": "",
         "group": "b7dab1aa5303d38f",
-        "order": 2,
+        "order": 3,
         "width": 6,
         "height": 1,
         "passthru": false,
@@ -3661,7 +3701,7 @@
                 "pt": "msg",
                 "from": "Selecciono POS IN",
                 "fromt": "str",
-                "to": "Descripcion de rutina 1",
+                "to": "Esta rutina simula el uso del brazo robótico para realizar el movimiento o traslado de un objeto, el escenario normalmente se encuentra en la industria para la interacción con objetos pesados o peligrosos. En el primer paso el brazo robótico se acerca a objeto y lo sujetara con su pinza. Esta rutina consiste en planificar el movimiento y se determinara la trayectoria óptima para transportar el elemento desde su ubicación actual hasta un punto B. Esta planificación de movimiento se basa en varios factores, como la forma y el peso del objeto, los obstáculos en el camino, y la capacidad de los motores del brazo para moverse en ciertas direcciones. Movimiento hacia el punto B: El brazo robótico comienza a moverse hacia el punto B, siguiendo la trayectoria planificada previamente. Esta trayectoria puede ser rutinaria y permitiría que el proceso pueda ser automatizado Una vez terminada la trayectoria, el elemento será colocado en el punto B; Cuando el brazo robótico llega al punto B, libera el elemento de su pinza y retornará cuidadosamente a su posición inicial y se detendrá",
                 "tot": "str"
             },
             {
@@ -3670,7 +3710,7 @@
                 "pt": "msg",
                 "from": "Selecciono POS IN 2",
                 "fromt": "str",
-                "to": "Descripcion de rutina 2",
+                "to": "El primer paso para simular la rutina consiste en planifica la trayectoria óptima para la aplicación de la pintura. Esta planificación de la trayectoria se basará en la forma y el tamaño de la superficie a pintar El brazo robótico comenzara a aplicar la pintura en la superficie, siguiendo la trayectoria planificada. Durante este proceso puede ocurrir que el ejercicio sea rutinario y se puede repetir para aplicar múltiples capas de pintura si es necesario para lograr la cobertura deseada. Una vez que se ha completado la tarea, el brazo robótico se detiene y se apaga.",
                 "tot": "str"
             }
         ],
@@ -3679,7 +3719,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 220,
+        "x": 260,
         "y": 860,
         "wires": [
             [
@@ -3692,16 +3732,16 @@
         "type": "ui_text",
         "z": "3e1fc2edd0bcc68a",
         "group": "f6fc1243836cbf90",
-        "order": 7,
-        "width": 0,
-        "height": 0,
+        "order": 2,
+        "width": 8,
+        "height": 7,
         "name": "",
         "label": "",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 370,
-        "y": 840,
+        "x": 430,
+        "y": 820,
         "wires": []
     },
     {
@@ -3721,7 +3761,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 180,
+        "x": 220,
         "y": 820,
         "wires": [
             [
@@ -3734,15 +3774,15 @@
         "type": "ui_text",
         "z": "3e1fc2edd0bcc68a",
         "group": "b984c5d5a788d16a",
-        "order": 1,
-        "width": 5,
-        "height": 3,
+        "order": 2,
+        "width": 6,
+        "height": 7,
         "name": "",
-        "label": "Para iniciar con tu practica libre, debes primero seleccionar la pocisión incial del brazo robotico. despues, debes verificar  y enviar la posición de trabajo",
+        "label": "Para iniciar con esta práctica de laboratorio el primer paso es ubicar el brazo a su posición inicial con el comando NT el cual ya está programado en el botón Posición Inicial. después de esto se enviará un comando OG el cual ubica el brazo en la posición de trabajo y está programado en el botón Posición de Trabajo. estas instrucciones se ven indicadas en el manual del brazo robótico proporcionado por el fabricante y para lo cual es obligación para iniciar la operación.",
         "format": "{{msg.payload}}",
         "layout": "col-center",
         "className": "",
-        "x": 560,
+        "x": 780,
         "y": 2040,
         "wires": []
     },
@@ -3754,13 +3794,30 @@
         "order": 2,
         "width": 5,
         "height": 3,
-        "name": "mensajes a enviar",
+        "name": "...",
         "label": "ahora que identificamos cada motor y cada movimiento del brazo robotico ",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 470,
+        "x": 430,
         "y": 1980,
+        "wires": []
+    },
+    {
+        "id": "fcfa243277603970",
+        "type": "ui_text",
+        "z": "3e1fc2edd0bcc68a",
+        "group": "535f5beff829a6bf",
+        "order": 2,
+        "width": 7,
+        "height": 4,
+        "name": "",
+        "label": "En esta practica se identifican las articulaciones y/o motores que componen el brazo robótico, para eso mediante el comando MJ permitirá realizar el movimiento de cada motor como lo es la base o cintura, hombro, codo, inclinación de muñeca, enrollamiento muñeca/pinza. Utilizando la siguiente cadena de caracteres <MJ 0, 0, 0, 0, 0> donde cada posición de la cadena indica daca articulación como ya se mencionó.",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1260,
+        "y": 240,
         "wires": []
     }
 ]
