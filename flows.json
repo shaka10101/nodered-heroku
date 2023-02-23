@@ -194,7 +194,7 @@
     {
         "id": "d805be7e493c5739",
         "type": "ui_tab",
-        "name": "PRACTICA1 PRUEBA DE MOTORES",
+        "name": "PRACTICA 1 PRUEBA DE MOTORES",
         "icon": "extension",
         "order": 2,
         "disabled": false,
@@ -203,7 +203,7 @@
     {
         "id": "26efa20936ba1f8a",
         "type": "ui_tab",
-        "name": "PRACTICA3-PRACTICA LIBRE",
+        "name": "PRACTICA 3 - PRACTICA LIBRE",
         "icon": "gamepad",
         "order": 4,
         "disabled": false,
@@ -269,7 +269,7 @@
         "tab": "92f503ca7a98e14e",
         "order": 3,
         "disp": false,
-        "width": 8,
+        "width": 9,
         "collapse": false,
         "className": ""
     },
@@ -464,7 +464,7 @@
         "tab": "d805be7e493c5739",
         "order": 3,
         "disp": false,
-        "width": 8,
+        "width": 10,
         "collapse": false,
         "className": ""
     },
@@ -488,8 +488,8 @@
         "name": "SELECCIONA LA RUTINA A REALIZAR",
         "tab": "92f503ca7a98e14e",
         "order": 2,
-        "disp": true,
-        "width": "6",
+        "disp": false,
+        "width": 5,
         "collapse": false,
         "className": ""
     },
@@ -594,126 +594,6 @@
         "height": 1
     },
     {
-        "id": "4ada53fe216c0519",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "d254284efb0df77a",
-        "order": 1,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "af99b310fa68de73",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "d254284efb0df77a",
-        "order": 4,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "84bf6ec6df4878ad",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "d254284efb0df77a",
-        "order": 5,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "efa37ce75939ec81",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "535f5beff829a6bf",
-        "order": 1,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "8d0b1ff44eb3b5b6",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "535f5beff829a6bf",
-        "order": 3,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "df4769e66ddb840b",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "535f5beff829a6bf",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "884381d87988d632",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "535f5beff829a6bf",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "2c2bf38d11e72cd8",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "14ef62444ff5e395",
-        "order": 1,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "357585e439fc5887",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "14ef62444ff5e395",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "4d831b154435ca6b",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "14ef62444ff5e395",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "4e1204b47a6bf1c8",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "b7dab1aa5303d38f",
-        "order": 1,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "e4c80f368bde81fe",
-        "type": "ui_spacer",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "spacer",
-        "group": "f6fc1243836cbf90",
-        "order": 1,
-        "width": 8,
-        "height": 1
-    },
-    {
         "id": "a295393689611fa3",
         "type": "ui_spacer",
         "z": "3e1fc2edd0bcc68a",
@@ -784,6 +664,166 @@
         "height": 1
     },
     {
+        "id": "5e9b05c2b7f6cdd0",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "6ed2a154410dd337",
+        "order": 1,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "9b66542b0af9ed45",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "d254284efb0df77a",
+        "order": 1,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "5d11d211739e85d8",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "d254284efb0df77a",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "36d365b5569a8c11",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "d254284efb0df77a",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "29aef5915353c3b0",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "d254284efb0df77a",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6890337883c0517b",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "d254284efb0df77a",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "63ee9e18fbabb647",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "535f5beff829a6bf",
+        "order": 1,
+        "width": 10,
+        "height": 1
+    },
+    {
+        "id": "8695158929f60bac",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "14ef62444ff5e395",
+        "order": 1,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "cb5e19eb7ff75725",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "14ef62444ff5e395",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5f21fe198a1e0b81",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "14ef62444ff5e395",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "33f2ef235d2a67ff",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "b7dab1aa5303d38f",
+        "order": 3,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "934363750895c945",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "b7dab1aa5303d38f",
+        "order": 5,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "402cb084fb82263d",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "b7dab1aa5303d38f",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9f0e2f24112b615e",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "b7dab1aa5303d38f",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a852bbd6a6dfa0f8",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "b7dab1aa5303d38f",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "1e749d6a4aa84510",
+        "type": "ui_spacer",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "spacer",
+        "group": "b7dab1aa5303d38f",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
         "id": "464190e4af2ca61e",
         "type": "ui_media",
         "z": "3e1fc2edd0bcc68a",
@@ -801,7 +841,7 @@
         "muted": false,
         "scope": "local",
         "tooltip": "",
-        "x": 585,
+        "x": 515,
         "y": 60,
         "wires": [
             []
@@ -826,7 +866,7 @@
         "muted": false,
         "scope": "local",
         "tooltip": "",
-        "x": 595,
+        "x": 465,
         "y": 120,
         "wires": [
             []
@@ -850,7 +890,7 @@
         "name": "PRACTICA 1 \"PRUEBA DE MOTORES\"",
         "info": "",
         "x": 170,
-        "y": 200,
+        "y": 160,
         "wires": []
     },
     {
@@ -859,17 +899,17 @@
         "z": "3e1fc2edd0bcc68a",
         "name": "PRACTICA 3 \"PRACTICA LIBRE\"",
         "info": "",
-        "x": 210,
-        "y": 1640,
+        "x": 170,
+        "y": 1540,
         "wires": []
     },
     {
         "id": "c199d292d6788d05",
         "type": "comment",
         "z": "3e1fc2edd0bcc68a",
-        "name": "PRACTICA 2  \"RUTINA PROCESO INDUSTRIALIZADOS\"",
+        "name": "PRACTICA 2  \"RUTINAS PROCESOS INDUSTRIALIZADOS\"",
         "info": "",
-        "x": 230,
+        "x": 260,
         "y": 760,
         "wires": []
     },
@@ -909,7 +949,7 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 490,
+        "x": 390,
         "y": 20,
         "wires": [
             []
@@ -924,13 +964,13 @@
         "order": 3,
         "width": 7,
         "height": 4,
-        "format": "<div style=\"display: flex; justify-content: center;\">\n    <p style=\"text-align: justify;\">* Asegúrense de que el brazo robótico esté en buen estado antes de usarlo. <br>* Utilicen el brazo robótico sólo para fines\n    autorizados. <br>* No realicen ajustes o modificaciones sin autorización previa. <br>* Trabajen siempre con precaución y de\n    manera consciente de sus alrededores.</p>\n</div>",
+        "format": "<div style=\"display: flex; justify-content: center;\">\n    <p style=\"text-align: justify;\">* Asegúrense de que el brazo robótico esté en buen estado fisico antes de usarlo. <br>* Utilicen el brazo robótico sólo para fines\n    autorizados. <br>* No realicen ajustes o modificaciones sin autorización previa. <br>* Trabajen siempre con precaución y de\n    manera consciente de sus alrededores.</p>\n</div>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 610,
+        "x": 510,
         "y": 20,
         "wires": [
             []
@@ -951,7 +991,7 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 730,
+        "x": 630,
         "y": 20,
         "wires": [
             []
@@ -963,7 +1003,7 @@
         "z": "3e1fc2edd0bcc68a",
         "name": "POS INI",
         "group": "6ed2a154410dd337",
-        "order": 1,
+        "order": 2,
         "width": 2,
         "height": 1,
         "passthru": false,
@@ -993,7 +1033,7 @@
         "z": "3e1fc2edd0bcc68a",
         "name": "MOTOR 6",
         "group": "6ed2a154410dd337",
-        "order": 2,
+        "order": 3,
         "width": 2,
         "height": 1,
         "passthru": false,
@@ -1025,7 +1065,7 @@
         "z": "3e1fc2edd0bcc68a",
         "name": "MOTOR 5",
         "group": "6ed2a154410dd337",
-        "order": 3,
+        "order": 4,
         "width": 2,
         "height": 1,
         "passthru": false,
@@ -1057,7 +1097,7 @@
         "z": "3e1fc2edd0bcc68a",
         "name": "MOTOR 4",
         "group": "6ed2a154410dd337",
-        "order": 4,
+        "order": 5,
         "width": 2,
         "height": 1,
         "passthru": false,
@@ -1089,7 +1129,7 @@
         "z": "3e1fc2edd0bcc68a",
         "name": "MOTOR 3",
         "group": "6ed2a154410dd337",
-        "order": 5,
+        "order": 6,
         "width": 2,
         "height": 1,
         "passthru": false,
@@ -1121,7 +1161,7 @@
         "z": "3e1fc2edd0bcc68a",
         "name": "MOTOR 2",
         "group": "6ed2a154410dd337",
-        "order": 6,
+        "order": 7,
         "width": 2,
         "height": 1,
         "passthru": false,
@@ -1153,7 +1193,7 @@
         "z": "3e1fc2edd0bcc68a",
         "name": "MOTOR 1",
         "group": "6ed2a154410dd337",
-        "order": 7,
+        "order": 8,
         "width": 2,
         "height": 1,
         "passthru": false,
@@ -1303,8 +1343,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 640,
-        "y": 300,
+        "x": 660,
+        "y": 280,
         "wires": [
             [
                 "51219b1fbab750f6"
@@ -1328,7 +1368,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 620,
+        "x": 660,
         "y": 420,
         "wires": [
             [
@@ -1364,8 +1404,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 800,
-        "y": 320,
+        "x": 860,
+        "y": 340,
         "wires": [
             [
                 "fa84519250563416",
@@ -1385,15 +1425,15 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 960,
-        "y": 380,
+        "x": 860,
+        "y": 400,
         "wires": []
     },
     {
         "id": "78067c49275237b7",
         "type": "mqtt out",
         "z": "3e1fc2edd0bcc68a",
-        "name": "COM PDM",
+        "name": "COM SERIAL",
         "topic": "teste/mqtt/serial",
         "qos": "0",
         "retain": "",
@@ -1403,8 +1443,8 @@
         "correl": "",
         "expiry": "",
         "broker": "da8eb53ef332f813",
-        "x": 1175,
-        "y": 480,
+        "x": 1015,
+        "y": 700,
         "wires": [],
         "l": false
     },
@@ -1413,7 +1453,7 @@
         "type": "ui_text",
         "z": "3e1fc2edd0bcc68a",
         "group": "d254284efb0df77a",
-        "order": 3,
+        "order": 4,
         "width": 4,
         "height": 2,
         "name": "",
@@ -1485,8 +1525,8 @@
         "type": "ui_text",
         "z": "3e1fc2edd0bcc68a",
         "group": "535f5beff829a6bf",
-        "order": 6,
-        "width": 8,
+        "order": 5,
+        "width": 10,
         "height": 3,
         "name": "",
         "label": "",
@@ -1510,7 +1550,7 @@
                 "pt": "msg",
                 "from": "Selecciono motor 6",
                 "fromt": "str",
-                "to": "Pinza: La pinza es la herramienta final del brazo robótico, y se encarga de sostener y manipular los objetos. Esta herramienta permite que el robot realice diferentes tareas. En la cadena de caracteres se utiliza con el comando GO para dar instrucción de apertura y GC para dar la instrucción de cierre.",
+                "to": "Pinza: La pinza es la herramienta final del brazo robótico, y se encarga de sostener y manipular los objetos. Esta herramienta permite que el robot realice diferentes tareas. En la cadena de caracteres se utiliza con el comando GO para realizar la instrucción de apertura y GC para realizar la instrucción de cierre.",
                 "tot": "str"
             },
             {
@@ -1519,7 +1559,7 @@
                 "pt": "msg",
                 "from": "Selecciono motor 5",
                 "fromt": "str",
-                "to": "Enrollamiento de muñeca: el enrollamiento de la muñeca permite que el brazo robótico gire alrededor de su eje rotacional. Este movimiento permite que la herramienta del robot gire en su propio eje. En la cadena de caracteres se ubica en el quinto número después del comando MJ EJ. MJ 0, 0, 0, 0, 90; en los grados de libertad de este motor están en 180°",
+                "to": "Enrollamiento de muñeca: el enrollamiento de la muñeca permite que el brazo robótico gire alrededor de su eje rotacional. Este movimiento permite que la herramienta del robot gire en su propio eje. En la cadena de caracteres se ubica en el quinto número después del comando MJ EJ. MJ 0, 0, 0, 0, 90; los grados de libertad de este motor es de180°",
                 "tot": "str"
             },
             {
@@ -1528,7 +1568,7 @@
                 "pt": "msg",
                 "from": "Selecciono motor 4",
                 "fromt": "str",
-                "to": "Inclinación de Muñeca:\ten esta articulación del brazo robótico es la que permite el movimiento de la muñeca hacia arriba y hacia abajo. En la cadena de caracteres se ubica en el cuarto número después del comando MJ EJ. MJ 0, 0, 0, 90, 0; en los grados de libertad de este motor están en 90°",
+                "to": "Inclinación de Muñeca:\ten esta articulación del brazo robótico es la que permite el movimiento de la muñeca hacia arriba y hacia abajo. En la cadena de caracteres se ubica en el cuarto número después del comando MJ EJ. MJ 0, 0, 0, 90, 0; los grados de libertad de este motor es de 90°",
                 "tot": "str"
             },
             {
@@ -1537,7 +1577,7 @@
                 "pt": "msg",
                 "from": "Selecciono motor 3",
                 "fromt": "str",
-                "to": "Codo: La articulación del codo es la segunda articulación del brazo robótico. Esta articulación permite que el brazo se doble y se extienda, y se encuentra conectada al hombro. En la cadena de caracteres se ubica en el tercer número después del comando MJ EJ. MJ 0, 0, 90, 0, 0; en los grados de libertad de este motor están en 110°",
+                "to": "Codo: La articulación del codo es la segunda articulación del brazo robótico. Esta articulación permite que el brazo se doble y se extienda, y se encuentra conectada al hombro. En la cadena de caracteres se ubica en el tercer número después del comando MJ EJ. MJ 0, 0, 90, 0, 0;  los grados de libertad de este motor es de 110°",
                 "tot": "str"
             },
             {
@@ -1546,7 +1586,7 @@
                 "pt": "msg",
                 "from": "Selecciono motor 2",
                 "fromt": "str",
-                "to": "Hombro: La articulación del hombro es la primera articulación que conecta la base con el brazo del robot. Es la que permite que el brazo se mueva hacia arriba y hacia abajo. En la cadena de caracteres se ubica en el segundo número después del comando MJ EJ. MJ 0, 90, 0, 0, 0; en los grados de libertad de este motor están en 130°",
+                "to": "Hombro: La articulación del hombro es la primera articulación que conecta la base con el brazo del robot. Es la que permite que el brazo se mueva hacia arriba y hacia abajo. En la cadena de caracteres se ubica en el segundo número después del comando MJ EJ. MJ 0, 90, 0, 0, 0; los grados de libertad de este motor es de 130°",
                 "tot": "str"
             },
             {
@@ -1555,7 +1595,7 @@
                 "pt": "msg",
                 "from": "Selecciono motor 1",
                 "fromt": "str",
-                "to": "Base: La base del brazo robótico se encarga de sostener todo el mecanismo. Es la parte inferior del brazo y es la que se encarga de proporcionar la estabilidad necesaria para el resto del brazo. En la cadena de caracteres se ubica en el primer número después del comando MJ EJ. MJ 90, 0, 0, 0, 0; en los grados de libertad de este motor están en 300°",
+                "to": "Base: La base del brazo robótico se encarga de sostener todo el mecanismo. Es la parte inferior del brazo y es la que se encarga de proporcionar la estabilidad necesaria para el resto del brazo. En la cadena de caracteres se ubica en el primer número después del comando MJ EJ. MJ 90, 0, 0, 0, 0; los grados de libertad de este motor es de 300°",
                 "tot": "str"
             },
             {
@@ -1655,8 +1695,8 @@
         "muted": true,
         "scope": "local",
         "tooltip": "",
-        "x": 810,
-        "y": 480,
+        "x": 1310,
+        "y": 420,
         "wires": [
             []
         ]
@@ -1674,8 +1714,8 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 600,
-        "y": 500,
+        "x": 1100,
+        "y": 420,
         "wires": [
             [
                 "d75e5b140435c9de"
@@ -1701,8 +1741,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 715,
-        "y": 500,
+        "x": 1215,
+        "y": 420,
         "wires": [
             [
                 "bfa0ca2975dd5a12"
@@ -1873,7 +1913,7 @@
                 "t": "change",
                 "p": "payload",
                 "pt": "msg",
-                "from": "Selecciono POS IN",
+                "from": "Selecciono POS IN 1",
                 "fromt": "str",
                 "to": "OG",
                 "tot": "str"
@@ -1885,11 +1925,12 @@
         "to": "",
         "reg": false,
         "x": 170,
-        "y": 980,
+        "y": 840,
         "wires": [
             [
                 "2fa4ced076a4ec0a",
-                "78067c49275237b7"
+                "78067c49275237b7",
+                "5234ba35fd52f515"
             ]
         ]
     },
@@ -1913,7 +1954,7 @@
         "to": "",
         "reg": false,
         "x": 430,
-        "y": 980,
+        "y": 840,
         "wires": [
             [
                 "4ad9d24b379f33b3",
@@ -1941,7 +1982,7 @@
         "to": "",
         "reg": false,
         "x": 250,
-        "y": 1040,
+        "y": 900,
         "wires": [
             [
                 "81da0173dd1dda9b",
@@ -1969,7 +2010,7 @@
         "to": "",
         "reg": false,
         "x": 530,
-        "y": 1040,
+        "y": 900,
         "wires": [
             [
                 "68fc903d79420eb4",
@@ -1997,7 +2038,7 @@
         "to": "",
         "reg": false,
         "x": 690,
-        "y": 980,
+        "y": 840,
         "wires": [
             [
                 "c2ef7b993c7fe403",
@@ -2023,7 +2064,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 300,
-        "y": 980,
+        "y": 840,
         "wires": [
             [
                 "11622f1927366f04",
@@ -2049,7 +2090,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 560,
-        "y": 980,
+        "y": 840,
         "wires": [
             [
                 "c119c09acf747a45",
@@ -2075,7 +2116,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 380,
-        "y": 1040,
+        "y": 900,
         "wires": [
             [
                 "7a25a2eb2163a397",
@@ -2101,7 +2142,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 660,
-        "y": 1040,
+        "y": 900,
         "wires": [
             [
                 "022998785afdaf20",
@@ -2127,43 +2168,13 @@
         "allowrate": false,
         "outputs": 1,
         "x": 120,
-        "y": 1040,
+        "y": 900,
         "wires": [
             [
                 "3b05087886a9d33e",
                 "5234ba35fd52f515"
             ]
         ]
-    },
-    {
-        "id": "00506c97749ad597",
-        "type": "inject",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "Selecciono POS IN",
-        "payloadType": "str",
-        "x": 75,
-        "y": 980,
-        "wires": [
-            [
-                "819d4f7ea42b92f7"
-            ]
-        ],
-        "l": false
     },
     {
         "id": "022998785afdaf20",
@@ -2185,7 +2196,7 @@
         "to": "",
         "reg": false,
         "x": 110,
-        "y": 1100,
+        "y": 960,
         "wires": [
             [
                 "fd891536ae16a702",
@@ -2211,7 +2222,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 240,
-        "y": 1100,
+        "y": 960,
         "wires": [
             [
                 "5ce425541a6fb4a2",
@@ -2239,7 +2250,7 @@
         "to": "",
         "reg": false,
         "x": 390,
-        "y": 1100,
+        "y": 960,
         "wires": [
             [
                 "edf8788eb55b979c",
@@ -2265,7 +2276,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 540,
-        "y": 1100,
+        "y": 960,
         "wires": [
             [
                 "1fcea31947e571ce",
@@ -2293,7 +2304,7 @@
         "to": "",
         "reg": false,
         "x": 690,
-        "y": 1100,
+        "y": 960,
         "wires": [
             [
                 "dbc918165ee7f247",
@@ -2313,7 +2324,7 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 840,
+        "x": 900,
         "y": 1040,
         "wires": []
     },
@@ -2324,29 +2335,27 @@
         "name": "",
         "group": "b7dab1aa5303d38f",
         "order": 2,
-        "width": 6,
+        "width": 5,
         "height": 1,
         "passthru": false,
-        "label": "RUTINA 1",
-        "tooltip": "",
+        "label": "RUTINA 1 - TRASLADO DE OBJETO",
+        "tooltip": "Esta rutina permitira que el brazo robotico traslade un objeto desde un punto A, a un punto B",
         "color": "",
         "bgcolor": "",
         "className": "",
         "icon": "",
-        "payload": "Selecciono POS IN",
+        "payload": "Selecciono POS IN 1",
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 80,
-        "y": 920,
+        "x": 170,
+        "y": 1000,
         "wires": [
             [
                 "819d4f7ea42b92f7",
-                "5234ba35fd52f515",
-                "728d474b42c51634",
+                "a9301cb103479491",
                 "c685ebf4060b3958",
-                "3f3b4d866b0b9d7d",
-                "8194f361d8c821cd"
+                "9f2c1eae3c0bf4f3"
             ]
         ]
     },
@@ -2369,19 +2378,20 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 340,
-        "y": 1180,
+        "x": 445,
+        "y": 1060,
         "wires": [
             [
                 "619d999097b348d5"
             ]
-        ]
+        ],
+        "l": false
     },
     {
         "id": "619d999097b348d5",
         "type": "mqtt out",
         "z": "3e1fc2edd0bcc68a",
-        "name": "COM PDM",
+        "name": "COM RPI",
         "topic": "teste/mqtt/fotoRPR",
         "qos": "0",
         "retain": "",
@@ -2391,8 +2401,8 @@
         "correl": "",
         "expiry": "",
         "broker": "da8eb53ef332f813",
-        "x": 515,
-        "y": 1180,
+        "x": 505,
+        "y": 1060,
         "wires": [],
         "l": false
     },
@@ -2402,8 +2412,8 @@
         "z": "3e1fc2edd0bcc68a",
         "group": "14ef62444ff5e395",
         "name": "",
-        "width": 0,
-        "height": 0,
+        "width": 6,
+        "height": 6,
         "order": 2,
         "category": "",
         "file": "",
@@ -2415,7 +2425,7 @@
         "scope": "local",
         "tooltip": "",
         "x": 1330,
-        "y": 1300,
+        "y": 1160,
         "wires": [
             []
         ]
@@ -2434,7 +2444,7 @@
         "rh": 0,
         "inputs": 0,
         "x": 1120,
-        "y": 1300,
+        "y": 1160,
         "wires": [
             [
                 "056a5b3792ab06a8"
@@ -2461,64 +2471,10 @@
         "to": "",
         "reg": false,
         "x": 1235,
-        "y": 1300,
+        "y": 1160,
         "wires": [
             [
                 "8fe0ac4e27e4ce0b"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "728d474b42c51634",
-        "type": "delay",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "3",
-        "timeoutUnits": "minutes",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 365,
-        "y": 900,
-        "wires": [
-            [
-                "baba0d7ee923723c"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "baba0d7ee923723c",
-        "type": "change",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "...",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 445,
-        "y": 900,
-        "wires": [
-            [
-                "01dfadc1e5b0b83b"
             ]
         ],
         "l": false
@@ -2533,9 +2489,9 @@
                 "t": "change",
                 "p": "payload",
                 "pt": "msg",
-                "from": "Selecciono POS IN",
+                "from": "Selecciono POS IN 1",
                 "fromt": "str",
-                "to": "REALIZANDO RUTINA 1",
+                "to": "<p style=\"text-align: center; font-size: 20px;\"> Esta rutina simula el uso del brazo robótico para realizar el movimiento o traslado de un objeto, el escenario normalmente se encuentra en la industria para la interacción con objetos pesados o peligrosos. <br><br>  En el primer paso el brazo robótico se acerca a objeto y lo sujetara con su pinza. Esta rutina consiste en planificar el movimiento y se determinara la trayectoria óptima para transportar el elemento desde su ubicación actual hasta un punto B. Esta planificación de movimiento se basa en varios factores, como la forma y el peso del objeto, los obstáculos en el camino, y la capacidad de los motores del brazo para moverse en ciertas direcciones. <br><br>  Movimiento hacia el punto B: El brazo robótico comienza a moverse hacia el punto B, siguiendo la trayectoria planificada previamente. Esta trayectoria puede ser rutinaria y permitiría que el proceso pueda ser automatizado Una vez terminada la trayectoria, el elemento será colocado en el punto B; Cuando el brazo robótico llega al punto B, libera el elemento de su pinza y retornará cuidadosamente a su posición inicial finalizando la rutina 1</p>",
                 "tot": "str"
             },
             {
@@ -2544,7 +2500,7 @@
                 "pt": "msg",
                 "from": "Selecciono POS IN 2",
                 "fromt": "str",
-                "to": "REALIZANDO RUTINA 2",
+                "to": "El primer paso para simular la rutina consiste en planifica la trayectoria óptima para la aplicación de la pintura. <br><br>  Esta planificación de la trayectoria se basará en la forma y el tamaño de la superficie a pintar. <br><br> El brazo robótico comenzara a aplicar la pintura en la superficie, siguiendo la trayectoria planificada. Durante este proceso puede ocurrir que el ejercicio sea rutinario y se puede repetir para aplicar múltiples capas de pintura si es necesario para lograr la cobertura deseada. Una vez que se ha completado la tarea, el brazo robótico se detiene y retornará cuidadosamente a su posición inicial finalizando la rutina 2 ",
                 "tot": "str"
             }
         ],
@@ -2553,31 +2509,14 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 445,
-        "y": 940,
+        "x": 235,
+        "y": 1120,
         "wires": [
             [
-                "01dfadc1e5b0b83b"
+                "0a7269c0c6e3717e"
             ]
         ],
         "l": false
-    },
-    {
-        "id": "01dfadc1e5b0b83b",
-        "type": "ui_text",
-        "z": "3e1fc2edd0bcc68a",
-        "group": "14ef62444ff5e395",
-        "order": 3,
-        "width": 5,
-        "height": 2,
-        "name": "",
-        "label": "",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "className": "",
-        "x": 590,
-        "y": 920,
-        "wires": []
     },
     {
         "id": "4ece1f4c6a341964",
@@ -2606,7 +2545,9 @@
             [
                 "3db3364d45b8ebd7",
                 "062703fe337d3b2b",
-                "b24a8ac0d7d251fa"
+                "b24a8ac0d7d251fa",
+                "0dcbb094785e2889",
+                "20e392416cfeabd6"
             ]
         ]
     },
@@ -2668,8 +2609,8 @@
         "z": "3e1fc2edd0bcc68a",
         "name": "ACERCA DE",
         "info": "",
-        "x": 910,
-        "y": 20,
+        "x": 870,
+        "y": 40,
         "wires": []
     },
     {
@@ -2687,8 +2628,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 910,
-        "y": 60,
+        "x": 1010,
+        "y": 40,
         "wires": [
             []
         ]
@@ -2711,8 +2652,8 @@
         "muted": false,
         "scope": "local",
         "tooltip": "",
-        "x": 1135,
-        "y": 100,
+        "x": 1045,
+        "y": 80,
         "wires": [
             []
         ],
@@ -2734,8 +2675,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 940,
-        "y": 100,
+        "x": 870,
+        "y": 80,
         "wires": [
             [
                 "348dfe9ca5d74781"
@@ -2761,8 +2702,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1065,
-        "y": 100,
+        "x": 985,
+        "y": 80,
         "wires": [
             [
                 "942cc270c0266799"
@@ -2792,10 +2733,12 @@
         "to": "",
         "reg": false,
         "x": 370,
-        "y": 1380,
+        "y": 1240,
         "wires": [
             [
-                "60e7d681f2e17659"
+                "60e7d681f2e17659",
+                "5234ba35fd52f515",
+                "78067c49275237b7"
             ]
         ]
     },
@@ -2819,10 +2762,11 @@
         "to": "",
         "reg": false,
         "x": 630,
-        "y": 1380,
+        "y": 1240,
         "wires": [
             [
-                "6b1fa4ebedfd2edf"
+                "6b1fa4ebedfd2edf",
+                "78067c49275237b7"
             ]
         ]
     },
@@ -2846,10 +2790,11 @@
         "to": "",
         "reg": false,
         "x": 450,
-        "y": 1440,
+        "y": 1300,
         "wires": [
             [
-                "b78467c0212951da"
+                "b78467c0212951da",
+                "78067c49275237b7"
             ]
         ]
     },
@@ -2873,10 +2818,11 @@
         "to": "",
         "reg": false,
         "x": 710,
-        "y": 1440,
+        "y": 1300,
         "wires": [
             [
-                "bddcd3cbaa6af0e5"
+                "bddcd3cbaa6af0e5",
+                "78067c49275237b7"
             ]
         ]
     },
@@ -2900,10 +2846,11 @@
         "to": "",
         "reg": false,
         "x": 890,
-        "y": 1380,
+        "y": 1240,
         "wires": [
             [
-                "da6dd42aca23af7d"
+                "da6dd42aca23af7d",
+                "78067c49275237b7"
             ]
         ]
     },
@@ -2925,7 +2872,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 500,
-        "y": 1380,
+        "y": 1240,
         "wires": [
             [
                 "b30f72eca9bb5d63",
@@ -2951,7 +2898,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 760,
-        "y": 1380,
+        "y": 1240,
         "wires": [
             [
                 "4afbf0cde7759bf6",
@@ -2977,7 +2924,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 580,
-        "y": 1440,
+        "y": 1300,
         "wires": [
             [
                 "b440e3baeebb9cf4",
@@ -3003,7 +2950,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 860,
-        "y": 1440,
+        "y": 1300,
         "wires": [
             [
                 "16a612327bc9482f",
@@ -3029,43 +2976,13 @@
         "allowrate": false,
         "outputs": 1,
         "x": 320,
-        "y": 1440,
+        "y": 1300,
         "wires": [
             [
                 "f278c0aa375a119f",
                 "5234ba35fd52f515"
             ]
         ]
-    },
-    {
-        "id": "42d443621b91812f",
-        "type": "inject",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "Selecciono POS IN",
-        "payloadType": "str",
-        "x": 275,
-        "y": 1380,
-        "wires": [
-            [
-                "9d0f55fd66adf800"
-            ]
-        ],
-        "l": false
     },
     {
         "id": "16a612327bc9482f",
@@ -3087,10 +3004,11 @@
         "to": "",
         "reg": false,
         "x": 310,
-        "y": 1500,
+        "y": 1360,
         "wires": [
             [
-                "5e4a65b032375989"
+                "5e4a65b032375989",
+                "78067c49275237b7"
             ]
         ]
     },
@@ -3112,7 +3030,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 440,
-        "y": 1500,
+        "y": 1360,
         "wires": [
             [
                 "55dc35113d831622",
@@ -3140,10 +3058,11 @@
         "to": "",
         "reg": false,
         "x": 590,
-        "y": 1500,
+        "y": 1360,
         "wires": [
             [
-                "30d848ffdc546b6b"
+                "30d848ffdc546b6b",
+                "78067c49275237b7"
             ]
         ]
     },
@@ -3165,7 +3084,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 740,
-        "y": 1500,
+        "y": 1360,
         "wires": [
             [
                 "0e7ecd80322747a2",
@@ -3193,113 +3112,13 @@
         "to": "",
         "reg": false,
         "x": 890,
-        "y": 1500,
+        "y": 1360,
         "wires": [
             [
-                "2a0ada09be2bd12d",
-                "78067c49275237b7"
+                "78067c49275237b7",
+                "dbc918165ee7f247"
             ]
         ]
-    },
-    {
-        "id": "2a0ada09be2bd12d",
-        "type": "debug",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "debug 3",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1040,
-        "y": 1440,
-        "wires": []
-    },
-    {
-        "id": "4ac03c66e63ccab5",
-        "type": "delay",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "3",
-        "timeoutUnits": "minutes",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 565,
-        "y": 1300,
-        "wires": [
-            [
-                "30449115b3fd69fc"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "30449115b3fd69fc",
-        "type": "change",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "...",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 645,
-        "y": 1300,
-        "wires": [
-            [
-                "01dfadc1e5b0b83b"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "e82e5d94ffac1ae2",
-        "type": "change",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "",
-        "rules": [
-            {
-                "t": "change",
-                "p": "payload",
-                "pt": "msg",
-                "from": "Selecciono POS IN",
-                "fromt": "str",
-                "to": "REALIZANDO RUTINA 2",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 645,
-        "y": 1340,
-        "wires": [
-            [
-                "01dfadc1e5b0b83b"
-            ]
-        ],
-        "l": false
     },
     {
         "id": "4e5a34427975c6d7",
@@ -3307,12 +3126,12 @@
         "z": "3e1fc2edd0bcc68a",
         "name": "",
         "group": "b7dab1aa5303d38f",
-        "order": 3,
-        "width": 6,
+        "order": 4,
+        "width": 5,
         "height": 1,
         "passthru": false,
-        "label": "RUTINA 2",
-        "tooltip": "",
+        "label": "RUTINA 2 - PINTAR SUPERFICIE",
+        "tooltip": "Esta rutina simulara la accion de pintar una superficie",
         "color": "",
         "bgcolor": "",
         "className": "",
@@ -3321,16 +3140,14 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 80,
-        "y": 1300,
+        "x": 160,
+        "y": 1240,
         "wires": [
             [
                 "9d0f55fd66adf800",
-                "4ac03c66e63ccab5",
-                "e82e5d94ffac1ae2",
-                "3f3b4d866b0b9d7d",
-                "8194f361d8c821cd",
-                "5234ba35fd52f515"
+                "a9301cb103479491",
+                "c685ebf4060b3958",
+                "9f2c1eae3c0bf4f3"
             ]
         ]
     },
@@ -3355,7 +3172,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 180,
-        "y": 1720,
+        "y": 1580,
         "wires": [
             [
                 "20f193d076259280"
@@ -3383,7 +3200,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 180,
-        "y": 1760,
+        "y": 1620,
         "wires": [
             [
                 "20f193d076259280"
@@ -3421,7 +3238,7 @@
         "to": "",
         "reg": false,
         "x": 420,
-        "y": 1740,
+        "y": 1600,
         "wires": [
             [
                 "ef32731a607d3116",
@@ -3451,7 +3268,7 @@
         "to": "",
         "reg": false,
         "x": 360,
-        "y": 1840,
+        "y": 1700,
         "wires": [
             [
                 "29d7562874ed8e13"
@@ -3476,7 +3293,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 180,
-        "y": 1840,
+        "y": 1700,
         "wires": [
             [
                 "2bb900a5737f3e6d"
@@ -3497,7 +3314,7 @@
         "layout": "row-spread",
         "className": "",
         "x": 770,
-        "y": 1840,
+        "y": 1700,
         "wires": []
     },
     {
@@ -3513,7 +3330,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 780,
-        "y": 1740,
+        "y": 1600,
         "wires": []
     },
     {
@@ -3535,7 +3352,7 @@
         "className": "",
         "topicType": "msg",
         "x": 540,
-        "y": 1840,
+        "y": 1700,
         "wires": [
             [
                 "19fddc8bda22933d",
@@ -3565,7 +3382,7 @@
         "to": "",
         "reg": false,
         "x": 520,
-        "y": 1920,
+        "y": 1780,
         "wires": [
             [
                 "05e5843c2749ce91"
@@ -3587,7 +3404,7 @@
         "expiry": "",
         "broker": "da8eb53ef332f813",
         "x": 695,
-        "y": 1920,
+        "y": 1780,
         "wires": [],
         "l": false
     },
@@ -3609,7 +3426,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 320,
-        "y": 1920,
+        "y": 1780,
         "wires": [
             [
                 "df382b06eb206783"
@@ -3634,8 +3451,8 @@
         "muted": true,
         "scope": "local",
         "tooltip": "",
-        "x": 1210,
-        "y": 1800,
+        "x": 1330,
+        "y": 1680,
         "wires": [
             []
         ]
@@ -3653,8 +3470,8 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 1000,
-        "y": 1800,
+        "x": 1120,
+        "y": 1680,
         "wires": [
             [
                 "625bb01fc82df586"
@@ -3680,94 +3497,14 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1115,
-        "y": 1800,
+        "x": 1235,
+        "y": 1680,
         "wires": [
             [
                 "ae31ba6ed5608e0d"
             ]
         ],
         "l": false
-    },
-    {
-        "id": "3f3b4d866b0b9d7d",
-        "type": "change",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "",
-        "rules": [
-            {
-                "t": "change",
-                "p": "payload",
-                "pt": "msg",
-                "from": "Selecciono POS IN",
-                "fromt": "str",
-                "to": "Esta rutina simula el uso del brazo robótico para realizar el movimiento o traslado de un objeto, el escenario normalmente se encuentra en la industria para la interacción con objetos pesados o peligrosos. En el primer paso el brazo robótico se acerca a objeto y lo sujetara con su pinza. Esta rutina consiste en planificar el movimiento y se determinara la trayectoria óptima para transportar el elemento desde su ubicación actual hasta un punto B. Esta planificación de movimiento se basa en varios factores, como la forma y el peso del objeto, los obstáculos en el camino, y la capacidad de los motores del brazo para moverse en ciertas direcciones. Movimiento hacia el punto B: El brazo robótico comienza a moverse hacia el punto B, siguiendo la trayectoria planificada previamente. Esta trayectoria puede ser rutinaria y permitiría que el proceso pueda ser automatizado Una vez terminada la trayectoria, el elemento será colocado en el punto B; Cuando el brazo robótico llega al punto B, libera el elemento de su pinza y retornará cuidadosamente a su posición inicial y se detendrá",
-                "tot": "str"
-            },
-            {
-                "t": "change",
-                "p": "payload",
-                "pt": "msg",
-                "from": "Selecciono POS IN 2",
-                "fromt": "str",
-                "to": "El primer paso para simular la rutina consiste en planifica la trayectoria óptima para la aplicación de la pintura. Esta planificación de la trayectoria se basará en la forma y el tamaño de la superficie a pintar El brazo robótico comenzara a aplicar la pintura en la superficie, siguiendo la trayectoria planificada. Durante este proceso puede ocurrir que el ejercicio sea rutinario y se puede repetir para aplicar múltiples capas de pintura si es necesario para lograr la cobertura deseada. Una vez que se ha completado la tarea, el brazo robótico se detiene y se apaga.",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 260,
-        "y": 860,
-        "wires": [
-            [
-                "11860ec353ccd5cd"
-            ]
-        ]
-    },
-    {
-        "id": "11860ec353ccd5cd",
-        "type": "ui_text",
-        "z": "3e1fc2edd0bcc68a",
-        "group": "f6fc1243836cbf90",
-        "order": 2,
-        "width": 8,
-        "height": 7,
-        "name": "",
-        "label": "",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "className": "",
-        "x": 430,
-        "y": 820,
-        "wires": []
-    },
-    {
-        "id": "8194f361d8c821cd",
-        "type": "delay",
-        "z": "3e1fc2edd0bcc68a",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "3",
-        "timeoutUnits": "minutes",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 220,
-        "y": 820,
-        "wires": [
-            [
-                "11860ec353ccd5cd"
-            ]
-        ]
     },
     {
         "id": "6af555e488d1422a",
@@ -3782,9 +3519,10 @@
         "format": "{{msg.payload}}",
         "layout": "col-center",
         "className": "",
-        "x": 780,
-        "y": 2040,
-        "wires": []
+        "x": 535,
+        "y": 1840,
+        "wires": [],
+        "l": false
     },
     {
         "id": "989c8d07dec4aa96",
@@ -3800,24 +3538,419 @@
         "layout": "row-spread",
         "className": "",
         "x": 430,
-        "y": 1980,
+        "y": 1840,
         "wires": []
     },
     {
-        "id": "fcfa243277603970",
-        "type": "ui_text",
+        "id": "9f2c1eae3c0bf4f3",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "Selecciono POS IN 1",
+                "fromt": "str",
+                "to": "REALIZANDO RUTINA 1 <br><br> por favor esperar a que termine la rutina",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "Selecciono POS IN 2",
+                "fromt": "str",
+                "to": "REALIZANDO RUTINA 2 <br><br> por favor esperar a que termine la rutina",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 235,
+        "y": 1180,
+        "wires": [
+            [
+                "3594cd48480c9241"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "26ecec852a49a688",
+        "type": "ui_template",
+        "z": "3e1fc2edd0bcc68a",
+        "group": "b7dab1aa5303d38f",
+        "name": "M2",
+        "order": 1,
+        "width": 5,
+        "height": 2,
+        "format": "<div style=\"display: flex; justify-content: center;\">\n    <p style=\"text-align: center; font-size: 20px;\">SELECCIONA LA RUTINA A REALIZAR</p>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 90,
+        "y": 800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b676771006759a6e",
+        "type": "ui_template",
         "z": "3e1fc2edd0bcc68a",
         "group": "535f5beff829a6bf",
+        "name": "Descripción practica 2",
         "order": 2,
-        "width": 7,
-        "height": 4,
+        "width": 10,
+        "height": 3,
+        "format": "<div style=\"display: flex; justify-content: center;\">\n    <p style=\"text-align: justify;\">En esta practica se identifican las articulaciones y/o motores que componen el brazo robótico, para eso mediante el\n    comando MJ permitirá realizar el movimiento de cada motor como lo es la base o cintura, hombro, codo, inclinación de\n    muñeca, enrollamiento muñeca y pinza. Utilizando la siguiente cadena de caracteres \"MJ 0, 0, 0, 0, 0\"</p>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 180,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2f48b60861ede7d8",
+        "type": "ui_media",
+        "z": "3e1fc2edd0bcc68a",
+        "group": "535f5beff829a6bf",
         "name": "",
-        "label": "En esta practica se identifican las articulaciones y/o motores que componen el brazo robótico, para eso mediante el comando MJ permitirá realizar el movimiento de cada motor como lo es la base o cintura, hombro, codo, inclinación de muñeca, enrollamiento muñeca/pinza. Utilizando la siguiente cadena de caracteres <MJ 0, 0, 0, 0, 0> donde cada posición de la cadena indica daca articulación como ya se mencionó.",
+        "width": 5,
+        "height": 3,
+        "order": 4,
+        "category": "",
+        "file": "Escudo_UD.svg.png",
+        "layout": "adjust",
+        "showcontrols": true,
+        "loop": true,
+        "onstart": false,
+        "muted": false,
+        "scope": "local",
+        "tooltip": "",
+        "x": 1045,
+        "y": 280,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "915979d88d33f333",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "mimetype",
+                "pt": "msg",
+                "to": "image/jpeg",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 985,
+        "y": 280,
+        "wires": [
+            [
+                "2f48b60861ede7d8"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "f76e1358a14a2aa8",
+        "type": "ui_media",
+        "z": "3e1fc2edd0bcc68a",
+        "group": "535f5beff829a6bf",
+        "name": "",
+        "width": 5,
+        "height": 3,
+        "order": 3,
+        "category": "",
+        "file": "Escudo_UD.svg.png",
+        "layout": "adjust",
+        "showcontrols": true,
+        "loop": true,
+        "onstart": false,
+        "muted": false,
+        "scope": "local",
+        "tooltip": "",
+        "x": 1045,
+        "y": 240,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "0dcbb094785e2889",
+        "type": "http request",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "method": "GET",
+        "ret": "bin",
+        "paytoqs": "ignore",
+        "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1D4CFTqCnuc6HXYxlswusIn_j2ZBtXr7xbloV6uR2VvVgnCyO7LBF6CVif2tVzObQfW1wxJptJECvD0Rip9LdoZTvObehQb_12BmYk8JYogltZXjVbSFP7im9-9TDxzpFUMBVR4ECEkXsmdWli7xIt7go8e21vewlyq7A22gQifI8JqGWwVoFKWeG/s320/IMG-20230222-WA0081.jpg",
+        "tls": "e3b4dad18defdf91",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 870,
+        "y": 240,
+        "wires": [
+            [
+                "4edc5fb92f0c6cfc"
+            ]
+        ]
+    },
+    {
+        "id": "4edc5fb92f0c6cfc",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "mimetype",
+                "pt": "msg",
+                "to": "image/jpeg",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 985,
+        "y": 240,
+        "wires": [
+            [
+                "f76e1358a14a2aa8"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "20e392416cfeabd6",
+        "type": "http request",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "method": "GET",
+        "ret": "bin",
+        "paytoqs": "ignore",
+        "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2tx_FXJYOBs5wkWdagK9XweCpsf7zawwNdTNSFl-KDm-C-td_m88jZofI5M9eJsB_yW0oo9fRZ0iB_2MT7YVKmM21gMQ-4GHHqN7TOOOtJY9JHOO9MxndwkOa4D6DmfvBLc9H9Mgtaw956_L6rui862VuVhWl_ZSfRAO_JB1-vKKMuWe0FxT0MjJr/s320/IMG-20230222-WA0079.jpg",
+        "tls": "e3b4dad18defdf91",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 870,
+        "y": 280,
+        "wires": [
+            [
+                "915979d88d33f333"
+            ]
+        ]
+    },
+    {
+        "id": "0a7269c0c6e3717e",
+        "type": "ui_text",
+        "z": "3e1fc2edd0bcc68a",
+        "group": "f6fc1243836cbf90",
+        "order": 1,
+        "width": 9,
+        "height": 9,
+        "name": "",
+        "label": "",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 1260,
+        "x": 295,
+        "y": 1100,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "c5838f8eeafc843b",
+        "type": "inject",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 55,
+        "y": 1060,
+        "wires": [
+            [
+                "7dc68b2091a063d3"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "a9301cb103479491",
+        "type": "delay",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "3",
+        "timeoutUnits": "minutes",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 135,
+        "y": 1120,
+        "wires": [
+            [
+                "7dc68b2091a063d3"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "7dc68b2091a063d3",
+        "type": "change",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "...",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 235,
+        "y": 1060,
+        "wires": [
+            [
+                "0a7269c0c6e3717e",
+                "3594cd48480c9241"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "3594cd48480c9241",
+        "type": "ui_text",
+        "z": "3e1fc2edd0bcc68a",
+        "group": "14ef62444ff5e395",
+        "order": 4,
+        "width": 5,
+        "height": 2,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 295,
+        "y": 1140,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "bebd3f4ffe590ed2",
+        "type": "inject",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 150,
         "y": 240,
-        "wires": []
+        "wires": [
+            [
+                "4f1e7b399dc372ec",
+                "62ab87677c74e092"
+            ]
+        ]
+    },
+    {
+        "id": "46255f903bad5b1c",
+        "type": "ui_button",
+        "z": "3e1fc2edd0bcc68a",
+        "name": "",
+        "group": "b7dab1aa5303d38f",
+        "order": 7,
+        "width": 3,
+        "height": 2,
+        "passthru": false,
+        "label": "STOP",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 110,
+        "y": 1400,
+        "wires": [
+            []
+        ]
     }
 ]
